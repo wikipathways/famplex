@@ -854,7 +854,7 @@ Fucosyltransferases	FUT	fplx	Family
 Fyn	P06241	uniprot	Gene_or_gene_product
 Fz	FZD	fplx	Family
 G 1	GO:0051318	go	BioProcess
-G 2	D016195	mesh	BioProcess
+G 2	GO:0051319	go	BioProcess
 G S protein	G_s	fplx	Family
 G alpha	G_alpha	fplx	Family
 G alphaS	G_s_alpha	fplx	Family
@@ -3058,7 +3058,7 @@ neovascularization	GO:0001525	go	BioProcess
 neuregulin	NRG	fplx	Family
 neuregulin family	NRG	fplx	Family
 neuregulins	NRG	fplx	Family
-neuronal migration	D054081	mesh	BioProcess
+neuronal migration	GO:0001764	go	BioProcess
 neuropeptide FF receptor	NPFFR	fplx	Family
 neuropeptide FF receptors	NPFFR	fplx	Family
 neuropeptide Y receptor	NPYR	fplx	Family
@@ -3087,7 +3087,7 @@ olfactory receptors	OR	fplx	Family
 outer dynein	Axonemal_dynein_ODA	fplx	Family
 ov-serpins	SERPINB	fplx	Family
 oxaliplatin	CHEBI:31941	chebi	Simple_chemical
-oxidant	D016877	mesh	BioProcess
+oxidant	CHEBI:63248	chebi	Simple_chemical
 oxygen	CHEBI:15379	chebi	Simple_chemical
 p-38	p38	fplx	Family
 p-CaMKII	CAMK2_complex	fplx	Family
