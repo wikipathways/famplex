@@ -2627,7 +2627,7 @@ cell viability	D002470	mesh	BioProcess
 cellular senescence	GO:0090398	go	BioProcess
 ceramide	CHEBI:17761	chebi	Simple_chemical
 cerebral ischemia-reperfusion	D015427	mesh	BioProcess
-cetuximab	1201577	chembl	Simple_chemical
+cetuximab	CHEMBL1201577	chembl	Simple_chemical
 chaperonin	CCT_complex	fplx	Family
 chaperonin containing TCP-1	CCT_complex	fplx	Family
 chaperonin-containing TCP1 complex	CCT_complex	fplx	Family
@@ -3072,8 +3072,8 @@ neutrophils	D009504	mesh	BioProcess
 nicotine class acetylcholine receptors	CHRN	fplx	Family
 nicotinic acetylcholine receptor	CHRN	fplx	Family
 nitric oxide	CHEBI:16480	chebi	Simple_chemical
-nmMLCK	Q15746-1	uniprot	Gene_or_gene_product
-nmMLCK1	Q15746-1	uniprot	Gene_or_gene_product
+nmMLCK	Q15746	uniprot	Gene_or_gene_product
+nmMLCK1	Q15746	uniprot	Gene_or_gene_product
 non-ELR-CXC chemokines	CXCL_ELR_negative	fplx	Family
 nprB	A0A0J6R5F8	uniprot	Gene_or_gene_product
 nuclear factor Y	NFY	fplx	Family
@@ -3140,7 +3140,7 @@ p56	P06239	uniprot	Gene_or_gene_product
 p62	Q13501	uniprot	Gene_or_gene_product
 p63	Q9H3D4	uniprot	Gene_or_gene_product
 p65	Q04206	uniprot	Gene_or_gene_product
-p66Shc	P29353-1	uniprot	Gene_or_gene_product
+p66Shc	P29353	uniprot	Gene_or_gene_product
 p67 phox	P19878	uniprot	Gene_or_gene_product
 p70	P23443	uniprot	Gene_or_gene_product
 p70 S6 kinase	P70S6K	fplx	Family
@@ -3368,7 +3368,7 @@ transforming growth factor-beta	TGFB	fplx	Family
 transforming growth factor-β	TGFB	fplx	Family
 translation	GO:0006412	go	BioProcess
 transport	GO:0006810	go	BioProcess
-trastuzumab	1201585	chembl	Simple_chemical
+trastuzumab	CHEMBL1201585	chembl	Simple_chemical
 trk receptor	NTRK	fplx	Family
 trk receptors	NTRK	fplx	Family
 troponin	Troponin	fplx	Family
