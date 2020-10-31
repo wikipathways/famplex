@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 20:10:2020 11:55
+date: 30:10:2020 22:06
 
 [Term]
 id: FPLX:5_hydroxytryptamine_receptors_G_protein_coupled
@@ -3777,6 +3777,18 @@ xref: SIGNOR:SIGNOR-PF1
 is_a: FPLX:MAPK
 inverse_is_a: HGNC:MAPK1
 inverse_is_a: HGNC:MAPK3
+
+[Term]
+id: FPLX:ERM
+name: ERM
+synonym: "ERM protein" EXACT []
+synonym: "ERM proteins" EXACT []
+synonym: "ezrin/radixin/moesin" EXACT []
+synonym: "ezrin-radixin-moesin" EXACT []
+is_a: FPLX:root
+inverse_is_a: HGNC:EZR
+inverse_is_a: HGNC:RDX
+inverse_is_a: HGNC:MSN
 
 [Term]
 id: FPLX:ESR
@@ -11159,6 +11171,8 @@ has_part: HGNC:TRG
 [Term]
 id: FPLX:TEAD
 name: TEAD
+synonym: "TEAD" EXACT []
+synonym: "tea domain" EXACT []
 xref: SIGNOR:SIGNOR-PF22
 is_a: FPLX:root
 inverse_is_a: HGNC:TEAD1

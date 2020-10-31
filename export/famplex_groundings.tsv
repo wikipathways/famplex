@@ -710,6 +710,9 @@ ERK2	P28482	uniprot	Gene_or_gene_product
 ERK4	P31152	uniprot	Gene_or_gene_product
 ERK5	Q13164	uniprot	Gene_or_gene_product
 ERKs	ERK	fplx	Family
+ERM	ERM	fplx	Family
+ERM protein	ERM	fplx	Family
+ERM proteins	ERM	fplx	Family
 ERalpha	P03372	uniprot	Gene_or_gene_product
 ERα	P03372	uniprot	Gene_or_gene_product
 ESR	ESR	fplx	Family
@@ -2817,6 +2820,8 @@ exocyst complex	EXOC	fplx	Family
 exostosin glycosyltransferase family	EXT	fplx	Family
 extracellular signal-regulated kinase	ERK	fplx	Family
 ezrin	P15311	uniprot	Gene_or_gene_product
+ezrin-radixin-moesin	ERM	fplx	Family
+ezrin/radixin/moesin	ERM	fplx	Family
 farnesyltransferase	FNT	fplx	Family
 fermitin	FERMT	fplx	Family
 fermitins	FERMT	fplx	Family
@@ -3334,6 +3339,7 @@ superoxide	CHEBI:18421	chebi	Simple_chemical
 survivin	O15392	uniprot	Gene_or_gene_product
 tamoxifen	CHEBI:41774	chebi	Simple_chemical
 tau	P10636	uniprot	Gene_or_gene_product
+tea domain	TEAD	fplx	Family
 telomerase	O14746	uniprot	Gene_or_gene_product
 temozolomide	CHEBI:72564	chebi	Simple_chemical
 tenascin	TN	fplx	Family
