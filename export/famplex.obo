@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 28:12:2020 18:32
+date: 28:12:2020 21:22
 
 [Term]
 id: FPLX:5_hydroxytryptamine_receptors_G_protein_coupled
@@ -3582,7 +3582,6 @@ inverse_is_a: HGNC:EIF4A3
 [Term]
 id: FPLX:EIF4E
 name: EIF4E
-xref: MESH:D039561
 part_of: FPLX:EIF4
 inverse_is_a: HGNC:EIF4E
 inverse_is_a: HGNC:EIF4E2
@@ -3760,7 +3759,6 @@ xref: BEL:"MAPK Erk1/3 Family"
 xref: IP:IPR008349
 xref: MEDSCAN:urn:agi-aopfc:0000458
 xref: MESH:D048049
-xref: NCIT:C16376
 xref: NCIT:C26360
 xref: RE:R-HSA-1268261
 xref: RE:R-HSA-169289
@@ -10570,7 +10568,6 @@ xref: BEL:"SCD Family"
 xref: ECCODE:1.14.19.1
 xref: IP:IPR001522
 xref: IP:IPR015876
-xref: MESH:D013230
 is_a: FPLX:root
 inverse_is_a: HGNC:SCD
 inverse_is_a: HGNC:SCD5
