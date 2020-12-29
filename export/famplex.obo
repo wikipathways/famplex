@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 30:10:2020 22:06
+date: 28:12:2020 18:32
 
 [Term]
 id: FPLX:5_hydroxytryptamine_receptors_G_protein_coupled
@@ -1122,11 +1122,11 @@ has_part: HGNC:ATP5F1B
 has_part: HGNC:ATP5F1C
 has_part: HGNC:ATP5F1D
 has_part: HGNC:ATP5F1E
-has_part: HGNC:ATP5MD
+has_part: HGNC:ATP5MK
 has_part: HGNC:ATP5ME
 has_part: HGNC:ATP5MF
 has_part: HGNC:ATP5MG
-has_part: HGNC:ATP5MPL
+has_part: HGNC:ATP5MJ
 has_part: HGNC:MT-ATP6
 has_part: HGNC:MT-ATP8
 has_part: HGNC:ATP5PB
@@ -1188,7 +1188,7 @@ id: FPLX:Axonemal_dynein_IDA
 name: Axonemal-dynein-IDA
 xref: HGNC_GROUP:2032
 is_a: FPLX:Axonemal_dynein
-has_part: HGNC:CASC1
+has_part: HGNC:CFAP94
 has_part: HGNC:DNAH1
 has_part: HGNC:DNAH10
 has_part: HGNC:DNAH12
@@ -1202,9 +1202,9 @@ has_part: HGNC:DYNLL2
 has_part: HGNC:DYNLRB1
 has_part: HGNC:DYNLRB2
 has_part: HGNC:DYNLT3
-has_part: HGNC:TCTEX1D2
-has_part: HGNC:WDR63
-has_part: HGNC:WDR78
+has_part: HGNC:DYNLT2B
+has_part: HGNC:DNAI3
+has_part: HGNC:DNAI4
 
 [Term]
 id: FPLX:Axonemal_dynein_ODA
@@ -1225,7 +1225,7 @@ has_part: HGNC:DYNLL1
 has_part: HGNC:DYNLRB1
 has_part: HGNC:DYNLRB2
 has_part: HGNC:DYNLT1
-has_part: HGNC:TCTE3
+has_part: HGNC:DYNLT2
 
 [Term]
 id: FPLX:B3GAT
@@ -3397,9 +3397,9 @@ has_part: HGNC:DYNLRB1
 has_part: HGNC:DYNLRB2
 has_part: HGNC:DYNLT1
 has_part: HGNC:DYNLT3
-has_part: HGNC:TCTEX1D2
-has_part: HGNC:WDR34
-has_part: HGNC:WDR60
+has_part: HGNC:DYNLT2B
+has_part: HGNC:DYNC2I1
+has_part: HGNC:DYNC2I2
 
 [Term]
 id: FPLX:Dynein
@@ -8179,7 +8179,6 @@ inverse_is_a: HGNC:OR2V1
 inverse_is_a: HGNC:OR2V2
 inverse_is_a: HGNC:OR2W1
 inverse_is_a: HGNC:OR2W3
-inverse_is_a: HGNC:OR2W5
 inverse_is_a: HGNC:OR2Y1
 inverse_is_a: HGNC:OR2Z1
 
@@ -8303,7 +8302,6 @@ inverse_is_a: HGNC:OR5M8
 inverse_is_a: HGNC:OR5M9
 inverse_is_a: HGNC:OR5P2
 inverse_is_a: HGNC:OR5P3
-inverse_is_a: HGNC:OR5R1
 inverse_is_a: HGNC:OR5T1
 inverse_is_a: HGNC:OR5T2
 inverse_is_a: HGNC:OR5T3
@@ -8466,6 +8464,7 @@ inverse_is_a: HGNC:OR8K3
 inverse_is_a: HGNC:OR8K5
 inverse_is_a: HGNC:OR8S1
 inverse_is_a: HGNC:OR8U1
+inverse_is_a: HGNC:OR8U3
 inverse_is_a: HGNC:OR8U8
 inverse_is_a: HGNC:OR8U9
 
