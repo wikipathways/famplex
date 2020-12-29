@@ -18,9 +18,7 @@ jobs:
         pip install future requests pygraphviz
         pip install mypy pytest-cov
         pip install .[all]
-        git clone https://github.com/bgyori/indra.git $HOME/indra
-        cd $HOME/indra
-        git checkout origin/resources
+        git clone https://github.com/sorgerlab/indra.git $HOME/indra
         pip install bel_resources==0.0.3
     - name: Check references and export generation
       run: |
