@@ -173,9 +173,9 @@ HGNC,ATF1,isa,FPLX,CREB
 HGNC,ATF2,isa,FPLX,CREB
 HGNC,CCNA1,isa,FPLX,Cyclin_A
 HGNC,CCNA2,isa,FPLX,Cyclin_A
-HGNC,CCNB1,isa,FPLX,Cyclin
-HGNC,CCNB2,isa,FPLX,Cyclin
-HGNC,CCNB3,isa,FPLX,Cyclin
+HGNC,CCNB1,isa,FPLX,Cyclin_B
+HGNC,CCNB2,isa,FPLX,Cyclin_B
+HGNC,CCNB3,isa,FPLX,Cyclin_B
 HGNC,CCNC,isa,FPLX,Cyclin
 HGNC,CCND1,isa,FPLX,Cyclin_D
 HGNC,CCND2,isa,FPLX,Cyclin_D
@@ -183,8 +183,8 @@ HGNC,CCND3,isa,FPLX,Cyclin_D
 HGNC,CCNE1,isa,FPLX,Cyclin_E
 HGNC,CCNE2,isa,FPLX,Cyclin_E
 HGNC,CCNF,isa,FPLX,Cyclin
-HGNC,CCNG1,isa,FPLX,Cyclin
-HGNC,CCNG2,isa,FPLX,Cyclin
+HGNC,CCNG1,isa,FPLX,Cyclin_G
+HGNC,CCNG2,isa,FPLX,Cyclin_G
 HGNC,CCNH,isa,FPLX,Cyclin
 HGNC,CCNI,isa,FPLX,Cyclin
 HGNC,CCNI2,isa,FPLX,Cyclin
@@ -200,8 +200,10 @@ HGNC,CCNY,isa,FPLX,Cyclin
 HGNC,CCNYL1,isa,FPLX,Cyclin
 HGNC,CCNYL3,isa,FPLX,Cyclin
 FPLX,Cyclin_A,isa,FPLX,Cyclin
+FPLX,Cyclin_B,isa,FPLX,Cyclin
 FPLX,Cyclin_D,isa,FPLX,Cyclin
 FPLX,Cyclin_E,isa,FPLX,Cyclin
+FPLX,Cyclin_G,isa,FPLX,Cyclin
 HGNC,MAPK1,isa,FPLX,ERK
 HGNC,MAPK3,isa,FPLX,ERK
 FPLX,ERK,isa,FPLX,MAPK

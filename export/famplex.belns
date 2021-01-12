@@ -2,8 +2,8 @@
 Keyword=FPLX
 NameString=FamPlex
 DomainString=Gene and Gene Products
-VersionString=20201228
-CreatedDateTime=2020-12-28T21:22:33
+VersionString=20210111
+CreatedDateTime=2021-01-11T20:37:54
 DescriptionString=FamPlex is a collection of resources for grounding biological entities from text and describing their hierarchical relationships.
 QueryValueURL=http://identifiers.org/fplx/
 
@@ -202,8 +202,10 @@ Cohesin|CGPR
 Creatine_kinase|CGPR
 Cyclin|CGPR
 Cyclin_A|CGPR
+Cyclin_B|CGPR
 Cyclin_D|CGPR
 Cyclin_E|CGPR
+Cyclin_G|CGPR
 Cyclophilin|CGPR
 Cytoplasmic_dynein|CGPR
 DAPK|CGPR

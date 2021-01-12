@@ -593,8 +593,10 @@ Cyclin A	Cyclin_A	fplx	Family
 Cyclin D	Cyclin_D	fplx	Family
 Cyclin D2	P30279	uniprot	Gene_or_gene_product
 Cyclin-A	Cyclin_A	fplx	Family
+Cyclin-B	Cyclin_B	fplx	Family
 Cyclin-D	Cyclin_D	fplx	Family
 Cyclin-E	Cyclin_E	fplx	Family
+Cyclin-G	Cyclin_G	fplx	Family
 Cyclophilin	Cyclophilin	fplx	Family
 Cyp1	CYP1	fplx	Family
 Cyp26	CYP26	fplx	Family
@@ -2699,8 +2701,10 @@ cyclic AMP-dependent protein kinase	PKA	fplx	Family
 cyclic-AMP-dependent protein kinase	PKA	fplx	Family
 cyclin	Cyclin	fplx	Family
 cyclin A	Cyclin_A	fplx	Family
+cyclin B	Cyclin_B	fplx	Family
 cyclin D2	P30279	uniprot	Gene_or_gene_product
 cyclin E	Cyclin_E	fplx	Family
+cyclin G	Cyclin_G	fplx	Family
 cyclin dependent kinase inhibitors	CDKN	fplx	Family
 cyclin family	Cyclin	fplx	Family
 cyclin-dependent kinase inhibitor	CDKN	fplx	Family

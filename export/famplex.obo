@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 28:12:2020 21:22
+date: 11:01:2021 20:37
 
 [Term]
 id: FPLX:5_hydroxytryptamine_receptors_G_protein_coupled
@@ -2827,13 +2827,8 @@ xref: MESH:D016213
 xref: NCIT:C17349
 xref: NEXTPROT-FAMILY:00815
 is_a: FPLX:root
-inverse_is_a: HGNC:CCNB1
-inverse_is_a: HGNC:CCNB2
-inverse_is_a: HGNC:CCNB3
 inverse_is_a: HGNC:CCNC
 inverse_is_a: HGNC:CCNF
-inverse_is_a: HGNC:CCNG1
-inverse_is_a: HGNC:CCNG2
 inverse_is_a: HGNC:CCNH
 inverse_is_a: HGNC:CCNI
 inverse_is_a: HGNC:CCNI2
@@ -2849,8 +2844,10 @@ inverse_is_a: HGNC:CCNY
 inverse_is_a: HGNC:CCNYL1
 inverse_is_a: HGNC:CCNYL3
 inverse_is_a: FPLX:Cyclin_A
+inverse_is_a: FPLX:Cyclin_B
 inverse_is_a: FPLX:Cyclin_D
 inverse_is_a: FPLX:Cyclin_E
+inverse_is_a: FPLX:Cyclin_G
 
 [Term]
 id: FPLX:Cyclin_A
@@ -2868,6 +2865,15 @@ xref: RE:R-HSA-75202
 is_a: FPLX:Cyclin
 inverse_is_a: HGNC:CCNA1
 inverse_is_a: HGNC:CCNA2
+
+[Term]
+id: FPLX:Cyclin_B
+name: Cyclin-B
+synonym: "cyclin B" EXACT []
+is_a: FPLX:Cyclin
+inverse_is_a: HGNC:CCNB1
+inverse_is_a: HGNC:CCNB2
+inverse_is_a: HGNC:CCNB3
 
 [Term]
 id: FPLX:Cyclin_D
@@ -2903,6 +2909,14 @@ xref: RE:R-HSA-68373
 is_a: FPLX:Cyclin
 inverse_is_a: HGNC:CCNE1
 inverse_is_a: HGNC:CCNE2
+
+[Term]
+id: FPLX:Cyclin_G
+name: Cyclin-G
+synonym: "cyclin G" EXACT []
+is_a: FPLX:Cyclin
+inverse_is_a: HGNC:CCNG1
+inverse_is_a: HGNC:CCNG2
 
 [Term]
 id: FPLX:Cyclophilin
