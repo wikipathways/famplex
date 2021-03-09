@@ -58,7 +58,13 @@
                                 <a href="https://identifiers.org/{{ reference }}">{{ reference }}</a>
                             {% endif %}
                         </td>
-                        <td>{{ specificity if specificity != '?' else '' }}</td>
+                        <td>
+                            {% if not specificity %}
+                            Exact
+                            {% elif specificity != '?' %}
+                            {{ specificity }}
+                            {% endif %}
+                        </td>
                     </tr>
                 {% endfor %}
                 </tbody>
