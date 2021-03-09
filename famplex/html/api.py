@@ -7,6 +7,7 @@ from collections import defaultdict
 
 import click
 import pandas as pd
+from indra.ontology.bio import bio_ontology
 from jinja2 import Environment, FileSystemLoader
 from protmapper.api import hgnc_name_to_id
 
@@ -36,7 +37,7 @@ def html(directory: str, debug_links: bool):
 
     xrefs = defaultdict(set)
     for namespace, identifier, fplx_id in load_equivalences():
-        xrefs[fplx_id].add((namespace, identifier))
+        xrefs[fplx_id].add((namespace, identifier, bio_ontology.get_name(namespace, identifier)))
 
     grounding_map = load_grounding_map()
     synonyms = defaultdict(set)
@@ -48,14 +49,17 @@ def html(directory: str, debug_links: bool):
     incoming_relations = defaultdict(set)
     outgoing_relations = defaultdict(set)
     for ns1, id1, rel, ns2, id2 in load_relations():
-        name1, name2 = '', ''
         if ns1 == 'FPLX':
             if ns2 == 'HGNC':
                 id2, name2 = hgnc_name_to_id.get(id2), id2
+            else:
+                name2 = bio_ontology.get_name(ns2, id2)
             outgoing_relations[id1].add((rel, ns2, id2, name2))
         if ns2 == 'FPLX':
             if ns1 == 'HGNC':
                 id1, name1 = hgnc_name_to_id.get(id1), id1
+            else:
+                name1 = bio_ontology.get_name(ns1, id1)
             incoming_relations[id2].add((ns1, id1, name1, rel))
 
     rows = [

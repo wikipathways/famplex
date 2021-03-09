@@ -30,7 +30,7 @@ setup(name='famplex',
       packages=find_packages(),
       extras_require={
           'test': ['pytest'],
-          'html': ['protmapper'],
+          'html': ['protmapper', 'indra'],
       },
       package_data={'': ['entities.csv', 'equivalences.csv',
                          'grounding_map.csv', 'relations.csv',
