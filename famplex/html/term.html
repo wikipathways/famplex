@@ -95,7 +95,9 @@
                                     {{ source_namespace }}:{{ source_identifier }}
                                 </a>
                             {% else %}
-                                {{ source_namespace }}:{{ source_identifier }}
+                                <a href="../{{ source_identifier }}">
+                                    {{ source_namespace }}:{{ source_identifier }}
+                                </a>
                             {% endif %}
                         </td>
                         <td>{{ source_name }}</td>
@@ -128,7 +130,9 @@
                                     {{ target_namespace }}:{{ target_identifier }}
                                 </a>
                             {% else %}
-                                {{ target_namespace }}:{{ target_identifier }}
+                                <a href="../{{ target_identifier }}">
+                                    {{ target_namespace }}:{{ target_identifier }}
+                                </a>
                             {% endif %}
                         </td>
                         <td>{{ target_name }}</td>
