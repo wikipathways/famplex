@@ -48,14 +48,15 @@ def html(directory: str, debug_links: bool):
     incoming_relations = defaultdict(set)
     outgoing_relations = defaultdict(set)
     for ns1, id1, rel, ns2, id2 in load_relations():
+        name1, name2 = '', ''
         if ns1 == 'FPLX':
             if ns2 == 'HGNC':
-                id2 = hgnc_name_to_id.get(id2)
-            outgoing_relations[id1].add((rel, ns2, id2))
+                id2, name2 = hgnc_name_to_id.get(id2), id2
+            outgoing_relations[id1].add((rel, ns2, id2, name2))
         if ns2 == 'FPLX':
             if ns1 == 'HGNC':
-                id1 = hgnc_name_to_id.get(id1)
-            incoming_relations[id2].add((ns1, id1, rel))
+                id1, name1 = hgnc_name_to_id.get(id1), id1
+            incoming_relations[id2].add((ns1, id1, name1, rel))
 
     rows = [
         (

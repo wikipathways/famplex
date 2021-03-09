@@ -78,7 +78,7 @@
                 </tr>
                 </thead>
                 <tbody>
-                {% for source_namespace, source_identifier, relation in incoming_relations %}
+                {% for source_namespace, source_identifier, source_name, relation in incoming_relations %}
                     <tr>
                         <td>
                             {% if source_namespace !='FPLX' %}
@@ -110,7 +110,7 @@
                 </tr>
                 </thead>
                 <tbody>
-                {% for relation, target_namespace, target_identifier in outgoing_relations %}
+                {% for relation, target_namespace, target_identifier, target_name in outgoing_relations %}
                     <tr>
                         <td>{{ relation }}</td>
                         <td>
