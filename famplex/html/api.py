@@ -7,9 +7,9 @@ from collections import defaultdict
 
 import click
 import pandas as pd
-from indra.ontology.bio import bio_ontology
+import requests
 from jinja2 import Environment, FileSystemLoader
-from protmapper.api import hgnc_name_to_id
+from tqdm import tqdm
 
 from famplex.load import load_descriptions, load_entities, load_equivalences, load_grounding_map, load_relations
 
@@ -21,6 +21,36 @@ os.makedirs(DOCS, exist_ok=True)
 environment = Environment(autoescape=True, loader=FileSystemLoader(HERE), trim_blocks=False)
 index_template = environment.get_template('index.html')
 term_template = environment.get_template('term.html')
+
+try:
+    from indra.ontology.bio import bio_ontology
+except ImportError:
+    from functools import lru_cache
+
+
+    @lru_cache(maxsize=None)
+    def get_name(namespace, identifier):
+        """Get a name from identifier using the INDRA ontology web service."""
+        url = 'http://34.230.33.149:8082/'
+        res = requests.get(
+            url + 'get_node_property',
+            json={'ns': namespace, 'id': identifier, 'property': 'name', 'ontology': 'bio'},
+        )
+        return res.json()
+
+
+    @lru_cache(maxsize=None)
+    def get_identifier(namespace, name):
+        """Get an identifier from name using the INDRA ontology web service."""
+        url = 'http://34.230.33.149:8082/'
+        res = requests.get(
+            url + 'get_id_from_name',
+            json={'ns': namespace, 'name': name, 'ontology': 'bio'},
+        )
+        return res.json()[1]
+else:
+    get_name = bio_ontology.get_name
+    get_identifier = bio_ontology.get_id_from_name
 
 
 @click.command()
@@ -36,8 +66,8 @@ def html(directory: str, debug_links: bool):
     }
 
     xrefs = defaultdict(set)
-    for namespace, identifier, fplx_id in load_equivalences():
-        xrefs[fplx_id].add((namespace, identifier, bio_ontology.get_name(namespace, identifier)))
+    for namespace, identifier, fplx_id in tqdm(load_equivalences()):
+        xrefs[fplx_id].add((namespace, identifier, get_name(namespace, identifier)))
 
     grounding_map = load_grounding_map()
     synonyms = defaultdict(set)
@@ -48,18 +78,18 @@ def html(directory: str, debug_links: bool):
 
     incoming_relations = defaultdict(set)
     outgoing_relations = defaultdict(set)
-    for ns1, id1, rel, ns2, id2 in load_relations():
+    for ns1, id1, rel, ns2, id2 in tqdm(load_relations()):
         if ns1 == 'FPLX':
             if ns2 == 'HGNC':
-                id2, name2 = hgnc_name_to_id.get(id2), id2
+                id2, name2 = get_identifier(ns2, id2), id2
             else:
-                name2 = bio_ontology.get_name(ns2, id2)
+                name2 = get_name(ns2, id2)
             outgoing_relations[id1].add((rel, ns2, id2, name2))
         if ns2 == 'FPLX':
             if ns1 == 'HGNC':
-                id1, name1 = hgnc_name_to_id.get(id1), id1
+                id1, name1 = get_identifier(ns1, id1), id1
             else:
-                name1 = bio_ontology.get_name(ns1, id1)
+                name1 = get_name(ns1, id1)
             incoming_relations[id2].add((ns1, id1, name1, rel))
 
     rows = [
@@ -84,7 +114,7 @@ def html(directory: str, debug_links: bool):
     with open(os.path.join(directory, 'index.html'), 'w') as file:
         print(index_html, file=file)
 
-    for _, row in terms_df.iterrows():
+    for _, row in tqdm(terms_df.iterrows(), total=len(terms_df.index)):
         subdirectory = os.path.join(directory, row.identifier)
         os.makedirs(subdirectory, exist_ok=True)
         term_html = term_template.render(
