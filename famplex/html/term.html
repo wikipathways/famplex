@@ -21,7 +21,7 @@
         <h2>Cross-references</h2>
         {% if xrefs %}
             <ul>
-                {% for database, database_identifier in xrefs %}
+                {% for database, database_identifier, database_name in xrefs %}
                     <li>
                         {% if database == 'url' %}
                             <a href="{{ database_identifier }}">
@@ -31,6 +31,9 @@
                             <a href="https://identifiers.org/{{ database }}:{{ database_identifier }}">
                                 {{ database }}:{{ database_identifier }}
                             </a>
+                        {% endif %}
+                        {% if database_name %}
+                        - {{ database_name }}
                         {% endif %}
                     </li>
                 {% endfor %}
