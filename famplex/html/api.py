@@ -49,8 +49,13 @@ except ImportError:
         )
         return res.json()[1]
 else:
-    get_name = bio_ontology.get_name
-    get_identifier = bio_ontology.get_id_from_name
+    def get_name(namespace, identifier):
+        name = bio_ontology.get_name(namespace, identifier)
+        return name
+
+    def get_identifier(namespace, name):
+        _, identifier = bio_ontology.get_id_from_name(namespace, name)
+        return identifier
 
 
 @click.command()
