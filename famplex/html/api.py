@@ -29,7 +29,7 @@ except ImportError:
 
 
     @lru_cache(maxsize=None)
-    def get_name(namespace, identifier):
+    def get_name(namespace: str, identifier: str) -> str:
         """Get a name from identifier using the INDRA ontology web service."""
         url = 'http://34.230.33.149:8082/'
         res = requests.get(
@@ -40,7 +40,7 @@ except ImportError:
 
 
     @lru_cache(maxsize=None)
-    def get_identifier(namespace, name):
+    def get_identifier(namespace: str, name: str) -> str:
         """Get an identifier from name using the INDRA ontology web service."""
         url = 'http://34.230.33.149:8082/'
         res = requests.get(
@@ -49,11 +49,11 @@ except ImportError:
         )
         return res.json()[1]
 else:
-    def get_name(namespace, identifier):
+    def get_name(namespace: str, identifier: str) -> str:
         name = bio_ontology.get_name(namespace, identifier)
         return name
 
-    def get_identifier(namespace, name):
+    def get_identifier(namespace: str, name: str) -> str:
         _, identifier = bio_ontology.get_id_from_name(namespace, name)
         return identifier
 
