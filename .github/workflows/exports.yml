@@ -1,8 +1,9 @@
 name: Generate exports
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 0 * * *"
+  push:
+    branches:
+      - master
 jobs:
   build:
     runs-on: ubuntu-latest
