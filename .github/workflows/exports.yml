@@ -20,7 +20,7 @@ jobs:
           pip install indra
           pip install -e .[html]
           python update_resources.py
-          python -m famplex.html
+          python -m famplex.html --directory docs/
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
