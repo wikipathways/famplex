@@ -19,6 +19,7 @@ jobs:
         run: |
           pip install -e .[html]
           pip install indra
+          python update_resources.py
           python -m famplex.html
       - name: Commit files
         run: |
