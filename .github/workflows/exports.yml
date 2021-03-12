@@ -23,6 +23,7 @@ jobs:
           python -m famplex.html --directory docs/
       - name: Commit files
         run: |
+          git add --all
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git commit -m "Automatically update" -a
