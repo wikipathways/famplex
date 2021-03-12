@@ -63,6 +63,8 @@ else:
 @click.option('--debug-links', is_flag=True)
 def html(directory: str, debug_links: bool):
     """Export FamPlex as a static HTML site."""
+    click.echo(f'outputting to {directory}')
+
     fplx_ids = load_entities()
 
     descriptions = {
@@ -71,7 +73,7 @@ def html(directory: str, debug_links: bool):
     }
 
     xrefs = defaultdict(set)
-    for namespace, identifier, fplx_id in tqdm(load_equivalences()):
+    for namespace, identifier, fplx_id in tqdm(load_equivalences(), desc='loading equivalences'):
         xrefs[fplx_id].add((namespace, identifier, get_name(namespace, identifier)))
 
     grounding_map = load_grounding_map()
@@ -83,7 +85,7 @@ def html(directory: str, debug_links: bool):
 
     incoming_relations = defaultdict(set)
     outgoing_relations = defaultdict(set)
-    for ns1, id1, rel, ns2, id2 in tqdm(load_relations()):
+    for ns1, id1, rel, ns2, id2 in tqdm(load_relations(), desc='loading relations'):
         if ns1 == 'FPLX':
             if ns2 == 'HGNC':
                 id2, name2 = get_identifier(ns2, id2), id2
@@ -119,7 +121,7 @@ def html(directory: str, debug_links: bool):
     with open(os.path.join(directory, 'index.html'), 'w') as file:
         print(index_html, file=file)
 
-    for _, row in tqdm(terms_df.iterrows(), total=len(terms_df.index)):
+    for _, row in tqdm(terms_df.iterrows(), total=len(terms_df.index), desc='writing terms'):
         subdirectory = os.path.join(directory, row.identifier)
         os.makedirs(subdirectory, exist_ok=True)
         term_html = term_template.render(

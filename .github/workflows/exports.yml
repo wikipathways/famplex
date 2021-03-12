@@ -17,8 +17,8 @@ jobs:
           python-version: 3.9
       - name: Create local changes
         run: |
-          pip install -e .[html]
           pip install indra
+          pip install -e .[html]
           python update_resources.py
           python -m famplex.html
       - name: Commit files
