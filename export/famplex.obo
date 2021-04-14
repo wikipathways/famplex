@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 14:04:2021 15:55
+date: 14:04:2021 16:05
 
 [Term]
 id: FPLX:5_hydroxytryptamine_receptors_G_protein_coupled
@@ -7544,6 +7544,7 @@ xref: GO:0031931
 xref: MEDSCAN:urn:agi-complex:prophash-f472fef3f59301aee0b776702a30f03e
 xref: MESH:D000076222
 xref: NCIT:C96314
+xref: SIGNOR:SIGNOR-C3
 is_a: FPLX:root
 has_part: HGNC:MTOR
 has_part: HGNC:RPTOR
@@ -7558,6 +7559,7 @@ xref: BEL:"TORC2 Complex"
 xref: MEDSCAN:urn:agi-complex:prophash-0d528c29d63997f87f62e4fbd9f0b168
 xref: MESH:D000076225
 xref: NCIT:C96315
+xref: SIGNOR:SIGNOR-C2
 is_a: FPLX:root
 has_part: HGNC:MAPKAP1
 has_part: HGNC:MTOR
