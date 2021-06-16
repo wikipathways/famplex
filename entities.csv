@@ -86,6 +86,7 @@ BMP_receptor
 BMP_receptor_type_I
 BMP_receptor_type_II
 BRCA
+BRISC_complex
 C1
 C1q
 CACN
@@ -190,6 +191,7 @@ DDR
 Death_receptor
 Deoxyribonucleoside_kinases
 Desmoglein
+Deubiquitinase
 DGC
 DGK
 DNA_polymerase_alpha
@@ -383,6 +385,7 @@ ITGA2B3
 ITGB
 ITPR
 JAK
+JAMM
 JNK
 JUN_family
 Kainate_family
@@ -420,10 +423,12 @@ MEF2
 MEK
 Metallothionein
 MGAT
+MINDY
 MIRLET7
 MIRLET7A
 MIRLET7F
 Mitochondrial_Ribosome
+MJD
 MKNK
 MMP
 MOB
@@ -494,6 +499,11 @@ OR6
 OR7
 OR8
 OR9
+OTU
+OTUB
+OTUD
+OTUD6
+OTUD7
 p14_3_3
 P2R
 P2RX
@@ -567,6 +577,7 @@ PPP3C
 PPP3R
 PRC1_complex
 PRC2_complex
+PRDUB_complex
 PRDX
 PRKAC
 PRKAR
@@ -693,8 +704,13 @@ TXN
 TXNRD
 UBE2
 Ubiquitin
+UCHL
 UGGT
 UGT
+USP
+USPL
+USP9
+USP17L
 VAV
 VDAC
 VEGF
