@@ -23,6 +23,8 @@
             (<a href="https://bioregistry.io/{{ row.description_source }}">{{ row.description_source }}</a>)
             {% endif %}
         </p>
+        {% else %}
+        <small class="muted">No description text available</small>
         {% endif %}
 
         <h2>Cross-references</h2>
