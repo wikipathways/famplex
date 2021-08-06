@@ -1505,9 +1505,9 @@ Metformin	CHEBI:6801	chebi	Simple_chemical
 Methyltransferase	Methyltransferases	fplx	Family
 Methyltransferases	Methyltransferases	fplx	Family
 Mhc	MYH	fplx	Family
-Microtubule-associated protein	MAP	fplx	Family
+Microtubule-associated protein	Microtubule_associated_proteins	fplx	Family
 Microtubule-associated protein RP/EB family	MAPRE	fplx	Family
-Microtubule-associated proteins	MAP	fplx	Family
+Microtubule-associated proteins	Microtubule_associated_proteins	fplx	Family
 Microtubule-associated-proteins	Microtubule_associated_proteins	fplx	Family
 Mitochondrial Ribosome	Mitochondrial_Ribosome	fplx	Family
 Mitochondrial Ribosomes	Mitochondrial_Ribosome	fplx	Family
@@ -3208,9 +3208,9 @@ miR-155	MIR155	hgnc	Gene_or_gene_product
 miR-21	MIR21	hgnc	Gene_or_gene_product
 miR-7	MIR7-1	hgnc	Gene_or_gene_product
 microtubule motor cytoplasmic dynein	Cytoplasmic_dynein	fplx	Family
-microtubule-associated protein	MAP	fplx	Family
+microtubule-associated protein	Microtubule_associated_proteins	fplx	Family
 microtubule-associated protein RP/EB family	MAPRE	fplx	Family
-microtubule-associated proteins	MAP	fplx	Family
+microtubule-associated proteins	Microtubule_associated_proteins	fplx	Family
 mini-chromosome maintenance complex	MCM	fplx	Family
 minichromosome maintenance complex	MCM	fplx	Family
 minichromosome maintenance protein complex	MCM	fplx	Family

@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 05:08:2021 22:19
+date: 05:08:2021 22:49
 
 [Term]
 id: FPLX:5_hydroxytryptamine_receptors_G_protein_coupled
@@ -7354,6 +7354,10 @@ inverse_is_a: HGNC:MAFK
 [Term]
 id: FPLX:Microtubule_associated_proteins
 name: Microtubule-associated-proteins
+synonym: "microtubule-associated protein" EXACT []
+synonym: "microtubule-associated proteins" EXACT []
+synonym: "Microtubule-associated protein" EXACT []
+synonym: "Microtubule-associated proteins" EXACT []
 xref: MESH:D008869
 is_a: FPLX:root
 inverse_is_a: FPLX:MAP1
@@ -11891,7 +11895,6 @@ inverse_is_a: HGNC:SOS2
 id: FPLX:SP
 name: SP
 synonym: "Sp" EXACT []
-xref: HGNC_GROUP:755
 xref: HGNC_GROUP:755
 is_a: FPLX:root
 inverse_is_a: HGNC:SP1
