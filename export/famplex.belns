@@ -2,8 +2,8 @@
 Keyword=FPLX
 NameString=FamPlex
 DomainString=Gene and Gene Products
-VersionString=20211012
-CreatedDateTime=2021-10-12T10:17:09
+VersionString=20211014
+CreatedDateTime=2021-10-14T22:56:53
 DescriptionString=FamPlex is a collection of resources for grounding biological entities from text and describing their hierarchical relationships.
 QueryValueURL=http://identifiers.org/fplx/
 
@@ -215,6 +215,7 @@ Cyclophilin|CGPR
 Cytoplasmic_dynein|CGPR
 DAPK|CGPR
 DDR|CGPR
+DESI|CGPR
 DGC|CGPR
 DGK|CGPR
 DNA_polymerase_alpha|CGPR
@@ -230,6 +231,7 @@ DYRK|CGPR
 Death_receptor|CGPR
 Deoxyribonucleoside_kinases|CGPR
 Desmoglein|CGPR
+Desumoylase|CGPR
 Deubiquitinase|CGPR
 Dynein|CGPR
 E2F|CGPR
@@ -669,6 +671,7 @@ SCAR|CGPR
 SCD|CGPR
 SCN|CGPR
 SCNN|CGPR
+SENP|CGPR
 SERCA|CGPR
 SERPINB|CGPR
 SGC|CGPR

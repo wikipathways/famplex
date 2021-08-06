@@ -628,6 +628,7 @@ DAG kinase	DGK	fplx	Family
 DAPK	DAPK	fplx	Family
 DAPk	DAPK	fplx	Family
 DDR	GO:0042769	go	BioProcess
+DESI	DESI	fplx	Family
 DGC	DGC	fplx	Family
 DGK	DGK	fplx	Family
 DHA	CHEBI:207229	chebi	Simple_chemical
@@ -662,6 +663,11 @@ Danusertib	CHEBI:94490	chebi	Simple_chemical
 Death-receptor	Death_receptor	fplx	Family
 Deoxyribonucleoside-kinases	Deoxyribonucleoside_kinases	fplx	Family
 Desmoglein	Desmoglein	fplx	Family
+Desumolating isopeptidase	DESI	fplx	Family
+Desumolating isopeptidases	DESI	fplx	Family
+Desumoylase	Desumoylase	fplx	Family
+Desumoylating isopeptidase	DESI	fplx	Family
+Desumoylating isopeptidases	DESI	fplx	Family
 Deubiquinatase	Deubiquitinase	fplx	Family
 Deubiquinatases	Deubiquitinase	fplx	Family
 Deubiquinating Enzyme	Deubiquitinase	fplx	Family
@@ -2198,6 +2204,7 @@ SCF	P21583	uniprot	Gene_or_gene_product
 SCN	SCN	fplx	Family
 SCNN	SCNN	fplx	Family
 SEK	P45985	uniprot	Gene_or_gene_product
+SENP	SENP	fplx	Family
 SERCA	SERCA	fplx	Family
 SERCAs	SERCA	fplx	Family
 SERPINB	SERPINB	fplx	Family
@@ -2260,6 +2267,10 @@ STAT5	STAT5	fplx	Family
 STATs	STAT	fplx	Family
 STING	Q86WV6	uniprot	Gene_or_gene_product
 STT3	STT3	fplx	Family
+SUMO specific peptidase	SENP	fplx	Family
+SUMO specific peptidases	SENP	fplx	Family
+SUMO-specific peptidase	SENP	fplx	Family
+SUMO-specific peptidases	SENP	fplx	Family
 SUR	Sulfonylurea_receptor	fplx	Family
 SWI and SNF complex	SWI_SNF	fplx	Family
 SWI-SNF	SWI_SNF	fplx	Family
@@ -2906,6 +2917,10 @@ deoxycytidine	CHEBI:15698	chebi	Simple_chemical
 derived growth factor	PDGFR	fplx	Family
 desmoglein	Desmoglein	fplx	Family
 desmogleins	Desmoglein	fplx	Family
+desumolating isopeptidase	DESI	fplx	Family
+desumolating isopeptidases	DESI	fplx	Family
+desumoylating isopeptidase	DESI	fplx	Family
+desumoylating isopeptidases	DESI	fplx	Family
 deubiquinatase	Deubiquitinase	fplx	Family
 deubiquinatases	Deubiquitinase	fplx	Family
 deubiquinating enzyme	Deubiquitinase	fplx	Family
@@ -3509,6 +3524,10 @@ sarcoplasmic/endoplasmic reticulum calcium ATPase	SERCA	fplx	Family
 scavenger receptor	SCAR	fplx	Family
 scavenger receptors	SCAR	fplx	Family
 senescence	GO:0090398	go	BioProcess
+sentrin specific protease	SENP	fplx	Family
+sentrin specific proteases	SENP	fplx	Family
+sentrin-specific protease	SENP	fplx	Family
+sentrin-specific proteases	SENP	fplx	Family
 serine/threonine protein kinase CK1	CSNK1	fplx	Family
 shikonin	CHEBI:81068	chebi	Simple_chemical
 sialytransferase	GTF_family_29	fplx	Family
