@@ -16,10 +16,16 @@
 {% block content %}
     <div class="container">
         <h1>{{ row.identifier }}</h1>
+        {% if row.description_text %}
         <p>
             {{ row.description_text }}
-            (<a href="https://identifiers.org/{{ row.description_source }}">{{ row.description_source }}</a>)
+            {% if row.description_source %}
+            (<a href="https://bioregistry.io/{{ row.description_source }}">{{ row.description_source }}</a>)
+            {% endif %}
         </p>
+        {% else %}
+        <small class="muted">No description text available</small>
+        {% endif %}
 
         <h2>Cross-references</h2>
         {% if xrefs %}
@@ -31,7 +37,7 @@
                                 {{ database_identifier }}
                             </a>
                         {% else %}
-                            <a href="https://identifiers.org/{{ database }}:{{ database_identifier }}">
+                            <a href="https://bioregistry.io/{{ database }}:{{ database_identifier }}">
                                 {{ database }}:{{ database_identifier }}
                             </a>
                         {% endif %}
@@ -61,7 +67,7 @@
                         <td>{{ synonym }}</td>
                         <td>
                             {% if reference and reference != '?' %}
-                                <a href="https://identifiers.org/{{ reference }}">{{ reference }}</a>
+                                <a href="https://bioregistry.io/{{ reference }}">{{ reference }}</a>
                             {% endif %}
                         </td>
                         <td>
@@ -94,7 +100,7 @@
                     <tr>
                         <td>
                             {% if source_namespace !='FPLX' %}
-                                <a href="https://identifiers.org/{{ source_namespace }}:{{ source_identifier }}">
+                                <a href="https://bioregistry.io/{{ source_namespace }}:{{ source_identifier }}">
                                     {{ source_namespace }}:{{ source_identifier }}
                                 </a>
                             {% else %}
