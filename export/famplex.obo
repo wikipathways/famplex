@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 05:08:2021 22:49
+date: 05:08:2021 22:53
 
 [Term]
 id: FPLX:5_hydroxytryptamine_receptors_G_protein_coupled
@@ -5760,7 +5760,7 @@ id: FPLX:GTPase
 name: GTPase
 def: "Enzymes that hydrolyze GTP to GDP. EC 3.6.1.-." [mesh:D020558]
 synonym: "GTPase" EXACT []
-xref: ECCODE:3.6.5.-
+xref: ECCODE:3.6.5
 xref: MEDSCAN:urn:agi-complex:prophash-e9fbfd73e486bda4d99b348f72bb4196
 xref: MESH:D020558
 xref: NCIT:C16650
@@ -9588,7 +9588,7 @@ synonym: "phosphodiesterase" EXACT []
 synonym: "Phosphodiesterases" EXACT []
 synonym: "phosphodiesterases" EXACT []
 xref: BEL:"PDE Family"
-xref: ECCODE:3.1.4.-
+xref: ECCODE:3.1.4
 xref: MESH:D010727
 is_a: FPLX:root
 inverse_is_a: HGNC:PDE2A
