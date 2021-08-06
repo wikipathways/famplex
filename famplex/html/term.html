@@ -19,7 +19,7 @@
         {% if row.description_text %}
         <p>
             {{ row.description_text }}
-            {% if row.description.source %}
+            {% if row.description_source %}
             (<a href="https://bioregistry.io/{{ row.description_source }}">{{ row.description_source }}</a>)
             {% endif %}
         </p>
