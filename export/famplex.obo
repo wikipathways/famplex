@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 05:08:2021 22:53
+date: 17:09:2021 17:26
 
 [Term]
 id: FPLX:5_hydroxytryptamine_receptors_G_protein_coupled
@@ -1291,7 +1291,7 @@ id: FPLX:Axonemal_dynein_IDA
 name: Axonemal-dynein-IDA
 xref: HGNC_GROUP:2032
 is_a: FPLX:Axonemal_dynein
-has_part: HGNC:CFAP94
+has_part: HGNC:DNAI7
 has_part: HGNC:DNAH1
 has_part: HGNC:DNAH10
 has_part: HGNC:DNAH12

@@ -4167,7 +4167,7 @@ HGNC,DYNC2I1,partof,FPLX,DYNC2
 HGNC,DYNC2I2,partof,FPLX,DYNC2
 FPLX,Axonemal_dynein,isa,FPLX,Dynein
 FPLX,Cytoplasmic_dynein,isa,FPLX,Dynein
-HGNC,CFAP94,partof,FPLX,Axonemal_dynein_IDA
+HGNC,DNAI7,partof,FPLX,Axonemal_dynein_IDA
 HGNC,DNAH1,partof,FPLX,Axonemal_dynein_IDA
 HGNC,DNAH10,partof,FPLX,Axonemal_dynein_IDA
 HGNC,DNAH12,partof,FPLX,Axonemal_dynein_IDA
