@@ -4682,3 +4682,7 @@ HGNC,EEF1A2,partof,FPLX,EEF1A
 HGNC,EEF1B2,partof,FPLX,EEF1B
 HGNC,EEF1G,partof,FPLX,EEF1B
 HGNC,EEF1D,partof,FPLX,EEF1B
+HGNC,OPRD1,isa,FPLX,Opioid_receptor
+HGNC,OPRK1,isa,FPLX,Opioid_receptor
+HGNC,OPRL1,isa,FPLX,Opioid_receptor
+HGNC,OPRM1,isa,FPLX,Opioid_receptor
