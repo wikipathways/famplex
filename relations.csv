@@ -4698,14 +4698,6 @@ HGNC,SENP8,isa,FPLX,SENP
 FPLX,DESI,isa,FPLX,Desumoylase
 HGNC,DESI1,isa,FPLX,DESI
 HGNC,DESI2,isa,FPLX,DESI
-HGNC,CCNH,isa,FPLX,CDK_activating_kinase_complex
-HGNC,CDK7,isa,FPLX,CDK_activating_kinase_complex
-HGNC,MNAT1,isa,FPLX,CDK_activating_kinase_complex
-HGNC,TIMM10,isa,FPLX,TIM22_complex
-HGNC,TIMM10B,isa,FPLX,TIM22_complex
-HGNC,TIMM22,isa,FPLX,TIM22_complex
-HGNC,TIMM29,isa,FPLX,TIM22_complex
-HGNC,TIMM9,isa,FPLX,TIM22_complex
 HGNC,CCNH,partof,FPLX,CDK_activating_kinase_complex
 HGNC,CDK7,partof,FPLX,CDK_activating_kinase_complex
 HGNC,MNAT1,partof,FPLX,CDK_activating_kinase_complex

@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 14:10:2021 18:55
+date: 14:10:2021 19:01
 
 [Term]
 id: FPLX:5_hydroxytryptamine_receptors_G_protein_coupled
@@ -2202,9 +2202,6 @@ name: CDK-activating-kinase-complex
 synonym: "CDK activating kinase" EXACT []
 xref: HGNC_GROUP:1744
 is_a: FPLX:root
-inverse_is_a: HGNC:CCNH
-inverse_is_a: HGNC:CDK7
-inverse_is_a: HGNC:MNAT1
 has_part: HGNC:CCNH
 has_part: HGNC:CDK7
 has_part: HGNC:MNAT1
@@ -12439,11 +12436,6 @@ synonym: "TIM22 complex" EXACT []
 synonym: "Tim22 complex" EXACT []
 xref: HGNC_GROUP:1337
 is_a: FPLX:root
-inverse_is_a: HGNC:TIMM10
-inverse_is_a: HGNC:TIMM10B
-inverse_is_a: HGNC:TIMM22
-inverse_is_a: HGNC:TIMM29
-inverse_is_a: HGNC:TIMM9
 has_part: HGNC:TIMM10
 has_part: HGNC:TIMM10B
 has_part: HGNC:TIMM22
