@@ -3,7 +3,7 @@ Keyword=FPLX
 NameString=FamPlex
 DomainString=Gene and Gene Products
 VersionString=20211014
-CreatedDateTime=2021-10-14T22:56:53
+CreatedDateTime=2021-10-14T18:55:55
 DescriptionString=FamPlex is a collection of resources for grounding biological entities from text and describing their hierarchical relationships.
 QueryValueURL=http://identifiers.org/fplx/
 
@@ -143,6 +143,7 @@ CDK1_2|CGPR
 CDKN|CGPR
 CDKN1|CGPR
 CDKN2|CGPR
+CDK_activating_kinase_complex|CGPR
 CEBP|CGPR
 CHEK|CGPR
 CHK|CGPR
@@ -724,6 +725,7 @@ THBS|CGPR
 THR|CGPR
 TIAM|CGPR
 TIF_IB|CGPR
+TIM22_complex|CGPR
 TK|CGPR
 TLR|CGPR
 TN|CGPR

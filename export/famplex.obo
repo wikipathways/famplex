@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 14:10:2021 23:01
+date: 14:10:2021 18:55
 
 [Term]
 id: FPLX:5_hydroxytryptamine_receptors_G_protein_coupled
@@ -2195,6 +2195,19 @@ synonym: "Cdk1/2" EXACT []
 is_a: FPLX:CDK
 inverse_is_a: HGNC:CDK1
 inverse_is_a: HGNC:CDK2
+
+[Term]
+id: FPLX:CDK_activating_kinase_complex
+name: CDK-activating-kinase-complex
+synonym: "CDK activating kinase" EXACT []
+xref: HGNC_GROUP:1744
+is_a: FPLX:root
+inverse_is_a: HGNC:CCNH
+inverse_is_a: HGNC:CDK7
+inverse_is_a: HGNC:MNAT1
+has_part: HGNC:CCNH
+has_part: HGNC:CDK7
+has_part: HGNC:MNAT1
 
 [Term]
 id: FPLX:CDKN
@@ -12418,6 +12431,24 @@ has_part: HGNC:TAF1A
 has_part: HGNC:TAF1B
 has_part: HGNC:TAF1C
 has_part: HGNC:TBP
+
+[Term]
+id: FPLX:TIM22_complex
+name: TIM22-complex
+synonym: "TIM22 complex" EXACT []
+synonym: "Tim22 complex" EXACT []
+xref: HGNC_GROUP:1337
+is_a: FPLX:root
+inverse_is_a: HGNC:TIMM10
+inverse_is_a: HGNC:TIMM10B
+inverse_is_a: HGNC:TIMM22
+inverse_is_a: HGNC:TIMM29
+inverse_is_a: HGNC:TIMM9
+has_part: HGNC:TIMM10
+has_part: HGNC:TIMM10B
+has_part: HGNC:TIMM22
+has_part: HGNC:TIMM29
+has_part: HGNC:TIMM9
 
 [Term]
 id: FPLX:TK
