@@ -2,8 +2,8 @@
 Keyword=FPLX
 NameString=FamPlex
 DomainString=Gene and Gene Products
-VersionString=20210805
-CreatedDateTime=2021-08-05T22:49:16
+VersionString=20211012
+CreatedDateTime=2021-10-12T10:17:09
 DescriptionString=FamPlex is a collection of resources for grounding biological entities from text and describing their hierarchical relationships.
 QueryValueURL=http://identifiers.org/fplx/
 
@@ -542,6 +542,7 @@ OTUB|CGPR
 OTUD|CGPR
 OTUD6|CGPR
 OTUD7|CGPR
+Opioid_receptor|CGPR
 P2R|CGPR
 P2RX|CGPR
 P2RY|CGPR

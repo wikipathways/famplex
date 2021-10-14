@@ -1624,6 +1624,10 @@ NGF	P01138	uniprot	Gene_or_gene_product
 NIK	Q99558	uniprot	Gene_or_gene_product
 NKD	NKD	fplx	Family
 NLE	CHEBI:38473	chebi	Simple_chemical
+NMDA Receptor	GRIN	fplx	Family
+NMDA receptor	GRIN	fplx	Family
+NMDA receptors	GRIN	fplx	Family
+NMDAR	GRIN	fplx	Family
 NO	CHEBI:16480	chebi	Simple_chemical
 NOS	NOS	fplx	Family
 NOTCH	Notch	fplx	Family
@@ -1715,6 +1719,7 @@ OTUB	OTUB	fplx	Family
 OTUD	OTUD	fplx	Family
 OTUD6	OTUD6	fplx	Family
 OTUD7	OTUD7	fplx	Family
+Opioid-receptor	Opioid_receptor	fplx	Family
 P-REX1	Q8TCU6	uniprot	Gene_or_gene_product
 P2R	P2R	fplx	Family
 P2RX	P2RX	fplx	Family
@@ -3286,6 +3291,8 @@ ofalpha(2)-adrenoceptor	ADRA2	fplx	Family
 ofα(2)-adrenoceptor	ADRA2	fplx	Family
 olfactory receptor	OR	fplx	Family
 olfactory receptors	OR	fplx	Family
+opioid receptor	Opioid_receptor	fplx	Family
+opioid receptors	Opioid_receptor	fplx	Family
 outer dynein	Axonemal_dynein_ODA	fplx	Family
 ov-serpins	SERPINB	fplx	Family
 oxaliplatin	CHEBI:31941	chebi	Simple_chemical

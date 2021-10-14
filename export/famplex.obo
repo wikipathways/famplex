@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 17:09:2021 17:26
+date: 12:10:2021 10:17
 
 [Term]
 id: FPLX:5_hydroxytryptamine_receptors_G_protein_coupled
@@ -5500,16 +5500,20 @@ inverse_is_a: HGNC:GRID2
 id: FPLX:GRIN
 name: GRIN
 def: "A class of ionotropic glutamate receptors characterized by affinity for N-methyl-D-aspartate. NMDA receptors have an allosteric binding site for glycine which must be occupied for the channel to open efficiently and a site within the channel itself to which magnesium ions bind in a voltage-dependent manner. The positive voltage dependence of channel conductance and the high permeability of the conducting channel to calcium ions (as well as to monovalent cations) are important in excitotoxicity and neuronal plasticity." [mesh:D016194]
+synonym: "NMDA receptor" EXACT []
+synonym: "NMDA receptors" EXACT []
+synonym: "NMDAR" EXACT []
+synonym: "NMDA Receptor" EXACT []
 xref: HGNC_GROUP:1201
 xref: MESH:D016194
 is_a: FPLX:GRI
-inverse_is_a: HGNC:GRIN1
-inverse_is_a: HGNC:GRIN2A
-inverse_is_a: HGNC:GRIN2B
-inverse_is_a: HGNC:GRIN2C
-inverse_is_a: HGNC:GRIN2D
-inverse_is_a: HGNC:GRIN3A
-inverse_is_a: HGNC:GRIN3B
+has_part: HGNC:GRIN1
+has_part: HGNC:GRIN2A
+has_part: HGNC:GRIN2B
+has_part: HGNC:GRIN2C
+has_part: HGNC:GRIN2D
+has_part: HGNC:GRIN3A
+has_part: HGNC:GRIN3B
 
 [Term]
 id: FPLX:GRK
@@ -8693,6 +8697,18 @@ inverse_is_a: HGNC:EOGT
 inverse_is_a: HGNC:OGT
 inverse_is_a: HGNC:POMGNT1
 inverse_is_a: HGNC:POMGNT2
+
+[Term]
+id: FPLX:Opioid_receptor
+name: Opioid-receptor
+synonym: "opioid receptor" EXACT []
+synonym: "opioid receptors" EXACT []
+xref: HGNC_GROUP:245
+is_a: FPLX:root
+inverse_is_a: HGNC:OPRD1
+inverse_is_a: HGNC:OPRK1
+inverse_is_a: HGNC:OPRL1
+inverse_is_a: HGNC:OPRM1
 
 [Term]
 id: FPLX:OR
