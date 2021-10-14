@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 12:10:2021 10:17
+date: 14:10:2021 23:01
 
 [Term]
 id: FPLX:5_hydroxytryptamine_receptors_G_protein_coupled
@@ -3425,6 +3425,22 @@ inverse_is_a: HGNC:DGUOK
 inverse_is_a: FPLX:TK
 
 [Term]
+id: FPLX:DESI
+name: DESI
+synonym: "Desumoylating isopeptidase" EXACT []
+synonym: "Desumoylating isopeptidases" EXACT []
+synonym: "desumoylating isopeptidase" EXACT []
+synonym: "desumoylating isopeptidases" EXACT []
+synonym: "Desumolating isopeptidase" EXACT []
+synonym: "Desumolating isopeptidases" EXACT []
+synonym: "desumolating isopeptidase" EXACT []
+synonym: "desumolating isopeptidases" EXACT []
+xref: HGNC_GROUP:986
+is_a: FPLX:Desumoylase
+inverse_is_a: HGNC:DESI1
+inverse_is_a: HGNC:DESI2
+
+[Term]
 id: FPLX:Desmoglein
 name: Desmoglein
 def: "A group of desmosomal cadherins with cytoplasmic tails that resemble those of classical CADHERINS." [mesh:D051182]
@@ -3441,6 +3457,15 @@ inverse_is_a: HGNC:DSG1
 inverse_is_a: HGNC:DSG2
 inverse_is_a: HGNC:DSG3
 inverse_is_a: HGNC:DSG4
+
+[Term]
+id: FPLX:Desumoylase
+name: Desumoylase
+xref: HGNC_GROUP:983
+is_a: FPLX:root
+inverse_is_a: FPLX:USPL
+inverse_is_a: FPLX:SENP
+inverse_is_a: FPLX:DESI
 
 [Term]
 id: FPLX:Deubiquitinase
@@ -11578,6 +11603,27 @@ inverse_is_a: HGNC:SCNN1D
 inverse_is_a: HGNC:SCNN1G
 
 [Term]
+id: FPLX:SENP
+name: SENP
+synonym: "SUMO-specific peptidases" EXACT []
+synonym: "SUMO-specific peptidase" EXACT []
+synonym: "SUMO specific peptidases" EXACT []
+synonym: "SUMO specific peptidase" EXACT []
+synonym: "sentrin-specific protease" EXACT []
+synonym: "sentrin-specific proteases" EXACT []
+synonym: "sentrin specific protease" EXACT []
+synonym: "sentrin specific proteases" EXACT []
+xref: HGNC_GROUP:984
+is_a: FPLX:Desumoylase
+inverse_is_a: HGNC:SENP1
+inverse_is_a: HGNC:SENP2
+inverse_is_a: HGNC:SENP3
+inverse_is_a: HGNC:SENP5
+inverse_is_a: HGNC:SENP6
+inverse_is_a: HGNC:SENP7
+inverse_is_a: HGNC:SENP8
+
+[Term]
 id: FPLX:SERCA
 name: SERCA
 def: "Calcium-transporting ATPases that catalyze the active transport of CALCIUM into the SARCOPLASMIC RETICULUM vesicles from the CYTOPLASM. They are primarily found in MUSCLE CELLS and play a role in the relaxation of MUSCLES." [mesh:D053498]
@@ -13005,7 +13051,9 @@ inverse_is_a: FPLX:USP17L
 [Term]
 id: FPLX:USPL
 name: USPL
+xref: HGNC_GROUP:988
 is_a: FPLX:USP
+is_a: FPLX:Desumoylase
 inverse_is_a: HGNC:USPL1
 inverse_is_a: HGNC:CYLD
 
