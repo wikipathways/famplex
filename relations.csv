@@ -4706,3 +4706,11 @@ HGNC,TIMM10B,isa,FPLX,TIM22_complex
 HGNC,TIMM22,isa,FPLX,TIM22_complex
 HGNC,TIMM29,isa,FPLX,TIM22_complex
 HGNC,TIMM9,isa,FPLX,TIM22_complex
+HGNC,CCNH,partof,FPLX,CDK_activating_kinase_complex
+HGNC,CDK7,partof,FPLX,CDK_activating_kinase_complex
+HGNC,MNAT1,partof,FPLX,CDK_activating_kinase_complex
+HGNC,TIMM10,partof,FPLX,TIM22_complex
+HGNC,TIMM10B,partof,FPLX,TIM22_complex
+HGNC,TIMM22,partof,FPLX,TIM22_complex
+HGNC,TIMM29,partof,FPLX,TIM22_complex
+HGNC,TIMM9,partof,FPLX,TIM22_complex
