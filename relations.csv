@@ -4701,6 +4701,7 @@ HGNC,DESI2,isa,FPLX,DESI
 HGNC,CCNH,partof,FPLX,CDK_activating_kinase_complex
 HGNC,CDK7,partof,FPLX,CDK_activating_kinase_complex
 HGNC,MNAT1,partof,FPLX,CDK_activating_kinase_complex
+HGNC,AGK,partof,FPLX,TIM22_complex
 HGNC,TIMM10,partof,FPLX,TIM22_complex
 HGNC,TIMM10B,partof,FPLX,TIM22_complex
 HGNC,TIMM22,partof,FPLX,TIM22_complex
