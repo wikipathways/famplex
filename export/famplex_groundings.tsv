@@ -1690,6 +1690,8 @@ Neuregulins	NRG	fplx	Family
 Neurexins	Neurexins	fplx	Family
 Neuropeptide-receptor	Neuropeptide_receptor	fplx	Family
 Neuropeptides	Neuropeptides	fplx	Family
+Neuropilin	Neuropilins	fplx	Family
+Neuropilins	Neuropilins	fplx	Family
 Neuroregulin	NRG	fplx	Family
 Neutrophils	D009504	mesh	BioProcess
 Notch	Notch	fplx	Family
@@ -3294,6 +3296,8 @@ neuropeptide receptors	Neuropeptide_receptor	fplx	Family
 neuropeptides	Neuropeptides	fplx	Family
 neuropeptides B and W receptor	NPBWR	fplx	Family
 neuropeptides B and W receptors	NPBWR	fplx	Family
+neuropilin	Neuropilins	fplx	Family
+neuropilins	Neuropilins	fplx	Family
 neuroregulin	NRG	fplx	Family
 neutrophils	D009504	mesh	BioProcess
 nicotine class acetylcholine receptors	CHRN	fplx	Family
