@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 14:10:2021 19:01
+date: 15:10:2021 13:03
 
 [Term]
 id: FPLX:5_hydroxytryptamine_receptors_G_protein_coupled
@@ -12434,8 +12434,10 @@ id: FPLX:TIM22_complex
 name: TIM22-complex
 synonym: "TIM22 complex" EXACT []
 synonym: "Tim22 complex" EXACT []
+xref: COMPLEXPORTAL:CPX-6124
 xref: HGNC_GROUP:1337
 is_a: FPLX:root
+has_part: HGNC:AGK
 has_part: HGNC:TIMM10
 has_part: HGNC:TIMM10B
 has_part: HGNC:TIMM22
