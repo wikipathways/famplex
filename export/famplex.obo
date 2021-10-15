@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 15:10:2021 13:03
+date: 15:10:2021 14:47
 
 [Term]
 id: FPLX:5_hydroxytryptamine_receptors_G_protein_coupled
@@ -8433,6 +8433,18 @@ inverse_is_a: HGNC:UCN2
 inverse_is_a: HGNC:UCN3
 inverse_is_a: HGNC:UTS2
 inverse_is_a: HGNC:VIP
+
+[Term]
+id: FPLX:Neuropilins
+name: Neuropilins
+synonym: "neuropilin" EXACT []
+synonym: "neuropilins" EXACT []
+synonym: "Neuropilin" EXACT []
+synonym: "Neuropilins" EXACT []
+xref: MESH:D039921
+is_a: FPLX:root
+inverse_is_a: HGNC:NRP1
+inverse_is_a: HGNC:NRP2
 
 [Term]
 id: FPLX:NFAT
