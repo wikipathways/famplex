@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 15:10:2021 15:01
+date: 18:10:2021 18:54
 
 [Term]
 id: FPLX:5_hydroxytryptamine_receptors_G_protein_coupled
@@ -5539,6 +5539,7 @@ synonym: "NMDA receptor" EXACT []
 synonym: "NMDA receptors" EXACT []
 synonym: "NMDAR" EXACT []
 synonym: "NMDA Receptor" EXACT []
+xref: GO:0017146
 xref: HGNC_GROUP:1201
 xref: MESH:D016194
 is_a: FPLX:GRI
