@@ -8,7 +8,7 @@ import itertools
 from collections import defaultdict
 from indra.databases import hgnc_client
 
-hgnc_fam_url = ('ftp://ftp.ebi.ac.uk/pub/databases/genenames/new/csv/'
+hgnc_fam_url = ('http://ftp.ebi.ac.uk/pub/databases/genenames/new/csv/'
                 'genefamily_db_tables/')
 gene_fam_file = 'gene_has_family.csv'
 family_file = 'family.csv'

@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 14:10:2021 23:01
+date: 15:10:2021 15:01
 
 [Term]
 id: FPLX:5_hydroxytryptamine_receptors_G_protein_coupled
@@ -2195,6 +2195,16 @@ synonym: "Cdk1/2" EXACT []
 is_a: FPLX:CDK
 inverse_is_a: HGNC:CDK1
 inverse_is_a: HGNC:CDK2
+
+[Term]
+id: FPLX:CDK_activating_kinase_complex
+name: CDK-activating-kinase-complex
+synonym: "CDK activating kinase" EXACT []
+xref: HGNC_GROUP:1744
+is_a: FPLX:root
+has_part: HGNC:CCNH
+has_part: HGNC:CDK7
+has_part: HGNC:MNAT1
 
 [Term]
 id: FPLX:CDKN
@@ -8425,6 +8435,18 @@ inverse_is_a: HGNC:UTS2
 inverse_is_a: HGNC:VIP
 
 [Term]
+id: FPLX:Neuropilins
+name: Neuropilins
+synonym: "neuropilin" EXACT []
+synonym: "neuropilins" EXACT []
+synonym: "Neuropilin" EXACT []
+synonym: "Neuropilins" EXACT []
+xref: MESH:D039921
+is_a: FPLX:root
+inverse_is_a: HGNC:NRP1
+inverse_is_a: HGNC:NRP2
+
+[Term]
 id: FPLX:NFAT
 name: NFAT
 def: "A family of transcription factors characterized by the presence of highly conserved calcineurin- and DNA-binding domains. NFAT proteins are activated in the CYTOPLASM by the calcium-dependent phosphatase CALCINEURIN. They transduce calcium signals to the nucleus where they can interact with TRANSCRIPTION FACTOR AP-1 or NF-KAPPA B and initiate GENETIC TRANSCRIPTION of GENES involved in CELL DIFFERENTIATION and development. NFAT proteins stimulate T-CELL activation through the induction of IMMEDIATE-EARLY GENES such as INTERLEUKIN-2." [mesh:D050778]
@@ -12418,6 +12440,21 @@ has_part: HGNC:TAF1A
 has_part: HGNC:TAF1B
 has_part: HGNC:TAF1C
 has_part: HGNC:TBP
+
+[Term]
+id: FPLX:TIM22_complex
+name: TIM22-complex
+synonym: "TIM22 complex" EXACT []
+synonym: "Tim22 complex" EXACT []
+xref: COMPLEXPORTAL:CPX-6124
+xref: HGNC_GROUP:1337
+is_a: FPLX:root
+has_part: HGNC:AGK
+has_part: HGNC:TIMM10
+has_part: HGNC:TIMM10B
+has_part: HGNC:TIMM22
+has_part: HGNC:TIMM29
+has_part: HGNC:TIMM9
 
 [Term]
 id: FPLX:TK

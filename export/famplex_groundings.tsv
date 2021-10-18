@@ -404,6 +404,8 @@ CDC25 family	CDC25	fplx	Family
 CDC42	P60953	uniprot	Gene_or_gene_product
 CDDP	CHEBI:27899	chebi	Simple_chemical
 CDK	CDK	fplx	Family
+CDK activating kinase	CDK_activating_kinase_complex	fplx	Family
+CDK-activating-kinase-complex	CDK_activating_kinase_complex	fplx	Family
 CDK1	P06493	uniprot	Gene_or_gene_product
 CDK1-2	CDK1_2	fplx	Family
 CDK1/2	CDK1_2	fplx	Family
@@ -1688,6 +1690,8 @@ Neuregulins	NRG	fplx	Family
 Neurexins	Neurexins	fplx	Family
 Neuropeptide-receptor	Neuropeptide_receptor	fplx	Family
 Neuropeptides	Neuropeptides	fplx	Family
+Neuropilin	Neuropilins	fplx	Family
+Neuropilins	Neuropilins	fplx	Family
 Neuroregulin	NRG	fplx	Family
 Neutrophils	D009504	mesh	BioProcess
 Notch	Notch	fplx	Family
@@ -2399,6 +2403,8 @@ TIAM	TIAM	fplx	Family
 TIAM1	Q13009	uniprot	Gene_or_gene_product
 TIAM2	Q8IVF5	uniprot	Gene_or_gene_product
 TIF-IB	TIF_IB	fplx	Family
+TIM22 complex	TIM22_complex	fplx	Family
+TIM22-complex	TIM22_complex	fplx	Family
 TK	TK	fplx	Family
 TLR	TLR	fplx	Family
 TLR2	O60603	uniprot	Gene_or_gene_product
@@ -2469,6 +2475,7 @@ Thrombospondin	THBS	fplx	Family
 Thrombospondins	THBS	fplx	Family
 Tiam1	Q13009	uniprot	Gene_or_gene_product
 Tiam2	Q8IVF5	uniprot	Gene_or_gene_product
+Tim22 complex	TIM22_complex	fplx	Family
 TnC	Troponin_C	fplx	Family
 Tpl2	P41279	uniprot	Gene_or_gene_product
 TraD	P09130	uniprot	Gene_or_gene_product
@@ -3289,6 +3296,8 @@ neuropeptide receptors	Neuropeptide_receptor	fplx	Family
 neuropeptides	Neuropeptides	fplx	Family
 neuropeptides B and W receptor	NPBWR	fplx	Family
 neuropeptides B and W receptors	NPBWR	fplx	Family
+neuropilin	Neuropilins	fplx	Family
+neuropilins	Neuropilins	fplx	Family
 neuroregulin	NRG	fplx	Family
 neutrophils	D009504	mesh	BioProcess
 nicotine class acetylcholine receptors	CHRN	fplx	Family
