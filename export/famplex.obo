@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 18:10:2021 18:54
+date: 30:10:2021 16:56
 
 [Term]
 id: FPLX:5_hydroxytryptamine_receptors_G_protein_coupled
@@ -34,6 +34,7 @@ synonym: "9-1-1 complex" EXACT []
 synonym: "9-1-1" EXACT []
 synonym: "h9-1-1 complex" EXACT []
 xref: BEL:"9-1-1 Complex"
+xref: SCOMP:C0001
 is_a: FPLX:root
 has_part: HGNC:HUS1
 has_part: HGNC:RAD1
@@ -71,6 +72,7 @@ xref: BEL:"ACAD Family"
 xref: ECCODE:1.3.8.7
 xref: MESH:D042964
 xref: NEXTPROT-FAMILY:00093
+xref: SFAM:F0002
 is_a: FPLX:root
 inverse_is_a: HGNC:ACAD8
 inverse_is_a: HGNC:ACAD9
@@ -98,6 +100,7 @@ xref: ECCODE:6.4.1.2
 xref: IP:IPR013537
 xref: MESH:D000103
 xref: RE:R-HSA-200563
+xref: SCOMP:C0005
 is_a: FPLX:root
 has_part: HGNC:ACACA
 has_part: HGNC:ACACB
@@ -115,6 +118,7 @@ synonym: "acetyl-coenzyme A synthase" EXACT []
 synonym: "ACS" EXACT []
 xref: BEL:"Acetyl-CoA Synthetase Family"
 xref: MESH:D000106
+xref: SFAM:F0003
 is_a: FPLX:root
 inverse_is_a: HGNC:SLC27A2
 inverse_is_a: FPLX:ACSL
@@ -129,6 +133,7 @@ xref: BEL:"ACOX Family"
 xref: IP:IPR002655
 xref: MESH:D042962
 xref: XFAM:PF01756
+xref: SFAM:F0004
 is_a: FPLX:root
 inverse_is_a: HGNC:ACOX1
 inverse_is_a: HGNC:ACOX2
@@ -141,6 +146,7 @@ name: ACSL
 synonym: "Acsl" EXACT []
 synonym: "long-chain acyl-CoA synthetase" EXACT []
 xref: BEL:"ACSL Family"
+xref: SFAM:F0005
 is_a: FPLX:Acetyl_CoA_synthetase
 inverse_is_a: HGNC:ACSL1
 inverse_is_a: HGNC:ACSL3
@@ -162,6 +168,7 @@ xref: MESH:D000199
 xref: NCIT:C16258
 xref: NEXTPROT-FAMILY:00078
 xref: XFAM:PF00022
+xref: SFAM:F0006
 is_a: FPLX:root
 inverse_is_a: FPLX:F_actin
 inverse_is_a: FPLX:G_actin
@@ -260,6 +267,7 @@ synonym: "actinin" EXACT []
 xref: BEL:"ACTN Family"
 xref: MESH:D000185
 xref: RE:R-HSA-451402
+xref: SFAM:F0007
 is_a: FPLX:root
 inverse_is_a: HGNC:ACTN1
 inverse_is_a: HGNC:ACTN2
@@ -328,6 +336,7 @@ xref: GO:0030122
 xref: HGNC_GROUP:1672
 xref: MESH:D033962
 xref: SIGNOR:SIGNOR-C245
+xref: SCOMP:C0008
 is_a: FPLX:Adaptor_protein
 has_part: HGNC:AP2B1
 has_part: HGNC:AP2M1
@@ -345,6 +354,7 @@ xref: BEL:"Adaptor Protein III Complex"
 xref: HGNC_GROUP:1673
 xref: MESH:D033963
 xref: SIGNOR:SIGNOR-C247
+xref: SCOMP:C0009
 is_a: FPLX:Adaptor_protein
 has_part: HGNC:AP3B1
 has_part: HGNC:AP3D1
@@ -384,6 +394,7 @@ xref: MESH:D000262
 xref: NCIT:C16264
 xref: RE:R-HSA-5610577
 xref: RE:R-HSA-5610578
+xref: SFAM:F0008
 is_a: FPLX:root
 inverse_is_a: HGNC:ADCY1
 inverse_is_a: HGNC:ADCY2
@@ -420,6 +431,7 @@ xref: ECCODE:1.1.1.1
 xref: MESH:D000426
 xref: NCIT:C16272
 xref: XFAM:PF00465
+xref: SFAM:F0009
 is_a: FPLX:root
 inverse_is_a: HGNC:ADH1A
 inverse_is_a: HGNC:ADH1B
@@ -456,6 +468,7 @@ xref: BEL:"ADRA Family"
 xref: GO:0004936
 xref: GO:0004937
 xref: MESH:D011941
+xref: SFAM:F0010
 is_a: FPLX:root
 inverse_is_a: HGNC:ADRA1A
 inverse_is_a: HGNC:ADRA1B
@@ -480,6 +493,7 @@ xref: BEL:"ADRA2 Family"
 xref: GO:0004938
 xref: RE:R-HSA-390664
 xref: RE:R-HSA-390700
+xref: SFAM:F0011
 is_a: FPLX:root
 inverse_is_a: HGNC:ADRA2A
 inverse_is_a: HGNC:ADRA2B
@@ -502,6 +516,7 @@ xref: MESH:D011943
 xref: NCIT:C17062
 xref: RE:R-HSA-390643
 xref: RE:R-HSA-390670
+xref: SFAM:F0012
 is_a: FPLX:root
 inverse_is_a: HGNC:ADRB1
 inverse_is_a: HGNC:ADRB2
@@ -519,6 +534,7 @@ synonym: "βARK" EXACT []
 xref: BEL:"ADRBK Family"
 xref: MESH:D051552
 xref: RE:R-HSA-8866229
+xref: SFAM:F0013
 is_a: FPLX:GRK
 inverse_is_a: HGNC:GRK2
 inverse_is_a: HGNC:GRK3
@@ -562,6 +578,7 @@ xref: RE:R-HSA-2317329
 xref: RE:R-HSA-2400006
 xref: RE:R-HSA-2400013
 xref: SIGNOR:SIGNOR-PF24
+xref: SFAM:F0014
 is_a: FPLX:root
 inverse_is_a: HGNC:AKT1
 inverse_is_a: HGNC:AKT2
@@ -579,6 +596,7 @@ xref: BEL:"ALDH Family"
 xref: ECCODE:1.2.1.3
 xref: MESH:D000444
 xref: NCIT:C118481
+xref: SFAM:F0015
 is_a: FPLX:root
 inverse_is_a: HGNC:ALDH1A1
 inverse_is_a: HGNC:ALDH1A2
@@ -603,6 +621,7 @@ xref: IP:IPR000741
 xref: IP:IPR029768
 xref: MESH:D005634
 xref: RE:R-HSA-179508
+xref: SFAM:F0016
 is_a: FPLX:root
 inverse_is_a: HGNC:ALDOA
 inverse_is_a: HGNC:ALDOB
@@ -689,6 +708,7 @@ xref: RE:R-HSA-380934
 xref: RE:R-HSA-380961
 xref: RE:R-HSA-6805467
 xref: SIGNOR:SIGNOR-C15
+xref: SCOMP:C0002
 is_a: FPLX:root
 inverse_is_a: FPLX:AMPK_A1B1G1
 inverse_is_a: FPLX:AMPK_A1B1G2
@@ -906,6 +926,7 @@ xref: RE:R-HSA-2151213
 xref: RE:R-HSA-381844
 xref: RE:R-HSA-381845
 xref: SIGNOR:SIGNOR-PF6
+xref: SFAM:F0194
 part_of: FPLX:AMPK
 inverse_is_a: HGNC:PRKAA1
 inverse_is_a: HGNC:PRKAA2
@@ -919,6 +940,7 @@ xref: IP:IPR006828
 xref: IP:IPR032640
 xref: RE:R-HSA-2151208
 xref: RE:R-HSA-381854
+xref: SFAM:F0195
 part_of: FPLX:AMPK
 inverse_is_a: HGNC:PRKAB1
 inverse_is_a: HGNC:PRKAB2
@@ -931,6 +953,7 @@ xref: BEL:"PRKAG Family"
 xref: RE:R-HSA-2151212
 xref: RE:R-HSA-2316451
 xref: RE:R-HSA-381851
+xref: SFAM:F0196
 part_of: FPLX:AMPK
 inverse_is_a: HGNC:PRKAG1
 inverse_is_a: HGNC:PRKAG2
@@ -945,6 +968,7 @@ synonym: "annexin II heterotetramer" EXACT []
 synonym: "ANXA2 heterotetramer" EXACT []
 xref: BEL:"Annexin II Heterotetramer Complex"
 xref: RE:R-HSA-5336141
+xref: SCOMP:C0011
 is_a: FPLX:root
 has_part: HGNC:ANXA2
 has_part: HGNC:S100A10
@@ -976,6 +1000,7 @@ synonym: "AP1" EXACT []
 xref: BEL:"AP-1 Complex"
 xref: MESH:D018808
 xref: NCIT:C17450
+xref: SCOMP:C0003
 is_a: FPLX:root
 has_part: FPLX:FOS_family
 has_part: FPLX:JUN_family
@@ -1029,6 +1054,7 @@ synonym: "apolipoprotein(a)" EXACT []
 xref: BEL:"APOA Family"
 xref: MESH:D001054
 xref: NCIT:C105952
+xref: SFAM:F0017
 is_a: FPLX:Apolipoprotein
 inverse_is_a: HGNC:APOA1
 inverse_is_a: HGNC:APOA2
@@ -1119,6 +1145,7 @@ def: "A complex of seven proteins including ARP2 PROTEIN and ARP3 PROTEIN that p
 synonym: "Arp2/3" EXACT []
 xref: BEL:"Arp2/3 Protein Complex"
 xref: MESH:D051376
+xref: SCOMP:C0012
 is_a: FPLX:root
 has_part: HGNC:ARPC1A
 has_part: HGNC:ARPC1B
@@ -1137,6 +1164,7 @@ synonym: "barrestins" EXACT []
 xref: BEL:"ARRB Family"
 xref: MESH:D000071557
 xref: RE:R-HSA-1911410
+xref: SFAM:F0018
 is_a: FPLX:root
 inverse_is_a: HGNC:ARRB1
 inverse_is_a: HGNC:ARRB2
@@ -1204,6 +1232,7 @@ synonym: "ATP synthase H + transporting mitochondrial F0 complex subunit G" EXAC
 xref: BEL:"ATP5G Family"
 xref: IP:IPR000454
 xref: IP:IPR020537
+xref: SFAM:F0020
 part_of: FPLX:ATP_synthase
 inverse_is_a: HGNC:ATP5MC1
 inverse_is_a: HGNC:ATP5MC2
@@ -1217,6 +1246,7 @@ synonym: "ATP synthase" EXACT []
 xref: BEL:"Proton Transporting ATP Synthase Complex"
 xref: MESH:D025181
 xref: SIGNOR:SIGNOR-C264
+xref: SCOMP:C0106
 is_a: FPLX:root
 has_part: HGNC:ATP5F1A
 has_part: HGNC:ATP5F1B
@@ -1271,6 +1301,7 @@ xref: RE:R-HSA-3640819
 xref: RE:R-HSA-3640863
 xref: RE:R-HSA-3772502
 xref: RE:R-HSA-4641132
+xref: SFAM:F0021
 is_a: FPLX:root
 inverse_is_a: HGNC:AXIN1
 inverse_is_a: HGNC:AXIN2
@@ -1356,6 +1387,7 @@ xref: BEL:"Branched Chain Alpha Keto Acid Dehydrogenase Complex"
 xref: RE:R-HSA-5693120
 xref: RE:R-HSA-6792583
 xref: RE:R-HSA-70019
+xref: SCOMP:C0014
 is_a: FPLX:root
 has_part: HGNC:BCKDHA
 has_part: HGNC:BCKDHB
@@ -1454,6 +1486,7 @@ synonym: "BIRs" EXACT []
 xref: BEL:"BIRC Family"
 xref: IP:IPR001370
 xref: MESH:D051034
+xref: SFAM:F0022
 is_a: FPLX:root
 inverse_is_a: HGNC:BIRC2
 inverse_is_a: HGNC:BIRC3
@@ -1482,6 +1515,7 @@ xref: BEL:"BMP Family"
 xref: MESH:D019485
 xref: NCIT:C17274
 xref: XFAM:PF02608
+xref: SFAM:F0023
 is_a: FPLX:root
 inverse_is_a: HGNC:BMP1
 inverse_is_a: HGNC:BMP2
@@ -1525,6 +1559,7 @@ synonym: "BRI" EXACT []
 xref: BEL:"BMP Receptor Type I Family"
 xref: MEDSCAN:urn:agi-protfc:bone%20morphogenetic%20protein%20I%20receptor
 xref: MESH:D052005
+xref: SFAM:F0024
 is_a: FPLX:BMP_receptor
 inverse_is_a: HGNC:ACVR1
 inverse_is_a: HGNC:BMPR1A
@@ -1544,6 +1579,7 @@ xref: BEL:"BMP Receptor Type II Family"
 xref: MESH:D052006
 xref: RE:R-HSA-201465
 xref: RE:R-HSA-201804
+xref: SFAM:F0025
 is_a: FPLX:BMP_receptor
 inverse_is_a: HGNC:ACVR2A
 inverse_is_a: HGNC:ACVR2B
@@ -1586,6 +1622,7 @@ xref: MESH:D003172
 xref: RE:R-HSA-173584
 xref: RE:R-HSA-173615
 xref: RE:R-HSA-173617
+xref: SCOMP:C0015
 is_a: FPLX:root
 has_part: HGNC:C1QA
 has_part: HGNC:C1QB
@@ -1600,6 +1637,7 @@ def: "A subcomponent of complement C1, composed of six copies of three polypepti
 synonym: "C1q" EXACT []
 xref: BEL:"C1q Complex"
 xref: MESH:D015922
+xref: SCOMP:C0016
 is_a: FPLX:root
 has_part: HGNC:C1QA
 has_part: HGNC:C1QB
@@ -1681,6 +1719,7 @@ xref: MEDSCAN:urn:agi-protfc:cadherin
 xref: MESH:D015820
 xref: NCIT:C16373
 xref: XFAM:PF00028
+xref: SFAM:F0040
 is_a: FPLX:root
 inverse_is_a: HGNC:CDH1
 inverse_is_a: HGNC:CDH10
@@ -1744,6 +1783,7 @@ xref: MEDSCAN:urn:agi-complex:prophash-f7e292d6e30998b81cf5f772ab430f11
 xref: MESH:D002147
 xref: NCIT:C16375
 xref: NEXTPROT-FAMILY:00440
+xref: SFAM:F0026
 is_a: FPLX:root
 inverse_is_a: HGNC:CALM1
 inverse_is_a: HGNC:CALM2
@@ -1760,6 +1800,7 @@ xref: BEL:"CAMK Family"
 xref: ECCODE:2.7.11.17
 xref: MESH:D017871
 xref: NEXTPROT-FAMILY:03072
+xref: SFAM:F0027
 is_a: FPLX:root
 inverse_is_a: HGNC:CAMK1
 inverse_is_a: HGNC:CAMK1D
@@ -1794,6 +1835,7 @@ xref: RE:R-HSA-417004
 xref: RE:R-HSA-432792
 xref: RE:R-HSA-444796
 xref: RE:R-HSA-445374
+xref: SCOMP:C0019
 is_a: FPLX:root
 has_part: HGNC:CAMK2A
 has_part: HGNC:CAMK2B
@@ -1809,6 +1851,7 @@ xref: RE:R-HSA-417004
 xref: RE:R-HSA-432792
 xref: RE:R-HSA-444796
 xref: RE:R-HSA-445374
+xref: SFAM:F0028
 is_a: FPLX:CAMK
 inverse_is_a: HGNC:CAMK2A
 inverse_is_a: HGNC:CAMK2B
@@ -1839,6 +1882,7 @@ xref: MESH:D002154
 xref: NCIT:C16377
 xref: RE:R-HSA-8848649
 xref: RE:R-HSA-8848668
+xref: SFAM:F0029
 is_a: FPLX:root
 inverse_is_a: HGNC:CAPN1
 inverse_is_a: HGNC:CAPN10
@@ -1865,6 +1909,7 @@ xref: BEL:"Carboxylesterase Family"
 xref: ECCODE:3.1.1.1
 xref: MESH:D043182
 xref: NCIT:C112051
+xref: SFAM:F0030
 is_a: FPLX:root
 inverse_is_a: HGNC:CES1
 inverse_is_a: HGNC:CES2
@@ -1885,6 +1930,7 @@ xref: IP:IPR033139
 xref: MESH:D020169
 xref: NCIT:C18153
 xref: XFAM:PF00656
+xref: SFAM:F0031
 is_a: FPLX:root
 inverse_is_a: HGNC:CASP1
 inverse_is_a: HGNC:CASP2
@@ -1971,6 +2017,7 @@ xref: IP:IPR018361
 xref: MEDSCAN:urn:agi-protfc:caveolin
 xref: NEXTPROT-FAMILY:00489
 xref: XFAM:PF01146
+xref: SFAM:F0032
 is_a: FPLX:root
 inverse_is_a: HGNC:CAV1
 inverse_is_a: HGNC:CAV2
@@ -1987,6 +2034,7 @@ xref: BEL:"CBF3 Complex"
 xref: GO:0031518
 xref: IP:IPR016072
 xref: IP:IPR016897
+xref: SCOMP:C0020
 is_a: FPLX:root
 has_part: HGNC:SKP1
 
@@ -2057,6 +2105,7 @@ xref: MEDSCAN:urn:agi-complex:prophash-cd6413d79122d5489ee4b4e339245b61
 xref: MESH:D056404
 xref: RE:R-HSA-390455
 xref: RE:R-HSA-390474
+xref: SCOMP:C0021
 is_a: FPLX:root
 has_part: HGNC:CCT2
 has_part: HGNC:CCT3
@@ -2074,6 +2123,7 @@ name: CD16
 synonym: "CD16" EXACT []
 xref: BEL:"CD16 Family"
 xref: NCIT:C17487
+xref: SFAM:F0036
 is_a: FPLX:root
 inverse_is_a: HGNC:FCGR3A
 inverse_is_a: HGNC:FCGR3B
@@ -2087,6 +2137,7 @@ xref: BEL:"CD3 Complex"
 xref: MEDSCAN:urn:agi-complex:CD3%20complex
 xref: MESH:D017252
 xref: NCIT:C38897
+xref: SCOMP:C0022
 is_a: FPLX:root
 has_part: HGNC:CD247
 has_part: HGNC:CD3D
@@ -2099,6 +2150,7 @@ name: CD32
 synonym: "CD32" EXACT []
 xref: BEL:"CD32 Family"
 xref: NCIT:C18308
+xref: SFAM:F0037
 is_a: FPLX:root
 inverse_is_a: HGNC:FCGR2A
 inverse_is_a: HGNC:FCGR2B
@@ -2112,6 +2164,7 @@ xref: BEL:"CD64 Family"
 xref: RE:R-HSA-1031694
 xref: RE:R-HSA-1236898
 xref: RE:R-HSA-1236905
+xref: SFAM:F0038
 is_a: FPLX:root
 inverse_is_a: HGNC:FCGR1A
 inverse_is_a: HGNC:FCGR1B
@@ -2142,6 +2195,7 @@ xref: MEDSCAN:urn:agi-aopfc:0000551
 xref: MESH:D020687
 xref: RE:R-HSA-170108
 xref: RE:R-HSA-69261
+xref: SFAM:F0039
 is_a: FPLX:root
 inverse_is_a: HGNC:CDC25A
 inverse_is_a: HGNC:CDC25B
@@ -2256,6 +2310,7 @@ synonym: "CCAAT/enhancer binding protein" EXACT []
 xref: BEL:"CEBP Family"
 xref: MESH:D022762
 xref: NEXTPROT-FAMILY:00406
+xref: SFAM:F0041
 is_a: FPLX:root
 inverse_is_a: HGNC:CEBPA
 inverse_is_a: HGNC:CEBPB
@@ -2293,6 +2348,7 @@ def: "Cell surface glycoproteins that bind to chemokines and thus mediate the mi
 synonym: "chemoattractant receptor" EXACT []
 xref: BEL:"Chemokine Receptor Family"
 xref: MESH:D019707
+xref: SFAM:F0042
 is_a: FPLX:root
 inverse_is_a: HGNC:ACKR2
 inverse_is_a: HGNC:CCR1
@@ -2361,6 +2417,7 @@ xref: IP:IPR014788
 xref: MESH:D002802
 xref: RE:R-HSA-2990868
 xref: RE:R-HSA-3640837
+xref: SFAM:F0043
 is_a: FPLX:root
 inverse_is_a: HGNC:ACHE
 inverse_is_a: HGNC:BCHE
@@ -2373,6 +2430,7 @@ synonym: "acetylcholine receptor" EXACT []
 xref: BEL:"CHRM Family"
 xref: IP:IPR000995
 xref: MESH:D011976
+xref: SFAM:F0044
 is_a: FPLX:root
 inverse_is_a: HGNC:CHRM1
 inverse_is_a: HGNC:CHRM2
@@ -2391,6 +2449,7 @@ xref: BEL:"CHRN Complex"
 xref: GO:0016904
 xref: HGNC_GROUP:173
 xref: MESH:D011978
+xref: SCOMP:C0024
 is_a: FPLX:Ligand_gated_ion_channels
 inverse_is_a: HGNC:CHRNA1
 inverse_is_a: HGNC:CHRNA10
@@ -2424,6 +2483,7 @@ xref: NCIT:C107559
 xref: NEXTPROT-FAMILY:03101
 xref: RE:R-HSA-201711
 xref: RE:R-HSA-6805066
+xref: SCOMP:C0025
 is_a: FPLX:CSNK
 has_part: HGNC:CSNK2A1
 has_part: HGNC:CSNK2A2
@@ -2441,6 +2501,7 @@ xref: MESH:D002966
 xref: RE:R-HSA-5138439
 xref: RE:R-HSA-5138447
 xref: RE:R-HSA-5333713
+xref: SCOMP:C0031
 is_a: FPLX:root
 has_part: HGNC:CLTA
 has_part: HGNC:CLTB
@@ -2629,6 +2690,7 @@ xref: GO:0008279
 xref: MESH:C118077
 xref: XFAM:PF00963
 xref: SIGNOR:SIGNOR-C304
+xref: SCOMP:C0033
 is_a: FPLX:root
 has_part: HGNC:RAD21
 has_part: HGNC:SMC3
@@ -2657,6 +2719,7 @@ xref: RE:R-HSA-2396456
 xref: RE:R-HSA-2396478
 xref: RE:R-HSA-2399520
 xref: RE:R-HSA-2428941
+xref: SFAM:F0045
 is_a: FPLX:root
 inverse_is_a: HGNC:COL1A1
 inverse_is_a: HGNC:COL1A2
@@ -2676,6 +2739,7 @@ xref: IP:IPR001442
 xref: MESH:D024141
 xref: NCIT:C16448
 xref: RE:R-HSA-2127389
+xref: SFAM:F0046
 is_a: FPLX:root
 inverse_is_a: HGNC:COL4A1
 inverse_is_a: HGNC:COL4A2
@@ -2696,6 +2760,7 @@ xref: GO:0005588
 xref: MESH:D024062
 xref: RE:R-HSA-2127310
 xref: RE:R-HSA-2127422
+xref: SFAM:F0047
 is_a: FPLX:root
 inverse_is_a: HGNC:COL5A1
 inverse_is_a: HGNC:COL5A2
@@ -2726,6 +2791,8 @@ xref: GO:0005751
 xref: HGNC_GROUP:643
 xref: MESH:D003576
 xref: NCIT:C26034
+xref: SCOMP:C0035
+xref: SCOMP:C0036
 is_a: FPLX:root
 has_part: HGNC:COX5A
 has_part: HGNC:COX5B
@@ -2750,6 +2817,7 @@ xref: BEL:"COX4 Family"
 xref: IP:IPR004203
 xref: IP:IPR013288
 xref: XFAM:PF02936
+xref: SFAM:F0048
 part_of: FPLX:COX
 inverse_is_a: HGNC:COX4I1
 inverse_is_a: HGNC:COX4I2
@@ -2765,6 +2833,7 @@ xref: BEL:"COX6A Family"
 xref: IP:IPR001349
 xref: IP:IPR018507
 xref: XFAM:PF02046
+xref: SFAM:F0049
 part_of: FPLX:COX
 inverse_is_a: HGNC:COX6A1
 inverse_is_a: HGNC:COX6A2
@@ -2776,6 +2845,7 @@ def: "Cytochrome oxidase c subunit VIb" [pfam:PF02297]
 synonym: "Cox6b" EXACT []
 xref: BEL:"COX6B Family"
 xref: XFAM:PF02297
+xref: SFAM:F0050
 part_of: FPLX:COX
 inverse_is_a: HGNC:COX6B1
 inverse_is_a: HGNC:COX6B2
@@ -2788,6 +2858,7 @@ synonym: "COX7A" EXACT []
 synonym: "Cox7a" EXACT []
 xref: BEL:"COX7A Family"
 xref: XFAM:PF02238
+xref: SFAM:F0051
 part_of: FPLX:COX
 inverse_is_a: HGNC:COX7A1
 inverse_is_a: HGNC:COX7A2
@@ -2801,6 +2872,7 @@ xref: BEL:"COX7B Family"
 xref: IP:IPR008433
 xref: IP:IPR023272
 xref: XFAM:PF05392
+xref: SFAM:F0052
 part_of: FPLX:COX
 inverse_is_a: HGNC:COX7B
 inverse_is_a: HGNC:COX7B2
@@ -2814,6 +2886,7 @@ synonym: "cytochrome c oxidase subunit VIII" EXACT []
 xref: BEL:"COX8 Family"
 xref: IP:IPR003205
 xref: XFAM:PF02285
+xref: SFAM:F0053
 part_of: FPLX:COX
 inverse_is_a: HGNC:COX8A
 inverse_is_a: HGNC:COX8C
@@ -2842,6 +2915,7 @@ xref: BEL:"CREB Family"
 xref: MEDSCAN:urn:agi-aopfc:0000094
 xref: MESH:D017362
 xref: NCIT:C17286
+xref: SFAM:F0054
 is_a: FPLX:root
 inverse_is_a: HGNC:CREB1
 inverse_is_a: HGNC:CREB3
@@ -2866,6 +2940,7 @@ xref: BEL:"CRISP Family"
 xref: IP:IPR013871
 xref: IP:IPR034117
 xref: XFAM:PF08562
+xref: SFAM:F0055
 is_a: FPLX:root
 inverse_is_a: HGNC:CRISP1
 inverse_is_a: HGNC:CRISP2
@@ -2881,6 +2956,7 @@ synonym: "transcriptional cofactor complex CRSP" EXACT []
 xref: BEL:"CRSP Complex"
 xref: MESH:C117286
 xref: NCIT:C28687
+xref: SCOMP:C0026
 is_a: FPLX:root
 has_part: HGNC:MED1
 has_part: HGNC:MED14
@@ -2926,6 +3002,7 @@ xref: BEL:"CSNK1 Family"
 xref: MEDSCAN:urn:agi-protfc:casein%20kinase%20I
 xref: MESH:D047389
 xref: NEXTPROT-FAMILY:03083
+xref: SFAM:F0056
 is_a: FPLX:CSNK
 inverse_is_a: HGNC:CSNK1A1
 inverse_is_a: HGNC:CSNK1A1L
@@ -2944,6 +3021,7 @@ xref: RE:R-HSA-5083623
 xref: RE:R-HSA-5083624
 xref: RE:R-HSA-6805064
 xref: RE:R-HSA-6805073
+xref: SFAM:F0057
 is_a: FPLX:root
 inverse_is_a: HGNC:CSNK2A1
 inverse_is_a: HGNC:CSNK2A2
@@ -2961,6 +3039,7 @@ synonym: "α catenin" EXACT []
 synonym: "α-catenin" EXACT []
 xref: BEL:"CTNNA Family"
 xref: MESH:D051178
+xref: SFAM:F0058
 is_a: FPLX:root
 inverse_is_a: HGNC:CTNNA1
 inverse_is_a: HGNC:CTNNA2
@@ -2979,6 +3058,7 @@ xref: MEDSCAN:urn:agi-protfc:cullin
 xref: MESH:D044842
 xref: NEXTPROT-FAMILY:00787
 xref: XFAM:PF00888
+xref: SFAM:F0059
 is_a: FPLX:root
 inverse_is_a: HGNC:CUL1
 inverse_is_a: HGNC:CUL2
@@ -2996,6 +3076,7 @@ synonym: "ELR-negative CXC chemokine" EXACT []
 synonym: "ELR-negative CXC family" EXACT []
 synonym: "non-ELR-CXC chemokines" EXACT []
 xref: BEL:"CXCL ELR-Negative Family"
+xref: SFAM:F0061
 is_a: FPLX:Chemokine
 inverse_is_a: HGNC:CXCL10
 inverse_is_a: HGNC:CXCL11
@@ -3012,6 +3093,7 @@ synonym: "ELR (+) CXC chemokines" EXACT []
 synonym: "ELR-positive CXC chemokine" EXACT []
 synonym: "ELR-positive CXC family" EXACT []
 xref: BEL:"CXCL ELR-Positive Family"
+xref: SFAM:F0062
 is_a: FPLX:Chemokine
 inverse_is_a: HGNC:CXCL1
 inverse_is_a: HGNC:CXCL2
@@ -3070,6 +3152,7 @@ xref: RE:R-HSA-174074
 xref: RE:R-HSA-5696998
 xref: RE:R-HSA-6783051
 xref: RE:R-HSA-75202
+xref: SFAM:F0033
 is_a: FPLX:Cyclin
 inverse_is_a: HGNC:CCNA1
 inverse_is_a: HGNC:CCNA2
@@ -3097,6 +3180,7 @@ xref: NEXTPROT-FAMILY:00818
 xref: RE:R-HSA-182582
 xref: RE:R-HSA-182700
 xref: RE:R-HSA-8938866
+xref: SFAM:F0034
 is_a: FPLX:Cyclin
 inverse_is_a: HGNC:CCND1
 inverse_is_a: HGNC:CCND2
@@ -3116,6 +3200,7 @@ xref: RE:R-HSA-157462
 xref: RE:R-HSA-187493
 xref: RE:R-HSA-6813837
 xref: RE:R-HSA-68373
+xref: SFAM:F0035
 is_a: FPLX:Cyclin
 inverse_is_a: HGNC:CCNE1
 inverse_is_a: HGNC:CCNE2
@@ -3137,6 +3222,7 @@ synonym: "cyclophilins" EXACT []
 xref: BEL:"Cyclophilin Family"
 xref: MEDSCAN:urn:agi-protfc:cyclophilins
 xref: MESH:D021983
+xref: SFAM:F0063
 is_a: FPLX:root
 inverse_is_a: HGNC:CWC27
 inverse_is_a: HGNC:PPIA
@@ -3373,6 +3459,7 @@ xref: BEL:"Cytoplasmic Dynein Complex"
 xref: GO:0005868
 xref: HGNC_GROUP:538
 xref: MESH:D056445
+xref: SCOMP:C0037
 is_a: FPLX:Dynein
 inverse_is_a: FPLX:DYNC1
 inverse_is_a: FPLX:DYNC2
@@ -3403,6 +3490,7 @@ xref: BEL:"DDR Family"
 xref: MEDSCAN:urn:agi-aopfc:0000252
 xref: MESH:D000070818
 xref: XFAM:PF08841
+xref: SFAM:F0064
 is_a: FPLX:root
 inverse_is_a: HGNC:DDR1
 inverse_is_a: HGNC:DDR2
@@ -3462,6 +3550,7 @@ xref: MEDSCAN:urn:agi-protfc:desmoglein
 xref: MESH:D051182
 xref: RE:R-HSA-6814694
 xref: RE:R-HSA-8847714
+xref: SFAM:F0065
 is_a: FPLX:root
 inverse_is_a: HGNC:DSG1
 inverse_is_a: HGNC:DSG2
@@ -3537,6 +3626,7 @@ synonym: "dystrophin-glycoprotein complex" EXACT []
 xref: BEL:"Dystrophin Associated Glycoprotein Complex"
 xref: GO:0016010
 xref: SIGNOR:SIGNOR-C217
+xref: SCOMP:C0041
 is_a: FPLX:root
 has_part: HGNC:DAG1
 has_part: HGNC:DMD
@@ -3565,6 +3655,7 @@ xref: ECCODE:2.7.1.107
 xref: IP:IPR000756
 xref: MESH:D019852
 xref: RE:R-HSA-426070
+xref: SFAM:F0066
 is_a: FPLX:root
 inverse_is_a: HGNC:DGKA
 inverse_is_a: HGNC:DGKB
@@ -3612,6 +3703,7 @@ xref: GO:0043625
 xref: MESH:D004258
 xref: NCIT:C16511
 xref: RE:R-HSA-68450
+xref: SCOMP:C0039
 is_a: FPLX:root
 has_part: HGNC:POLD1
 has_part: HGNC:POLD2
@@ -3630,6 +3722,7 @@ xref: RE:R-HSA-2213185
 xref: RE:R-HSA-446847
 xref: RE:R-HSA-8868235
 xref: RE:R-HSA-8868609
+xref: SFAM:F0067
 is_a: FPLX:root
 inverse_is_a: HGNC:DNM1
 inverse_is_a: HGNC:DNM2
@@ -3656,6 +3749,7 @@ xref: GO:0004952
 xref: IP:IPR000929
 xref: MESH:D011954
 xref: NCIT:C17066
+xref: SFAM:F0068
 is_a: FPLX:root
 inverse_is_a: HGNC:DRD1
 inverse_is_a: HGNC:DRD2
@@ -3695,6 +3789,7 @@ xref: RE:R-HSA-3858467
 xref: RE:R-HSA-3858479
 xref: RE:R-HSA-4652685
 xref: SIGNOR:SIGNOR-PF10
+xref: SFAM:F0069
 is_a: FPLX:root
 inverse_is_a: HGNC:DVL1
 inverse_is_a: HGNC:DVL2
@@ -3779,6 +3874,7 @@ xref: IP:IPR015633
 xref: MEDSCAN:urn:agi-aopfc:0000099
 xref: MEDSCAN:urn:agi-complex:prophash-40bc2e4348830d6f7bdacd573fd7c388
 xref: MESH:D050684
+xref: SFAM:F0070
 is_a: FPLX:root
 inverse_is_a: HGNC:E2F1
 inverse_is_a: HGNC:E2F2
@@ -3815,6 +3911,7 @@ xref: MEDSCAN:urn:agi-protfc:endothelin
 xref: MESH:D016232
 xref: XFAM:PF00322
 xref: RE:R-HSA-388544
+xref: SFAM:F0071
 is_a: FPLX:Neuropeptides
 inverse_is_a: HGNC:EDN1
 inverse_is_a: HGNC:EDN2
@@ -3891,6 +3988,7 @@ synonym: "EGFR ligands" EXACT []
 xref: BEL:"EGFR Ligand Family"
 xref: GO:0005154
 xref: MESH:D066255
+xref: SFAM:F0072
 is_a: FPLX:root
 inverse_is_a: HGNC:AREG
 inverse_is_a: HGNC:EGF
@@ -3908,6 +4006,7 @@ synonym: "early growth response proteins" EXACT []
 synonym: "EGR" EXACT []
 xref: BEL:"EGR Family"
 xref: MESH:D051765
+xref: SFAM:F0074
 is_a: FPLX:root
 inverse_is_a: HGNC:EGR1
 inverse_is_a: HGNC:EGR2
@@ -3924,6 +4023,7 @@ xref: BEL:"EIF2B Complex"
 xref: MESH:D020717
 xref: NCIT:C18162
 xref: RE:R-HSA-72526
+xref: SCOMP:C0046
 is_a: FPLX:root
 has_part: HGNC:EIF2B1
 has_part: HGNC:EIF2B2
@@ -3951,6 +4051,7 @@ xref: BEL:"EIF4A Family"
 xref: MESH:D039601
 xref: NEXTPROT-FAMILY:00921
 xref: RE:R-HSA-429842
+xref: SFAM:F0075
 part_of: FPLX:EIF4
 inverse_is_a: HGNC:EIF4A1
 inverse_is_a: HGNC:EIF4A2
@@ -3972,6 +4073,7 @@ synonym: "initiation factor 4E binding proteins" EXACT []
 xref: BEL:"EIF4EBP Family"
 xref: GO:0008190
 xref: IP:IPR008606
+xref: SFAM:F0076
 is_a: FPLX:root
 inverse_is_a: HGNC:EIF4EBP1
 inverse_is_a: HGNC:EIF4EBP2
@@ -3998,6 +4100,7 @@ synonym: "elastase" EXACT []
 xref: BEL:"ELA Family"
 xref: MESH:D010196
 xref: NEXTPROT-FAMILY:02762
+xref: SFAM:F0077
 is_a: FPLX:root
 inverse_is_a: HGNC:AZU1
 inverse_is_a: HGNC:CELA1
@@ -4020,6 +4123,7 @@ xref: IP:IPR020810
 xref: IP:IPR020811
 xref: MESH:D010751
 xref: NEXTPROT-FAMILY:01112
+xref: SFAM:F0078
 is_a: FPLX:root
 inverse_is_a: HGNC:ENO1
 inverse_is_a: HGNC:ENO2
@@ -4076,6 +4180,7 @@ xref: IP:IPR027936
 xref: MESH:D036081
 xref: NCIT:C18606
 xref: NEXTPROT-FAMILY:03124
+xref: SFAM:F0079
 is_a: FPLX:root
 inverse_is_a: FPLX:EPHA
 inverse_is_a: FPLX:EPHB
@@ -4088,6 +4193,7 @@ synonym: "epsins" EXACT []
 xref: BEL:"EPN Family"
 xref: MESH:C114154
 xref: NEXTPROT-FAMILY:01121
+xref: SFAM:F0080
 is_a: FPLX:root
 inverse_is_a: HGNC:EPN1
 inverse_is_a: HGNC:EPN2
@@ -4105,6 +4211,7 @@ xref: IP:IPR016245
 xref: MESH:D066246
 xref: NCIT:C17763
 xref: SIGNOR:SIGNOR-PF36
+xref: SFAM:F0073
 is_a: FPLX:root
 inverse_is_a: HGNC:EGFR
 inverse_is_a: HGNC:ERBB2
@@ -4155,6 +4262,7 @@ xref: RE:R-HSA-5674341
 xref: RE:R-HSA-5675361
 xref: RE:R-HSA-5675363
 xref: SIGNOR:SIGNOR-PF1
+xref: SFAM:F0134
 is_a: FPLX:MAPK
 inverse_is_a: HGNC:MAPK1
 inverse_is_a: HGNC:MAPK3
@@ -4180,6 +4288,7 @@ synonym: "ESR" EXACT []
 synonym: "hER" EXACT []
 xref: BEL:"ESR Family"
 xref: MESH:D011960
+xref: SFAM:F0081
 is_a: FPLX:root
 inverse_is_a: HGNC:ESR1
 inverse_is_a: HGNC:ESR2
@@ -4234,6 +4343,7 @@ xref: MESH:D042963
 xref: NCIT:C112049
 xref: RE:R-HSA-165631
 xref: RE:R-HSA-70990
+xref: SCOMP:C0112
 is_a: FPLX:root
 has_part: HGNC:SDHA
 has_part: HGNC:SDHB
@@ -4253,6 +4363,7 @@ xref: GO:0005750
 xref: GO:0045275
 xref: HGNC_GROUP:642
 xref: MESH:D014450
+xref: SCOMP:C0113
 is_a: FPLX:root
 has_part: HGNC:CYC1
 has_part: HGNC:MT-CYB
@@ -4331,6 +4442,7 @@ xref: XFAM:PF00178
 xref: RE:R-HSA-3132719
 xref: RE:R-HSA-3132724
 xref: RE:R-HSA-3200029
+xref: SFAM:F0082
 is_a: FPLX:root
 inverse_is_a: HGNC:ETS1
 inverse_is_a: HGNC:ETS2
@@ -4464,6 +4576,7 @@ xref: IP:IPR002209
 xref: MESH:D005346
 xref: XFAM:PF00167
 xref: SIGNOR:SIGNOR-PF8
+xref: SFAM:F0083
 is_a: FPLX:root
 inverse_is_a: HGNC:FGF1
 inverse_is_a: HGNC:FGF2
@@ -4499,6 +4612,7 @@ xref: IP:IPR016248
 xref: MESH:D017468
 xref: NCIT:C17297
 xref: SIGNOR:SIGNOR-PF23
+xref: SFAM:F0084
 is_a: FPLX:root
 inverse_is_a: HGNC:FGFR1
 inverse_is_a: HGNC:FGFR2
@@ -4534,6 +4648,7 @@ xref: RE:R-HSA-139934
 xref: RE:R-HSA-140586
 xref: RE:R-HSA-140919
 xref: RE:R-HSA-8870680
+xref: SCOMP:C0052
 is_a: FPLX:root
 has_part: HGNC:FGA
 has_part: HGNC:FGB
@@ -4551,6 +4666,7 @@ xref: MEDSCAN:urn:agi-protfc:flotillin
 xref: MESH:C106354
 xref: XFAM:PF15975
 xref: RE:R-HSA-8849894
+xref: SFAM:F0085
 is_a: FPLX:root
 inverse_is_a: HGNC:FLOT1
 inverse_is_a: HGNC:FLOT2
@@ -4563,6 +4679,7 @@ synonym: "Flrt family" EXACT []
 synonym: "FLRT proteins" EXACT []
 xref: BEL:"FLRT Family"
 xref: RE:R-HSA-5656056
+xref: SFAM:F0086
 is_a: FPLX:root
 inverse_is_a: HGNC:FLRT1
 inverse_is_a: HGNC:FLRT2
@@ -4771,6 +4888,7 @@ xref: BEL:"FOXO Family"
 xref: IP:IPR032067
 xref: NCIT:C118892
 xref: SIGNOR:SIGNOR-PF27
+xref: SFAM:F0087
 is_a: FPLX:FOX
 inverse_is_a: HGNC:FOXO1
 inverse_is_a: HGNC:FOXO3
@@ -4822,6 +4940,7 @@ xref: BEL:"Follicle Stimulating Hormone Complex"
 xref: GO:0016914
 xref: MESH:D043373
 xref: RE:R-HSA-378947
+xref: SCOMP:C0053
 is_a: FPLX:root
 has_part: HGNC:CGA
 has_part: HGNC:FSHB
@@ -4864,6 +4983,7 @@ xref: MESH:D051157
 xref: XFAM:PF01534
 xref: RE:R-HSA-517388
 xref: SIGNOR:SIGNOR-PF11
+xref: SFAM:F0088
 is_a: FPLX:root
 inverse_is_a: HGNC:FZD1
 inverse_is_a: HGNC:FZD10
@@ -4932,6 +5052,7 @@ xref: BEL:"GABR Family"
 xref: GO:0004890
 xref: HGNC_GROUP:563
 xref: MESH:D018079
+xref: SFAM:F0089
 is_a: FPLX:Ligand_gated_ion_channels
 inverse_is_a: HGNC:GABRA1
 inverse_is_a: HGNC:GABRA2
@@ -5031,6 +5152,7 @@ xref: BEL:"gamma Secretase Complex"
 xref: GO:0070765
 xref: NCIT:C95114
 xref: SIGNOR:SIGNOR-C98
+xref: SCOMP:C0133
 is_a: FPLX:root
 has_part: HGNC:APH1A
 has_part: HGNC:PSEN1
@@ -5063,6 +5185,7 @@ id: FPLX:GAS6_receptor
 name: GAS6-receptor
 synonym: "Gas6 receptors" EXACT []
 xref: BEL:"GAS6 Receptor Family"
+xref: SFAM:F0090
 is_a: FPLX:root
 inverse_is_a: HGNC:AXL
 inverse_is_a: HGNC:MERTK
@@ -5079,6 +5202,7 @@ xref: MEDSCAN:urn:agi-aopfc:0000105
 xref: MESH:D050980
 xref: XFAM:PF00320
 xref: RE:R-HSA-996770
+xref: SFAM:F0091
 is_a: FPLX:root
 inverse_is_a: HGNC:GATA1
 inverse_is_a: HGNC:GATA2
@@ -5106,6 +5230,7 @@ xref: RE:R-HSA-6814207
 xref: RE:R-HSA-6814413
 xref: RE:R-HSA-8850524
 xref: SIGNOR:SIGNOR-PF4
+xref: SFAM:F0095
 is_a: FPLX:root
 inverse_is_a: HGNC:GNB1
 inverse_is_a: HGNC:GNB2
@@ -5155,6 +5280,7 @@ xref: NEXTPROT-FAMILY:01400
 xref: RE:R-HSA-167442
 xref: RE:R-HSA-400062
 xref: SIGNOR:SIGNOR-PF3
+xref: SFAM:F0096
 is_a: FPLX:root
 inverse_is_a: HGNC:GNG10
 inverse_is_a: HGNC:GNG11
@@ -5180,6 +5306,7 @@ xref: RE:R-HSA-111864
 xref: RE:R-HSA-167410
 xref: RE:R-HSA-167413
 xref: RE:R-HSA-167438
+xref: SFAM:F0094
 is_a: FPLX:G_protein
 has_part: FPLX:G_i_alpha
 
@@ -5380,6 +5507,7 @@ xref: GO:1990779
 xref: MESH:D019038
 xref: NCIT:C126122
 xref: RE:R-HSA-114668
+xref: SCOMP:C0063
 is_a: FPLX:root
 has_part: HGNC:GP1BA
 has_part: HGNC:GP1BB
@@ -5395,6 +5523,7 @@ synonym: "GPIT complex" EXACT []
 synonym: "GPIT" EXACT []
 xref: BEL:"GPIT Complex"
 xref: RE:R-HSA-162690
+xref: SCOMP:C0055
 is_a: FPLX:root
 has_part: HGNC:GPAA1
 has_part: HGNC:PIGK
@@ -5428,6 +5557,7 @@ xref: IP:IPR029760
 xref: MESH:D005979
 xref: NEXTPROT-FAMILY:01553
 xref: XFAM:PF00255
+xref: SFAM:F0097
 is_a: FPLX:root
 inverse_is_a: HGNC:GPX1
 inverse_is_a: HGNC:GPX2
@@ -5453,6 +5583,7 @@ xref: RE:R-HSA-399992
 xref: RE:R-HSA-400000
 xref: RE:R-HSA-400008
 xref: RE:R-HSA-749499
+xref: SFAM:F0092
 is_a: FPLX:G_protein
 has_part: FPLX:G_q_alpha
 
@@ -5517,6 +5648,7 @@ xref: RE:R-HSA-399713
 xref: RE:R-HSA-416323
 xref: RE:R-HSA-420974
 xref: RE:R-HSA-421001
+xref: SFAM:F0098
 is_a: FPLX:GRI
 inverse_is_a: HGNC:GRIA1
 inverse_is_a: HGNC:GRIA2
@@ -5564,6 +5696,7 @@ xref: ECCODE:2.7.11.16
 xref: IP:IPR000239
 xref: MESH:D054768
 xref: NCIT:C26233
+xref: SFAM:F0099
 is_a: FPLX:root
 inverse_is_a: FPLX:ADRBK
 inverse_is_a: HGNC:GRK1
@@ -5586,6 +5719,7 @@ xref: MEDSCAN:urn:agi-protfc:mglur
 xref: MESH:D018094
 xref: RE:R-HSA-420516
 xref: RE:R-HSA-420519
+xref: SFAM:F0100
 is_a: FPLX:GPCR_C
 inverse_is_a: HGNC:GRM1
 inverse_is_a: HGNC:GRM2
@@ -5605,6 +5739,7 @@ synonym: "G S protein" EXACT []
 synonym: "Gs family" EXACT []
 synonym: "Gs protein" EXACT []
 xref: BEL:"GNA Gs Family"
+xref: SFAM:F0093
 is_a: FPLX:G_protein
 has_part: FPLX:G_s_alpha
 
@@ -5644,6 +5779,7 @@ xref: MESH:D038362
 xref: NEXTPROT-FAMILY:03087
 xref: RE:R-HSA-198358
 xref: RE:R-HSA-198373
+xref: SFAM:F0101
 is_a: FPLX:root
 inverse_is_a: HGNC:GSK3A
 inverse_is_a: HGNC:GSK3B
@@ -5660,6 +5796,7 @@ xref: BEL:"GST Family"
 xref: MESH:D005982
 xref: NCIT:C16641
 xref: NEXTPROT-FAMILY:01669
+xref: SFAM:F0102
 is_a: FPLX:root
 inverse_is_a: HGNC:GSTA1
 inverse_is_a: HGNC:GSTA2
@@ -5691,6 +5828,7 @@ xref: BEL:"GTF2E Complex"
 xref: GO:0005673
 xref: MESH:C066644
 xref: RE:R-HSA-109633
+xref: SCOMP:C0056
 is_a: FPLX:root
 has_part: HGNC:GTF2E1
 has_part: HGNC:GTF2E2
@@ -5707,6 +5845,7 @@ xref: GO:0005674
 xref: IP:IPR011039
 xref: MESH:C056604
 xref: RE:R-HSA-109631
+xref: SCOMP:C0057
 is_a: FPLX:root
 has_part: HGNC:GTF2F1
 has_part: HGNC:GTF2F2
@@ -5816,6 +5955,7 @@ xref: BEL:"GUCY Family"
 xref: ECCODE:4.6.1.2
 xref: MESH:D006162
 xref: NCIT:C16653
+xref: SFAM:F0103
 is_a: FPLX:root
 inverse_is_a: HGNC:GUCY2C
 inverse_is_a: HGNC:GUCY2D
@@ -5845,6 +5985,7 @@ synonym: "glycogen synthase" EXACT []
 xref: BEL:"GYS Family"
 xref: IP:IPR008631
 xref: MESH:D006006
+xref: SFAM:F0104
 is_a: FPLX:root
 inverse_is_a: HGNC:GYS1
 inverse_is_a: HGNC:GYS2
@@ -5874,6 +6015,7 @@ xref: IP:IPR003084
 xref: MEDSCAN:urn:agi-complex:prophash-7e8823afb9ca7870b95633dcb782500b
 xref: MESH:D006655
 xref: NCIT:C16682
+xref: SFAM:F0107
 is_a: FPLX:root
 inverse_is_a: FPLX:HDAC_I
 inverse_is_a: FPLX:HDAC_II
@@ -5888,6 +6030,7 @@ synonym: "class I HDACs" EXACT []
 synonym: "class I histone deacetylases" EXACT []
 xref: BEL:"HDAC Class I Family"
 xref: IP:IPR003084
+xref: SFAM:F0105
 is_a: FPLX:HDAC
 inverse_is_a: HGNC:HDAC1
 inverse_is_a: HGNC:HDAC2
@@ -5900,6 +6043,7 @@ name: HDAC-II
 synonym: "class II HDACs" EXACT []
 synonym: "class II histone deacetylases" EXACT []
 xref: BEL:"HDAC Class II Family"
+xref: SFAM:F0106
 is_a: FPLX:HDAC
 inverse_is_a: HGNC:HDAC4
 inverse_is_a: HGNC:HDAC5
@@ -5946,6 +6090,7 @@ xref: BEL:"HDL Complex"
 xref: GO:0034364
 xref: MESH:D008075
 xref: NCIT:C25186
+xref: SCOMP:C0059
 is_a: FPLX:root
 has_part: HGNC:ALB
 has_part: HGNC:APOA1
@@ -5979,6 +6124,7 @@ xref: RE:R-HSA-5358318
 xref: RE:R-HSA-5358332
 xref: RE:R-HSA-5362382
 xref: RE:R-HSA-5362391
+xref: SFAM:F0108
 is_a: FPLX:root
 inverse_is_a: HGNC:DHH
 inverse_is_a: HGNC:IHH
@@ -5995,6 +6141,7 @@ xref: MEDSCAN:urn:agi-protfc:hemoglobin
 xref: MESH:D006454
 xref: NCIT:C16676
 xref: SIGNOR:SIGNOR-C209
+xref: SCOMP:C0060
 is_a: FPLX:root
 has_part: HGNC:HBA1
 has_part: HGNC:HBA2
@@ -6015,6 +6162,7 @@ synonym: "Hes genes" EXACT []
 synonym: "HES" EXACT []
 synonym: "Hes" EXACT []
 xref: BEL:"HES Family"
+xref: SFAM:F0109
 is_a: FPLX:root
 inverse_is_a: HGNC:HES1
 inverse_is_a: HGNC:HES2
@@ -6101,6 +6249,7 @@ xref: MEDSCAN:urn:agi-complex:prophash-0f8242e28423189d7ef714808fdcc121
 xref: MEDSCAN:urn:agi-protfc:histone
 xref: MESH:D006657
 xref: NCIT:C16687
+xref: SFAM:F0110
 is_a: FPLX:root
 inverse_is_a: FPLX:Histone_H1
 inverse_is_a: FPLX:Histone_H2A
@@ -6115,6 +6264,7 @@ synonym: "histone H1" EXACT []
 xref: BEL:"Histone H1 Family"
 xref: MEDSCAN:urn:agi-protfc:histone%20H1
 xref: NCIT:C16683
+xref: SFAM:F0111
 is_a: FPLX:Histone
 inverse_is_a: HGNC:H1-0
 inverse_is_a: HGNC:H1-1
@@ -6137,6 +6287,7 @@ xref: BEL:"Histone H2A Family"
 xref: MEDSCAN:urn:agi-protfc:histone%20H2A
 xref: NCIT:C16684
 xref: NEXTPROT-FAMILY:01762
+xref: SFAM:F0112
 is_a: FPLX:Histone
 inverse_is_a: UP:P0C0S8
 inverse_is_a: HGNC:H2AB1
@@ -6165,6 +6316,7 @@ synonym: "H2B" EXACT []
 synonym: "histone H2B" EXACT []
 xref: BEL:"Histone H2B Family"
 xref: MEDSCAN:urn:agi-protfc:histone%20H2B
+xref: SFAM:F0113
 is_a: FPLX:Histone
 inverse_is_a: UP:P62807
 inverse_is_a: HGNC:H2BC1
@@ -6197,6 +6349,7 @@ xref: IP:IPR000164
 xref: MEDSCAN:urn:agi-protfc:histone%20H3
 xref: NCIT:C16685
 xref: NEXTPROT-FAMILY:01764
+xref: SFAM:F0114
 is_a: FPLX:Histone
 inverse_is_a: UP:P68431
 inverse_is_a: UP:Q71DI3
@@ -6214,6 +6367,7 @@ xref: IP:IPR001951
 xref: MEDSCAN:urn:agi-protfc:histone%20H4
 xref: NCIT:C16686
 xref: NEXTPROT-FAMILY:01765
+xref: SFAM:F0115
 is_a: FPLX:Histone
 inverse_is_a: UP:P62805
 inverse_is_a: HGNC:H4C7
@@ -6226,6 +6380,7 @@ synonym: "HLA-DR" EXACT []
 xref: BEL:"HLA-DR Family"
 xref: MESH:D006684
 xref: NCIT:C16692
+xref: SFAM:F0116
 is_a: FPLX:root
 inverse_is_a: HGNC:HLA-DRA
 inverse_is_a: HGNC:HLA-DRB1
@@ -6247,6 +6402,7 @@ xref: IP:IPR016084
 xref: IP:IPR018207
 xref: MESH:D006419
 xref: RE:R-HSA-189382
+xref: SFAM:F0117
 is_a: FPLX:root
 inverse_is_a: HGNC:HMOX1
 inverse_is_a: HGNC:HMOX2
@@ -6276,6 +6432,7 @@ xref: BEL:"HSP90 Family"
 xref: MESH:D018841
 xref: NCIT:C17766
 xref: XFAM:PF00183
+xref: SFAM:F0118
 is_a: FPLX:root
 inverse_is_a: FPLX:HSP90A
 inverse_is_a: HGNC:HSP90B1
@@ -6313,6 +6470,7 @@ synonym: "Hsp70" EXACT []
 xref: BEL:"HSPA Family"
 xref: MESH:D018840
 xref: XFAM:PF00012
+xref: SFAM:F0119
 is_a: FPLX:root
 inverse_is_a: HGNC:HSPA12A
 inverse_is_a: HGNC:HSPA12B
@@ -6339,6 +6497,7 @@ synonym: "HSPB proteins" EXACT []
 synonym: "HSPB" EXACT []
 synonym: "small HSPs" EXACT []
 xref: BEL:"HSPB Family"
+xref: SFAM:F0120
 is_a: FPLX:root
 inverse_is_a: HGNC:HSPB1
 inverse_is_a: HGNC:HSPB2
@@ -6410,6 +6569,7 @@ synonym: "IFNα" EXACT []
 xref: BEL:"IFNA Family"
 xref: MESH:D016898
 xref: RE:R-HSA-909688
+xref: SFAM:F0121
 is_a: FPLX:Interferon
 inverse_is_a: HGNC:IFNA1
 inverse_is_a: HGNC:IFNA2
@@ -6469,6 +6629,7 @@ xref: BEL:"IGFBP Family"
 xref: MEDSCAN:urn:agi-aopfc:0000586
 xref: MESH:D018969
 xref: XFAM:PF00219
+xref: SFAM:F0123
 is_a: FPLX:root
 inverse_is_a: HGNC:IGFBP1
 inverse_is_a: HGNC:IGFBP2
@@ -6505,6 +6666,7 @@ xref: RE:R-HSA-202562
 xref: RE:R-HSA-5262981
 xref: RE:R-HSA-727820
 xref: SIGNOR:SIGNOR-C14
+xref: SCOMP:C0065
 is_a: FPLX:root
 has_part: HGNC:CHUK
 has_part: HGNC:IKBKB
@@ -6518,6 +6680,7 @@ xref: BEL:"IkappaB Kinase Family"
 xref: MESH:D020672
 xref: NCIT:C104199
 xref: NEXTPROT-FAMILY:03104
+xref: SFAM:F0124
 is_a: FPLX:root
 inverse_is_a: HGNC:CHUK
 inverse_is_a: HGNC:IKBKB
@@ -6539,6 +6702,7 @@ xref: NCIT:C20506
 xref: NEXTPROT-FAMILY:01820
 xref: XFAM:PF00340
 xref: RE:R-HSA-445744
+xref: SFAM:F0125
 is_a: FPLX:root
 inverse_is_a: HGNC:IL1A
 inverse_is_a: HGNC:IL1B
@@ -6651,6 +6815,7 @@ xref: BEL:"INSR Family"
 xref: IP:IPR016246
 xref: MEDSCAN:urn:agi-aopfc:0000264
 xref: NEXTPROT-FAMILY:03128
+xref: SFAM:F0127
 is_a: FPLX:root
 inverse_is_a: HGNC:IGF1R
 inverse_is_a: HGNC:INSR
@@ -6706,6 +6871,7 @@ synonym: "interferon-γ receptor" EXACT []
 xref: BEL:"Interferon Gamma Receptor Complex"
 xref: MEDSCAN:urn:agi-complex:IFNGR
 xref: MESH:C078577
+xref: SCOMP:C0067
 is_a: FPLX:root
 has_part: HGNC:IFNGR1
 has_part: HGNC:IFNGR2
@@ -6723,6 +6889,7 @@ xref: MESH:D055504
 xref: XFAM:PF02174
 xref: RE:R-HSA-2445131
 xref: RE:R-HSA-2445139
+xref: SFAM:F0128
 is_a: FPLX:root
 inverse_is_a: HGNC:IRS1
 inverse_is_a: HGNC:IRS2
@@ -6736,6 +6903,7 @@ synonym: "Iroquois family" EXACT []
 synonym: "Iroquois proteins" EXACT []
 synonym: "Iroquois-class homeodomain proteins" EXACT []
 xref: BEL:"IRX Family"
+xref: SFAM:F0129
 is_a: FPLX:root
 inverse_is_a: HGNC:IRX1
 inverse_is_a: HGNC:IRX2
@@ -6832,6 +7000,7 @@ xref: IP:IPR016251
 xref: MEDSCAN:urn:agi-aopfc:0000464
 xref: MESH:D053612
 xref: NEXTPROT-FAMILY:03129
+xref: SFAM:F0130
 is_a: FPLX:root
 inverse_is_a: HGNC:JAK1
 inverse_is_a: HGNC:JAK2
@@ -6894,6 +7063,7 @@ xref: RE:R-HSA-450226
 xref: RE:R-HSA-450253
 xref: RE:R-HSA-450289
 xref: SIGNOR:SIGNOR-PF15
+xref: SFAM:F0135
 is_a: FPLX:MAPK
 inverse_is_a: HGNC:MAPK8
 inverse_is_a: HGNC:MAPK9
@@ -7085,6 +7255,7 @@ synonym: "kinetochores" EXACT []
 xref: BEL:"Kinetochore Complex"
 xref: GO:0000776
 xref: MESH:D018386
+xref: SCOMP:C0070
 is_a: FPLX:root
 has_part: HGNC:BUB1
 has_part: HGNC:BUB1B
@@ -7117,6 +7288,7 @@ xref: BEL:"KLK Family"
 xref: ECCODE:3.4.21.35
 xref: MEDSCAN:urn:agi-protfc:kallikrein
 xref: MESH:D007610
+xref: SFAM:F0131
 is_a: FPLX:root
 inverse_is_a: HGNC:KLK1
 inverse_is_a: HGNC:KLK10
@@ -7191,6 +7363,7 @@ synonym: "LM-1" EXACT []
 xref: BEL:"Laminin 1 Complex"
 xref: RE:R-HSA-215989
 xref: RE:R-HSA-2426371
+xref: SCOMP:C0072
 is_a: FPLX:root
 has_part: HGNC:LAMA1
 has_part: HGNC:LAMB1
@@ -7211,6 +7384,7 @@ xref: RE:R-HSA-216001
 xref: RE:R-HSA-2220790
 xref: RE:R-HSA-2399659
 xref: RE:R-HSA-2533911
+xref: SCOMP:C0073
 is_a: FPLX:root
 has_part: HGNC:LAMA3
 has_part: HGNC:LAMB3
@@ -7235,6 +7409,7 @@ xref: BEL:"LDH Family"
 xref: MESH:D045022
 xref: NCIT:C25184
 xref: NEXTPROT-FAMILY:02022
+xref: SFAM:F0132
 is_a: FPLX:root
 inverse_is_a: HGNC:LDHA
 inverse_is_a: HGNC:LDHB
@@ -7265,6 +7440,7 @@ xref: MESH:D007986
 xref: RE:R-HSA-378969
 xref: RE:R-HSA-6793931
 xref: RE:R-HSA-6793934
+xref: SCOMP:C0075
 is_a: FPLX:root
 has_part: HGNC:CGA
 has_part: HGNC:LHB
@@ -7341,6 +7517,7 @@ xref: MESH:D015938
 xref: RE:R-HSA-173728
 xref: RE:R-HSA-8852568
 xref: SIGNOR:SIGNOR-C313
+xref: SCOMP:C0078
 is_a: FPLX:root
 has_part: HGNC:C5
 has_part: HGNC:C6
@@ -7383,6 +7560,7 @@ xref: IP:IPR004826
 xref: MEDSCAN:urn:agi-aopfc:0000142
 xref: MESH:D050977
 xref: XFAM:PF02545
+xref: SFAM:F0133
 is_a: FPLX:root
 inverse_is_a: HGNC:MAF
 inverse_is_a: HGNC:MAFA
@@ -7610,6 +7788,7 @@ xref: MEDSCAN:urn:agi-aopfc:0000143
 xref: MESH:D064326
 xref: RE:R-HSA-448866
 xref: RE:R-HSA-448868
+xref: SFAM:F0137
 is_a: FPLX:root
 inverse_is_a: HGNC:MEF2A
 inverse_is_a: HGNC:MEF2C
@@ -7630,6 +7809,7 @@ xref: RE:R-HSA-5672716
 xref: RE:R-HSA-5672721
 xref: RE:R-HSA-5674489
 xref: SIGNOR:SIGNOR-PF25
+xref: SFAM:F0138
 is_a: FPLX:MAP2K
 inverse_is_a: HGNC:MAP2K1
 inverse_is_a: HGNC:MAP2K2
@@ -7812,6 +7992,7 @@ synonym: "MMPs" EXACT []
 xref: BEL:"MMP Family"
 xref: MESH:D020782
 xref: NCIT:C18164
+xref: SFAM:F0139
 is_a: FPLX:root
 inverse_is_a: HGNC:MMP1
 inverse_is_a: HGNC:MMP2
@@ -8002,6 +8183,7 @@ xref: MEDSCAN:urn:agi-complex:prophash-f472fef3f59301aee0b776702a30f03e
 xref: MESH:D000076222
 xref: NCIT:C96314
 xref: SIGNOR:SIGNOR-C3
+xref: SCOMP:C0124
 is_a: FPLX:root
 has_part: HGNC:MTOR
 has_part: HGNC:RPTOR
@@ -8017,6 +8199,7 @@ xref: MEDSCAN:urn:agi-complex:prophash-0d528c29d63997f87f62e4fbd9f0b168
 xref: MESH:D000076225
 xref: NCIT:C96315
 xref: SIGNOR:SIGNOR-C2
+xref: SCOMP:C0125
 is_a: FPLX:root
 has_part: HGNC:MAPKAP1
 has_part: HGNC:MTOR
@@ -8038,6 +8221,7 @@ synonym: "Mhc" EXACT []
 xref: BEL:"MYH Family"
 xref: MEDSCAN:urn:agi-protfc:myosin%20heavy%20chain
 xref: MESH:D018995
+xref: SFAM:F0140
 is_a: FPLX:Myosin_family
 inverse_is_a: HGNC:MYH1
 inverse_is_a: HGNC:MYH10
@@ -8066,6 +8250,7 @@ synonym: "myosin light chains" EXACT []
 xref: BEL:"MYL Family"
 xref: MEDSCAN:urn:agi-protfc:myosin%20light%20chain
 xref: MESH:D018994
+xref: SFAM:F0142
 part_of: FPLX:Myosin_complex
 inverse_is_a: FPLX:MYL_alkali
 inverse_is_a: FPLX:MYL_regulatory
@@ -8079,6 +8264,7 @@ synonym: "AMLC" EXACT []
 synonym: "myosin alkali light chain proteins" EXACT []
 synonym: "myosin alkali light chain" EXACT []
 xref: BEL:"MYL Alkali Family"
+xref: SFAM:F0141
 is_a: FPLX:MYL
 inverse_is_a: HGNC:MYL1
 inverse_is_a: HGNC:MYL3
@@ -8091,6 +8277,7 @@ id: FPLX:MYL_regulatory
 name: MYL-regulatory
 synonym: "regulatory myosin light chain" EXACT []
 xref: BEL:"MYL Regulatory Family"
+xref: SFAM:F0143
 is_a: FPLX:MYL
 inverse_is_a: HGNC:MYL10
 inverse_is_a: HGNC:MYL12A
@@ -8106,6 +8293,7 @@ id: FPLX:MYL_slow
 name: MYL-slow
 synonym: "slow myosin" EXACT []
 xref: BEL:"MYL Slow Family"
+xref: SFAM:F0144
 is_a: FPLX:MYL
 inverse_is_a: HGNC:MYL2
 inverse_is_a: HGNC:MYL3
@@ -8209,6 +8397,7 @@ synonym: "MYST histone acetylase" EXACT []
 synonym: "MYST proteins" EXACT []
 xref: BEL:"MYST Family"
 xref: IP:IPR002717
+xref: SFAM:F0145
 is_a: FPLX:root
 inverse_is_a: HGNC:KAT8
 inverse_is_a: HGNC:KAT7
@@ -8226,6 +8415,7 @@ xref: BEL:"NADH Dehydrogenase Complex"
 xref: ECCODE:1.6.5.3
 xref: MESH:D009245
 xref: XFAM:PF00146
+xref: SCOMP:C0079
 is_a: FPLX:root
 has_part: HGNC:MT-ND1
 has_part: HGNC:MT-ND2
@@ -8245,6 +8435,7 @@ synonym: "NADPH oxidase" EXACT []
 xref: BEL:"NADPH Oxidase Complex"
 xref: MEDSCAN:urn:agi-aopfc:0000479
 xref: MESH:D019255
+xref: SCOMP:C0081
 is_a: FPLX:root
 has_part: HGNC:CYBA
 has_part: HGNC:CYBB
@@ -8271,6 +8462,7 @@ synonym: "Na/K-ATPase" EXACT []
 xref: BEL:"Na/K Exchanging ATPase Complex"
 xref: ECCODE:3.6.3.9
 xref: MESH:D000254
+xref: SCOMP:C0083
 is_a: FPLX:root
 has_part: FPLX:ATP1A
 has_part: FPLX:ATP1B
@@ -8302,6 +8494,7 @@ xref: IP:IPR014920
 xref: IP:IPR014935
 xref: IP:IPR017426
 xref: MESH:D056918
+xref: SFAM:F0155
 is_a: FPLX:root
 inverse_is_a: HGNC:NCOA1
 inverse_is_a: HGNC:NCOA2
@@ -8316,6 +8509,7 @@ synonym: "Nuclear receptor corepressor" EXACT []
 synonym: "nuclear receptor corepressor" EXACT []
 xref: BEL:"NCOR Family"
 xref: RE:R-HSA-349716
+xref: SFAM:F0146
 is_a: FPLX:root
 inverse_is_a: HGNC:NCOR1
 inverse_is_a: HGNC:NCOR2
@@ -8330,6 +8524,7 @@ synonym: "NDR-family" EXACT []
 xref: BEL:"NDRG Family"
 xref: IP:IPR004142
 xref: XFAM:PF03096
+xref: SFAM:F0147
 is_a: FPLX:root
 inverse_is_a: HGNC:NDRG1
 inverse_is_a: HGNC:NDRG2
@@ -8456,6 +8651,7 @@ xref: BEL:"NFAT Family"
 xref: IP:IPR008366
 xref: MESH:D050778
 xref: NCIT:C17903
+xref: SFAM:F0148
 is_a: FPLX:root
 inverse_is_a: HGNC:NFATC1
 inverse_is_a: HGNC:NFATC2
@@ -8514,6 +8710,7 @@ xref: MEDSCAN:urn:agi-complex:prophash-8cfce9bfac3857e6f068d517deadfeaa
 xref: MESH:D016328
 xref: NCIT:C17380
 xref: SIGNOR:SIGNOR-PF12
+xref: SCOMP:C0084
 is_a: FPLX:root
 has_part: FPLX:NFkappaB_1
 has_part: FPLX:NFkappaB_2
@@ -8580,6 +8777,7 @@ xref: MESH:D023081
 xref: RE:R-HSA-2426131
 xref: RE:R-HSA-381204
 xref: SIGNOR:SIGNOR-C1
+xref: SCOMP:C0085
 is_a: FPLX:root
 has_part: HGNC:NFYA
 has_part: HGNC:NFYB
@@ -8590,6 +8788,7 @@ id: FPLX:NKD
 name: NKD
 synonym: "naked cuticle" EXACT []
 xref: BEL:"NKD Family"
+xref: SFAM:F0149
 is_a: FPLX:root
 inverse_is_a: HGNC:NKD1
 inverse_is_a: HGNC:NKD2
@@ -8606,6 +8805,7 @@ xref: MEDSCAN:urn:agi-aopfc:0000494
 xref: MESH:D019001
 xref: NEXTPROT-FAMILY:02504
 xref: RE:R-HSA-419294
+xref: SFAM:F0150
 is_a: FPLX:root
 inverse_is_a: HGNC:NOS1
 inverse_is_a: HGNC:NOS2
@@ -8632,6 +8832,7 @@ xref: RE:R-HSA-1911547
 xref: RE:R-HSA-1911550
 xref: RE:R-HSA-212420
 xref: SIGNOR:SIGNOR-PF30
+xref: SFAM:F0151
 is_a: FPLX:root
 inverse_is_a: HGNC:NOTCH1
 inverse_is_a: HGNC:NOTCH2
@@ -8705,6 +8906,7 @@ xref: BEL:"NRG1/2 Family"
 xref: RE:R-HSA-1227956
 xref: RE:R-HSA-1247495
 xref: RE:R-HSA-1248743
+xref: SFAM:F0152
 is_a: FPLX:NRG
 inverse_is_a: HGNC:NRG1
 inverse_is_a: HGNC:NRG2
@@ -8715,6 +8917,7 @@ name: NRG-3-4
 synonym: "NRG3-NRG4" EXACT []
 synonym: "NRG3/4" EXACT []
 xref: BEL:"NRG3/4 Family"
+xref: SFAM:F0153
 is_a: FPLX:NRG
 inverse_is_a: HGNC:NRG3
 inverse_is_a: HGNC:NRG4
@@ -8732,6 +8935,7 @@ xref: BEL:"NTRK Family"
 xref: IP:IPR020777
 xref: IP:IPR031635
 xref: MEDSCAN:urn:agi-aopfc:0000278
+xref: SFAM:F0154
 is_a: FPLX:root
 inverse_is_a: HGNC:NTRK1
 inverse_is_a: HGNC:NTRK2
@@ -9358,6 +9562,7 @@ xref: XFAM:PF00244
 xref: RE:R-HSA-1445138
 xref: RE:R-HSA-2457842
 xref: SIGNOR:SIGNOR-PF7
+xref: SFAM:F0001
 is_a: FPLX:root
 inverse_is_a: HGNC:SFN
 inverse_is_a: HGNC:YWHAB
@@ -9397,6 +9602,7 @@ xref: NEXTPROT-FAMILY:02630
 xref: XFAM:PF00864
 xref: RE:R-HSA-139848
 xref: RE:R-HSA-8861873
+xref: SFAM:F0156
 is_a: FPLX:Ligand_gated_ion_channels
 is_a: FPLX:P2R
 inverse_is_a: HGNC:P2RX1
@@ -9415,6 +9621,7 @@ synonym: "P2Y receptor" EXACT []
 xref: BEL:"P2RY Family"
 xref: MEDSCAN:urn:agi-protfc:p2y%20receptor
 xref: MESH:D058470
+xref: SFAM:F0157
 is_a: FPLX:P2R
 inverse_is_a: HGNC:P2RY1
 inverse_is_a: HGNC:P2RY2
@@ -9452,6 +9659,7 @@ xref: RE:R-HSA-1250102
 xref: RE:R-HSA-171016
 xref: RE:R-HSA-189828
 xref: SIGNOR:SIGNOR-PF16
+xref: SFAM:F0136
 is_a: FPLX:MAPK
 inverse_is_a: HGNC:MAPK11
 inverse_is_a: HGNC:MAPK12
@@ -9492,6 +9700,7 @@ synonym: "s6k" EXACT []
 xref: BEL:"RPS6KB Family"
 xref: MEDSCAN:urn:agi-protfc:p70rsk
 xref: MESH:D038762
+xref: SFAM:F0211
 is_a: FPLX:RSK
 inverse_is_a: HGNC:RPS6KB1
 inverse_is_a: HGNC:RPS6KB2
@@ -9508,6 +9717,7 @@ xref: MEDSCAN:urn:agi-protfc:p90rsk
 xref: MESH:D038744
 xref: RE:R-HSA-446849
 xref: SIGNOR:SIGNOR-PF26
+xref: SFAM:F0210
 is_a: FPLX:RSK
 inverse_is_a: HGNC:RPS6KA1
 inverse_is_a: HGNC:RPS6KA2
@@ -9541,6 +9751,7 @@ xref: MEDSCAN:urn:agi-aopfc:0000468
 xref: MESH:D054462
 xref: RE:R-HSA-428475
 xref: SIGNOR:SIGNOR-PF13
+xref: SFAM:F0158
 is_a: FPLX:root
 inverse_is_a: HGNC:PAK1
 inverse_is_a: HGNC:PAK2
@@ -9587,6 +9798,7 @@ synonym: "parvins" EXACT []
 xref: BEL:"PARV Family"
 xref: IP:IPR028433
 xref: NEXTPROT-FAMILY:02660
+xref: SFAM:F0159
 is_a: FPLX:root
 inverse_is_a: HGNC:PARVA
 inverse_is_a: HGNC:PARVB
@@ -9616,6 +9828,7 @@ synonym: "pbx" EXACT []
 synonym: "PBXs" EXACT []
 xref: BEL:"PBX Family"
 xref: IP:IPR005542
+xref: SFAM:F0160
 is_a: FPLX:root
 inverse_is_a: HGNC:PBX1
 inverse_is_a: HGNC:PBX2
@@ -9654,6 +9867,7 @@ synonym: "phosphodiesterases" EXACT []
 xref: BEL:"PDE Family"
 xref: ECCODE:3.1.4
 xref: MESH:D010727
+xref: SFAM:F0161
 is_a: FPLX:root
 inverse_is_a: HGNC:PDE2A
 inverse_is_a: HGNC:PDE9A
@@ -9682,6 +9896,7 @@ xref: IP:IPR013706
 xref: MESH:D054677
 xref: RE:R-HSA-111952
 xref: RE:R-HSA-111953
+xref: SFAM:F0162
 is_a: FPLX:PDE
 inverse_is_a: HGNC:PDE1A
 inverse_is_a: HGNC:PDE1B
@@ -9702,6 +9917,7 @@ xref: BEL:"PDE3 Family"
 xref: MEDSCAN:urn:agi-protfc:phosphodiesterase%20III
 xref: MESH:D054684
 xref: NEXTPROT-FAMILY:00803
+xref: SFAM:F0163
 is_a: FPLX:PDE
 inverse_is_a: HGNC:PDE3A
 inverse_is_a: HGNC:PDE3B
@@ -9724,6 +9940,7 @@ xref: MESH:D054703
 xref: NCIT:C107433
 xref: NEXTPROT-FAMILY:00804
 xref: RE:R-HSA-111960
+xref: SFAM:F0164
 is_a: FPLX:PDE
 inverse_is_a: HGNC:PDE4A
 inverse_is_a: HGNC:PDE4B
@@ -9743,6 +9960,7 @@ synonym: "phosphodiesterase-6" EXACT []
 xref: BEL:"PDE6 Family"
 xref: MEDSCAN:urn:agi-aopfc:0000704
 xref: MESH:D054707
+xref: SFAM:F0168
 is_a: FPLX:PDE
 inverse_is_a: HGNC:PDE6A
 inverse_is_a: HGNC:PDE6B
@@ -9787,6 +10005,7 @@ xref: MESH:D010982
 xref: NCIT:C20448
 xref: RE:R-HSA-381926
 xref: RE:R-HSA-381936
+xref: SFAM:F0169
 is_a: FPLX:root
 inverse_is_a: HGNC:PDGFA
 inverse_is_a: HGNC:PDGFB
@@ -9878,6 +10097,7 @@ xref: RE:R-HSA-186791
 xref: RE:R-HSA-186792
 xref: RE:R-HSA-186821
 xref: RE:R-HSA-8864040
+xref: SFAM:F0170
 is_a: FPLX:root
 inverse_is_a: HGNC:PDGFRA
 inverse_is_a: HGNC:PDGFRB
@@ -9937,6 +10157,7 @@ synonym: "PDH" EXACT []
 synonym: "pyruvate dehydrogenase (acetyl-transferring)" EXACT []
 xref: BEL:"Pyruvate Dehydrogenase Complex"
 xref: MESH:D011768
+xref: SCOMP:C0107
 is_a: FPLX:root
 has_part: HGNC:DLAT
 has_part: HGNC:DLD
@@ -9956,6 +10177,7 @@ xref: BEL:"PDK Family"
 xref: ECCODE:1.2.4.1
 xref: MESH:D000081382
 xref: RE:R-HSA-203947
+xref: SFAM:F0171
 is_a: FPLX:root
 inverse_is_a: HGNC:PDK1
 inverse_is_a: HGNC:PDK2
@@ -9984,6 +10206,7 @@ xref: IP:IPR005455
 xref: MEDSCAN:urn:agi-protfc:profilin
 xref: MESH:D051304
 xref: XFAM:PF00235
+xref: SFAM:F0172
 is_a: FPLX:root
 inverse_is_a: HGNC:PFN1
 inverse_is_a: HGNC:PFN2
@@ -10000,6 +10223,7 @@ synonym: "phosphorylase kinase" EXACT []
 xref: BEL:"Phosphorylase B Kinase Complex"
 xref: ECCODE:2.7.11.19
 xref: MESH:D010764
+xref: SCOMP:C0095
 is_a: FPLX:root
 has_part: HGNC:CALM1
 has_part: HGNC:PHKA1
@@ -10044,6 +10268,7 @@ xref: MEDSCAN:urn:agi-complex:prophash-285b9ff3749679e4d6266406a20973aa
 xref: MESH:D058539
 xref: NCIT:C17270
 xref: SIGNOR:SIGNOR-C156
+xref: SCOMP:C0135
 is_a: FPLX:root
 has_part: FPLX:PI3K_p110
 has_part: FPLX:PIK3R_I
@@ -10056,6 +10281,7 @@ synonym: "PI3K p110 subunit" EXACT []
 synonym: "PIK3C" EXACT []
 xref: BEL:"PIK3C Class IA Family"
 xref: IP:IPR003113
+xref: SFAM:F0173
 part_of: FPLX:PI3K
 inverse_is_a: HGNC:PIK3CA
 inverse_is_a: HGNC:PIK3CB
@@ -10087,6 +10313,7 @@ id: FPLX:PIK3R_I
 name: PIK3R-I
 synonym: "PIK3R" EXACT []
 xref: BEL:"PIK3R Class IA Family"
+xref: SFAM:F0174
 part_of: FPLX:PI3K
 inverse_is_a: HGNC:PIK3R3
 inverse_is_a: HGNC:PIK3R4
@@ -10136,6 +10363,7 @@ xref: IP:IPR012233
 xref: MESH:D011493
 xref: NCIT:C17017
 xref: NEXTPROT-FAMILY:03065
+xref: SFAM:F0198
 is_a: FPLX:root
 inverse_is_a: HGNC:PRKCA
 inverse_is_a: HGNC:PRKCB
@@ -10156,6 +10384,7 @@ synonym: "PKI" EXACT []
 xref: BEL:"PKI Family"
 xref: IP:IPR004171
 xref: XFAM:PF02827
+xref: SFAM:F0175
 is_a: FPLX:root
 inverse_is_a: HGNC:PKIA
 inverse_is_a: HGNC:PKIB
@@ -10186,6 +10415,7 @@ xref: MEDSCAN:urn:agi-protfc:cytosolic%20phospholipase%20a2
 xref: MESH:D054467
 xref: NCIT:C16979
 xref: NEXTPROT-FAMILY:02840
+xref: SFAM:F0176
 is_a: FPLX:root
 inverse_is_a: HGNC:PLA2G1B
 inverse_is_a: HGNC:PLA2G3
@@ -10207,6 +10437,7 @@ synonym: "phospholipase A2 group-II" EXACT []
 synonym: "PLA2G2" EXACT []
 synonym: "PLA2g2" EXACT []
 xref: BEL:"PLA2G2 Family"
+xref: SFAM:F0177
 is_a: FPLX:PLA2
 inverse_is_a: HGNC:PLA2G2A
 inverse_is_a: HGNC:PLA2G2C
@@ -10239,6 +10470,7 @@ synonym: "phospholipase-C" EXACT []
 synonym: "PLC" EXACT []
 xref: BEL:"PLC Family"
 xref: MESH:D010738
+xref: SFAM:F0178
 is_a: FPLX:root
 inverse_is_a: HGNC:PLCE1
 inverse_is_a: HGNC:PLCZ1
@@ -10262,6 +10494,7 @@ xref: BEL:"PLCB Family"
 xref: IP:IPR016280
 xref: MESH:D054799
 xref: RE:R-HSA-111854
+xref: SFAM:F0179
 is_a: FPLX:PLC
 inverse_is_a: HGNC:PLCB1
 inverse_is_a: HGNC:PLCB2
@@ -10303,6 +10536,7 @@ xref: RE:R-HSA-1169086
 xref: RE:R-HSA-1169089
 xref: RE:R-HSA-2029095
 xref: RE:R-HSA-2685653
+xref: SFAM:F0180
 is_a: FPLX:PLC
 inverse_is_a: HGNC:PLCG1
 inverse_is_a: HGNC:PLCG2
@@ -10317,6 +10551,7 @@ xref: BEL:"PLD Family"
 xref: ECCODE:3.1.4.4
 xref: IP:IPR015679
 xref: MESH:D010739
+xref: SFAM:F0181
 is_a: FPLX:root
 inverse_is_a: HGNC:PLD1
 inverse_is_a: HGNC:PLD2
@@ -10428,6 +10663,7 @@ synonym: "type II phosphatidic acid phosphatases" EXACT []
 xref: BEL:"PPAP2 Family"
 xref: MESH:C406242
 xref: RE:R-HSA-428110
+xref: SFAM:F0182
 is_a: FPLX:root
 inverse_is_a: HGNC:PLPP1
 inverse_is_a: HGNC:PLPP2
@@ -10442,6 +10678,7 @@ xref: BEL:"PPAR Family"
 xref: IP:IPR003074
 xref: MEDSCAN:urn:agi-protfc:ppar
 xref: MESH:D047492
+xref: SFAM:F0183
 is_a: FPLX:root
 inverse_is_a: HGNC:PPARA
 inverse_is_a: HGNC:PPARD
@@ -10473,6 +10710,7 @@ synonym: "PPP1C" EXACT []
 xref: BEL:"PPP1C Family"
 xref: IP:IPR031675
 xref: RE:R-HSA-163538
+xref: SFAM:F0184
 part_of: FPLX:PPP1
 inverse_is_a: HGNC:PPP1CA
 inverse_is_a: HGNC:PPP1CB
@@ -10484,6 +10722,7 @@ name: PPP1R
 synonym: "PP1R" EXACT []
 synonym: "PP1r" EXACT []
 xref: BEL:"PPP1R Family"
+xref: SFAM:F0185
 part_of: FPLX:PPP1
 inverse_is_a: HGNC:PPP1R10
 inverse_is_a: HGNC:PPP1R11
@@ -10540,6 +10779,7 @@ synonym: "PP2A-C" EXACT []
 synonym: "PP2Ac" EXACT []
 xref: BEL:"PPP2C Family"
 xref: MESH:D000071636
+xref: SFAM:F0186
 part_of: FPLX:PPP2
 inverse_is_a: HGNC:PPM1J
 inverse_is_a: HGNC:PPP2CA
@@ -10553,6 +10793,7 @@ synonym: "regulatory A subunit of PP2A" EXACT []
 xref: BEL:"PPP2R Subunit A Family"
 xref: RE:R-HSA-165990
 xref: RE:R-HSA-165997
+xref: SFAM:F0187
 part_of: FPLX:PPP2
 inverse_is_a: HGNC:PPP2R1A
 inverse_is_a: HGNC:PPP2R1B
@@ -10563,6 +10804,7 @@ name: PPP2R-B
 synonym: "PP2A regulatory subunit B" EXACT []
 synonym: "regulatory B subunit of PP2A" EXACT []
 xref: BEL:"PPP2R Subunit B Family"
+xref: SFAM:F0188
 part_of: FPLX:PPP2
 inverse_is_a: HGNC:PPP2R2A
 inverse_is_a: HGNC:PPP2R2B
@@ -10589,6 +10831,8 @@ xref: BEL:"Calcineurin Complex"
 xref: BEL:"PPP3 Family"
 xref: MEDSCAN:urn:agi-complex:protein%20phosphatase%203
 xref: MESH:D019703
+xref: SCOMP:C0030
+xref: SFAM:F0189
 is_a: FPLX:root
 has_part: FPLX:PPP3C
 has_part: FPLX:PPP3R
@@ -10603,6 +10847,7 @@ xref: BEL:"PPP3C Family"
 xref: RE:R-HSA-201779
 xref: RE:R-HSA-201798
 xref: SIGNOR:SIGNOR-PF18
+xref: SFAM:F0190
 part_of: FPLX:PPP3
 inverse_is_a: HGNC:PPP3CA
 inverse_is_a: HGNC:PPP3CB
@@ -10615,6 +10860,7 @@ synonym: "Calcineurin regulatory subunit" EXACT []
 synonym: "regulatory subunit of calcineurin" EXACT []
 xref: BEL:"PPP3R Family"
 xref: NEXTPROT-FAMILY:00421
+xref: SFAM:F0191
 part_of: FPLX:PPP3
 inverse_is_a: HGNC:PPP3R1
 inverse_is_a: HGNC:PPP3R2
@@ -10636,6 +10882,7 @@ xref: GO:0035102
 xref: MEDSCAN:urn:agi-complex:prophash-aba0c4130764ae7a26054736114e65cd
 xref: MESH:D063150
 xref: NCIT:C19866
+xref: SCOMP:C0093
 is_a: FPLX:root
 has_part: HGNC:BMI1
 has_part: HGNC:CBX2
@@ -10667,6 +10914,7 @@ xref: BEL:"PRC2 Initiation Complex"
 xref: GO:0035098
 xref: MEDSCAN:urn:agi-complex:prophash-2b612daa76feb2db86ff39e70449df6b
 xref: MESH:D063151
+xref: SCOMP:C0094
 is_a: FPLX:root
 has_part: HGNC:EED
 has_part: HGNC:EZH1
@@ -10694,6 +10942,7 @@ synonym: "Prx" EXACT []
 xref: BEL:"PRDX Family"
 xref: ECCODE:1.11.1.15
 xref: MESH:D054464
+xref: SFAM:F0192
 is_a: FPLX:root
 inverse_is_a: HGNC:PRDX1
 inverse_is_a: HGNC:PRDX2
@@ -10715,6 +10964,7 @@ synonym: "cAK" EXACT []
 synonym: "PKA C-alpha" EXACT []
 xref: BEL:"PRKA Family"
 xref: SIGNOR:SIGNOR-PF17
+xref: SFAM:F0193
 part_of: FPLX:PKA
 inverse_is_a: HGNC:PRKACA
 inverse_is_a: HGNC:PRKACB
@@ -10736,6 +10986,7 @@ xref: RE:R-HSA-111921
 xref: RE:R-HSA-111923
 xref: RE:R-HSA-5610566
 xref: RE:R-HSA-5610568
+xref: SFAM:F0197
 part_of: FPLX:PKA
 inverse_is_a: HGNC:PRKAR1A
 inverse_is_a: HGNC:PRKAR1B
@@ -10756,6 +11007,7 @@ xref: MESH:D017869
 xref: RE:R-HSA-418379
 xref: RE:R-HSA-4551456
 xref: RE:R-HSA-4551462
+xref: SFAM:F0199
 is_a: FPLX:root
 inverse_is_a: HGNC:PRKG1
 inverse_is_a: HGNC:PRKG2
@@ -10789,6 +11041,7 @@ xref: RE:R-HSA-3323122
 xref: RE:R-HSA-3323155
 xref: RE:R-HSA-71025
 xref: RE:R-HSA-71026
+xref: SCOMP:C0099
 is_a: FPLX:root
 has_part: HGNC:PCCA
 has_part: HGNC:PCCB
@@ -10819,6 +11072,7 @@ xref: BEL:"Proteasome Complex"
 xref: ECCODE:3.4.25.1
 xref: GO:0000502
 xref: MESH:D046988
+xref: SCOMP:C0100
 is_a: FPLX:root
 has_part: HGNC:PSMA1
 has_part: HGNC:PSMA2
@@ -10872,6 +11126,7 @@ def: "Cell surface receptors which bind prostaglandins with a high affinity and 
 synonym: "prostaglandin E receptor" EXACT []
 xref: BEL:"PTGER Family"
 xref: MESH:D018078
+xref: SFAM:F0200
 is_a: FPLX:root
 inverse_is_a: HGNC:PTGER1
 inverse_is_a: HGNC:PTGER2
@@ -10921,6 +11176,7 @@ xref: BEL:"RAB Family"
 xref: MEDSCAN:urn:agi-protfc:rab
 xref: MESH:D020691
 xref: NEXTPROT-FAMILY:03661
+xref: SFAM:F0201
 is_a: FPLX:root
 inverse_is_a: HGNC:RAB10
 inverse_is_a: HGNC:RAB11A
@@ -11001,6 +11257,7 @@ synonym: "Rac" EXACT []
 xref: BEL:"RAC Family"
 xref: MESH:D020744
 xref: NEXTPROT-FAMILY:03066
+xref: SFAM:F0202
 is_a: FPLX:root
 inverse_is_a: HGNC:RAC1
 inverse_is_a: HGNC:RAC2
@@ -11021,6 +11278,7 @@ xref: RE:R-HSA-5672708
 xref: RE:R-HSA-5672726
 xref: RE:R-HSA-5674134
 xref: RE:R-HSA-5674136
+xref: SFAM:F0203
 is_a: FPLX:MAP3K
 inverse_is_a: HGNC:ARAF
 inverse_is_a: HGNC:BRAF
@@ -11072,6 +11330,7 @@ xref: BEL:"RAR Family"
 xref: MESH:D018168
 xref: NCIT:C17532
 xref: SIGNOR:SIGNOR-PF45
+xref: SFAM:F0204
 is_a: FPLX:root
 inverse_is_a: HGNC:RARA
 inverse_is_a: HGNC:RARB
@@ -11097,6 +11356,7 @@ xref: RE:R-HSA-109796
 xref: RE:R-HSA-167204
 xref: RE:R-HSA-6802607
 xref: RE:R-HSA-6802608
+xref: SFAM:F0205
 is_a: FPLX:root
 inverse_is_a: HGNC:KRAS
 inverse_is_a: HGNC:HRAS
@@ -11189,6 +11449,7 @@ xref: MEDSCAN:urn:agi-complex:prophash-7629c2cdfdf4908b72f13917a7c1551e
 xref: MESH:D051818
 xref: RE:R-HSA-174454
 xref: RE:R-HSA-68436
+xref: SCOMP:C0108
 is_a: FPLX:root
 has_part: HGNC:RFC1
 has_part: HGNC:RFC2
@@ -11208,6 +11469,7 @@ synonym: "RFX" EXACT []
 xref: BEL:"RFX Family"
 xref: MEDSCAN:urn:agi-aopfc:0000157
 xref: MESH:D000071701
+xref: SFAM:F0206
 is_a: FPLX:root
 inverse_is_a: HGNC:RFX1
 inverse_is_a: HGNC:RFX2
@@ -11243,6 +11505,7 @@ xref: NEXTPROT-FAMILY:03668
 xref: RE:R-HSA-419160
 xref: RE:R-HSA-419161
 xref: RE:R-HSA-419164
+xref: SFAM:F0207
 is_a: FPLX:root
 inverse_is_a: HGNC:RHOA
 inverse_is_a: HGNC:RHOB
@@ -11297,6 +11560,7 @@ xref: BEL:"RNApo I Complex"
 xref: GO:0005736
 xref: MESH:D012318
 xref: NCIT:C95947
+xref: SCOMP:C0109
 is_a: FPLX:root
 has_part: HGNC:POLR1A
 has_part: HGNC:POLR1B
@@ -11314,6 +11578,7 @@ xref: GO:0005665
 xref: MEDSCAN:urn:agi-complex:prophash-d9fbae788d60df23b6be4a3ead2cbab4
 xref: MESH:D012319
 xref: NCIT:C95948
+xref: SCOMP:C0110
 is_a: FPLX:root
 has_part: HGNC:POLR2A
 has_part: HGNC:POLR2B
@@ -11350,6 +11615,7 @@ xref: IP:IPR020684
 xref: MESH:D054460
 xref: RE:R-HSA-419057
 xref: RE:R-HSA-4687776
+xref: SFAM:F0208
 is_a: FPLX:root
 inverse_is_a: HGNC:ROCK1
 inverse_is_a: HGNC:ROCK2
@@ -11367,6 +11633,7 @@ xref: IP:IPR016247
 xref: MEDSCAN:urn:agi-aopfc:0000286
 xref: MESH:D057050
 xref: NEXTPROT-FAMILY:03130
+xref: SFAM:F0209
 is_a: FPLX:root
 inverse_is_a: HGNC:ROR1
 inverse_is_a: HGNC:ROR2
@@ -11444,6 +11711,7 @@ xref: MEDSCAN:urn:agi-complex:prophash-bd459ca2937257c9e3f2b75abf22f422
 xref: MESH:D047488
 xref: NCIT:C17534
 xref: SIGNOR:SIGNOR-PF44
+xref: SFAM:F0212
 is_a: FPLX:root
 inverse_is_a: HGNC:RXRA
 inverse_is_a: HGNC:RXRB
@@ -11480,6 +11748,7 @@ name: S100A
 synonym: "S100A" EXACT []
 synonym: "S100a" EXACT []
 xref: BEL:"S100A Family"
+xref: SFAM:F0213
 is_a: FPLX:S100
 inverse_is_a: HGNC:HRNR
 inverse_is_a: HGNC:S100A1
@@ -11513,6 +11782,7 @@ xref: IP:IPR004061
 xref: MESH:D000081025
 xref: RE:R-HSA-419346
 xref: RE:R-HSA-419401
+xref: SFAM:F0214
 is_a: FPLX:root
 inverse_is_a: HGNC:S1PR1
 inverse_is_a: HGNC:S1PR2
@@ -11530,6 +11800,7 @@ xref: IP:IPR000096
 xref: MESH:D000685
 xref: NEXTPROT-FAMILY:03483
 xref: XFAM:PF00277
+xref: SFAM:F0215
 is_a: FPLX:root
 inverse_is_a: HGNC:SAA1
 inverse_is_a: HGNC:SAA2
@@ -11598,6 +11869,7 @@ xref: BEL:"SCD Family"
 xref: ECCODE:1.14.19.1
 xref: IP:IPR001522
 xref: IP:IPR015876
+xref: SFAM:F0216
 is_a: FPLX:root
 inverse_is_a: HGNC:SCD
 inverse_is_a: HGNC:SCD5
@@ -11660,6 +11932,7 @@ xref: MEDSCAN:urn:agi-protfc:sarcoplasmic%20reticulum%20calcium%20transporting%2
 xref: MESH:D053498
 xref: RE:R-HSA-418312
 xref: RE:R-HSA-427905
+xref: SFAM:F0019
 is_a: FPLX:root
 inverse_is_a: HGNC:ATP2A1
 inverse_is_a: HGNC:ATP2A2
@@ -11673,6 +11946,7 @@ synonym: "clade B serpins" EXACT []
 synonym: "ov-serpins" EXACT []
 xref: BEL:"SERPINB Family"
 xref: NEXTPROT-FAMILY:03579
+xref: SFAM:F0217
 is_a: FPLX:root
 inverse_is_a: HGNC:SERPINB1
 inverse_is_a: HGNC:SERPINB2
@@ -11740,6 +12014,7 @@ xref: BEL:"SLC2A Family"
 xref: GO:0005355
 xref: MESH:D051246
 xref: NEXTPROT-FAMILY:02159
+xref: SFAM:F0218
 is_a: FPLX:root
 inverse_is_a: HGNC:SLC2A1
 inverse_is_a: HGNC:SLC2A2
@@ -11840,6 +12115,7 @@ xref: IP:IPR013790
 xref: MEDSCAN:urn:agi-aopfc:0000159
 xref: MEDSCAN:urn:agi-complex:prophash-72ef5fc0ab431a39e0e2915bf55b6e28
 xref: MESH:D051785
+xref: SFAM:F0219
 is_a: FPLX:root
 inverse_is_a: HGNC:SMAD1
 inverse_is_a: HGNC:SMAD4
@@ -11883,6 +12159,7 @@ synonym: "SMC1" EXACT []
 synonym: "Smc1" EXACT []
 xref: BEL:"SMC1 Family"
 xref: NEXTPROT-FAMILY:03686
+xref: SFAM:F0220
 is_a: FPLX:root
 inverse_is_a: HGNC:SMC1A
 inverse_is_a: HGNC:SMC1B
@@ -11903,6 +12180,7 @@ synonym: "SNAI family" EXACT []
 synonym: "SNAI" EXACT []
 xref: BEL:"SNAI Family"
 xref: MESH:D000071250
+xref: SFAM:F0221
 is_a: FPLX:root
 inverse_is_a: HGNC:SNAI1
 inverse_is_a: HGNC:SNAI2
@@ -11915,6 +12193,7 @@ def: "An oxidoreductase that catalyzes the reaction between SUPEROXIDES and hydr
 synonym: "SOD" EXACT []
 xref: BEL:"Cu-Zn SOD Family"
 xref: MESH:D013482
+xref: SFAM:F0060
 is_a: FPLX:root
 inverse_is_a: HGNC:SOD1
 inverse_is_a: HGNC:SOD2
@@ -11972,6 +12251,7 @@ synonym: "SOS" EXACT []
 xref: BEL:"SOS Family"
 xref: MESH:D020664
 xref: RE:R-HSA-167215
+xref: SFAM:F0222
 is_a: FPLX:root
 inverse_is_a: HGNC:SOS1
 inverse_is_a: HGNC:SOS2
@@ -12040,6 +12320,7 @@ xref: MEDSCAN:urn:agi-aopfc:0000509
 xref: MESH:D019061
 xref: NEXTPROT-FAMILY:03131
 xref: SIGNOR:SIGNOR-PF32
+xref: SFAM:F0223
 is_a: FPLX:root
 inverse_is_a: HGNC:FGR
 inverse_is_a: HGNC:FYN
@@ -12063,6 +12344,7 @@ xref: RE:R-HSA-1655726
 xref: RE:R-HSA-1655730
 xref: RE:R-HSA-1655732
 xref: RE:R-HSA-1655734
+xref: SFAM:F0224
 is_a: FPLX:root
 inverse_is_a: HGNC:SREBF1
 inverse_is_a: HGNC:SREBF2
@@ -12084,6 +12366,7 @@ xref: MEDSCAN:urn:agi-aopfc:0000163
 xref: MEDSCAN:urn:agi-complex:prophash-2de597c3f4a807f3caeaf02e5f93ce15
 xref: MESH:D050791
 xref: NCIT:C19618
+xref: SFAM:F0225
 is_a: FPLX:root
 inverse_is_a: HGNC:STAT1
 inverse_is_a: HGNC:STAT2
@@ -12107,6 +12390,7 @@ xref: RE:R-HSA-507919
 xref: RE:R-HSA-507929
 xref: RE:R-HSA-508012
 xref: RE:R-HSA-8865622
+xref: SFAM:F0226
 is_a: FPLX:STAT
 inverse_is_a: HGNC:STAT5A
 inverse_is_a: HGNC:STAT5B
@@ -12131,6 +12415,7 @@ xref: BEL:"Sulfonylurea Receptor Family"
 xref: GO:0008281
 xref: IP:IPR000388
 xref: MESH:D064233
+xref: SFAM:F0227
 is_a: FPLX:root
 inverse_is_a: HGNC:ABCC8
 inverse_is_a: HGNC:ABCC9
@@ -12147,6 +12432,7 @@ xref: MEDSCAN:urn:agi-complex:prophash-f7a9dc05e48afd7a93466cfbd5504861
 xref: MEDSCAN:urn:agi-protfc:chromatin%20remodeling%20complex
 xref: MEDSCAN:urn:agi-protfc:SWI%2fSNF%20family
 xref: NCIT:C20591
+xref: SCOMP:C0116
 is_a: FPLX:root
 has_part: HGNC:ARID1A
 has_part: HGNC:ARID1B
@@ -12204,6 +12490,7 @@ synonym: "TAP" EXACT []
 xref: BEL:"TAP Family"
 xref: GO:0042825
 xref: MESH:D018435
+xref: SFAM:F0228
 is_a: FPLX:root
 inverse_is_a: HGNC:TAP1
 inverse_is_a: HGNC:TAP2
@@ -12235,6 +12522,7 @@ xref: RE:R-HSA-3299546
 xref: RE:R-HSA-5323539
 xref: RE:R-HSA-8944354
 xref: RE:R-HSA-8951427
+xref: SFAM:F0229
 is_a: FPLX:root
 inverse_is_a: HGNC:LEF1
 inverse_is_a: HGNC:TCF7
@@ -12281,6 +12569,7 @@ xref: MESH:D050656
 xref: NEXTPROT-FAMILY:00209
 xref: RE:R-HSA-8864283
 xref: RE:R-HSA-8864286
+xref: SFAM:F0230
 is_a: FPLX:root
 inverse_is_a: HGNC:TFAP2A
 inverse_is_a: HGNC:TFAP2B
@@ -12296,6 +12585,7 @@ synonym: "TFDP" EXACT []
 synonym: "transcription factor DP" EXACT []
 xref: BEL:"TFDP Family"
 xref: RE:R-HSA-1362227
+xref: SFAM:F0231
 is_a: FPLX:root
 inverse_is_a: HGNC:TFDP1
 inverse_is_a: HGNC:TFDP2
@@ -12327,6 +12617,7 @@ xref: NEXTPROT-FAMILY:03989
 xref: RE:R-HSA-114657
 xref: RE:R-HSA-2395330
 xref: SIGNOR:SIGNOR-PF5
+xref: SFAM:F0232
 is_a: FPLX:root
 inverse_is_a: HGNC:TGFB1
 inverse_is_a: HGNC:TGFB2
@@ -12389,6 +12680,7 @@ xref: IP:IPR017897
 xref: IP:IPR028974
 xref: MEDSCAN:urn:agi-protfc:thrombospondins
 xref: MESH:D019699
+xref: SFAM:F0233
 is_a: FPLX:root
 inverse_is_a: HGNC:THBS1
 inverse_is_a: HGNC:THBS2
@@ -12404,6 +12696,7 @@ synonym: "thyroid hormone receptor" EXACT []
 xref: BEL:"THR Family"
 xref: MESH:D011988
 xref: NCIT:C17078
+xref: SFAM:F0234
 is_a: FPLX:root
 inverse_is_a: HGNC:THRA
 inverse_is_a: HGNC:THRB
@@ -12417,6 +12710,7 @@ xref: MESH:C046193
 xref: RE:R-HSA-140812
 xref: RE:R-HSA-140871
 xref: RE:R-HSA-140874
+xref: SCOMP:C0128
 is_a: FPLX:root
 has_part: HGNC:F2
 has_part: HGNC:SERPINC1
@@ -12436,6 +12730,7 @@ name: TIF-IB
 synonym: "TIF-IB" EXACT []
 xref: BEL:"TIF IB Complex"
 xref: MESH:C063660
+xref: SCOMP:C0123
 is_a: FPLX:root
 has_part: HGNC:TAF1A
 has_part: HGNC:TAF1B
@@ -12499,6 +12794,7 @@ xref: NCIT:C104676
 xref: NEXTPROT-FAMILY:03964
 xref: RE:R-HSA-2672035
 xref: RE:R-HSA-2681744
+xref: SFAM:F0235
 is_a: FPLX:root
 inverse_is_a: HGNC:TNC
 inverse_is_a: HGNC:TNN
@@ -12528,6 +12824,7 @@ synonym: "TNFR" EXACT []
 xref: BEL:"TNFRSF Family"
 xref: MEDSCAN:urn:agi-aopfc:0000295
 xref: MESH:D018124
+xref: SFAM:F0236
 is_a: FPLX:root
 inverse_is_a: HGNC:TNFRSF1A
 inverse_is_a: HGNC:TNFRSF1B
@@ -12585,6 +12882,7 @@ xref: IP:IPR031660
 xref: IP:IPR034157
 xref: MESH:D004250
 xref: NCIT:C18434
+xref: SFAM:F0237
 is_a: FPLX:TOP
 inverse_is_a: HGNC:TOP2A
 inverse_is_a: HGNC:TOP2B
@@ -12757,6 +13055,7 @@ xref: ECCODE:3.4.21.59
 xref: MESH:D053802
 xref: NCIT:C120030
 xref: NEXTPROT-FAMILY:02767
+xref: SFAM:F0238
 is_a: FPLX:root
 inverse_is_a: HGNC:TPSAB1
 inverse_is_a: HGNC:TPSB2
@@ -12784,6 +13083,7 @@ synonym: "tubulin alpha chain" EXACT []
 synonym: "tubulin α chain" EXACT []
 synonym: "α tubulin" EXACT []
 xref: BEL:"TUBA Family"
+xref: SFAM:F0239
 is_a: FPLX:Tubulin
 inverse_is_a: HGNC:TUBA1A
 inverse_is_a: HGNC:TUBA1B
@@ -12814,6 +13114,7 @@ synonym: "tubulin β" EXACT []
 xref: BEL:"TUBB Family"
 xref: IP:IPR002453
 xref: NCIT:C129655
+xref: SFAM:F0240
 is_a: FPLX:Tubulin
 inverse_is_a: HGNC:TUBB
 inverse_is_a: HGNC:TUBB1
@@ -12869,6 +13170,7 @@ xref: BEL:"TXN Family"
 xref: MEDSCAN:urn:agi-protfc:thioredoxin
 xref: MESH:D013879
 xref: NEXTPROT-FAMILY:04000
+xref: SFAM:F0241
 is_a: FPLX:root
 inverse_is_a: HGNC:TXN
 inverse_is_a: HGNC:TXN2
@@ -12882,6 +13184,7 @@ synonym: "thioredoxin reductase" EXACT []
 xref: BEL:"TXNRD Family"
 xref: IP:IPR006338
 xref: MESH:D013880
+xref: SFAM:F0242
 is_a: FPLX:root
 inverse_is_a: HGNC:TXNRD1
 inverse_is_a: HGNC:TXNRD2
@@ -12902,6 +13205,7 @@ xref: ECCODE:2.3.2.23
 xref: GO:0019787
 xref: MESH:D044763
 xref: NEXTPROT-FAMILY:04282
+xref: SFAM:F0243
 is_a: FPLX:root
 inverse_is_a: HGNC:CDC34
 inverse_is_a: HGNC:UBE2A
@@ -13125,6 +13429,7 @@ xref: RE:R-HSA-442272
 xref: RE:R-HSA-442295
 xref: RE:R-HSA-5218789
 xref: RE:R-HSA-5340329
+xref: SFAM:F0244
 is_a: FPLX:root
 inverse_is_a: HGNC:VAV1
 inverse_is_a: HGNC:VAV2
@@ -13152,6 +13457,7 @@ xref: MESH:D042442
 xref: NCIT:C129646
 xref: RE:R-HSA-195361
 xref: RE:R-HSA-195376
+xref: SFAM:F0245
 is_a: FPLX:root
 inverse_is_a: HGNC:VEGFA
 inverse_is_a: HGNC:VEGFB
@@ -13171,6 +13477,7 @@ xref: BEL:"VEGFR Family"
 xref: GO:0005172
 xref: MESH:D040262
 xref: NCIT:C17293
+xref: SFAM:F0246
 is_a: FPLX:root
 inverse_is_a: HGNC:FLT1
 inverse_is_a: HGNC:FLT4
@@ -13228,6 +13535,7 @@ xref: RE:R-HSA-3247790
 xref: RE:R-HSA-3247824
 xref: RE:R-HSA-3247835
 xref: SIGNOR:SIGNOR-PF40
+xref: SFAM:F0247
 is_a: FPLX:root
 inverse_is_a: HGNC:WNT1
 inverse_is_a: HGNC:WNT2
