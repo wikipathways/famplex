@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 30:10:2021 16:56
+date: 08:12:2021 18:09
 
 [Term]
 id: FPLX:5_hydroxytryptamine_receptors_G_protein_coupled
@@ -7010,6 +7010,7 @@ inverse_is_a: HGNC:TYK2
 [Term]
 id: FPLX:JAMM
 name: JAMM
+def: "The JAMM (Jab1/Mov34/Mpr1 Pad1 N-terminal+ domain protease) family is a family of deubiquitinating enzymes characterized by the presence of a JAMM domain, which is a conserved catalytic domain. JAMM proteases are zinc dependent metalloproteases. Many JAMM proteases are predicted to be inactive." []
 synonym: "JAB1/MPN/MOV34 metalloenzyme" EXACT []
 synonym: "JAB1/MPN/MOV34 metalloenzyme domain" EXACT []
 synonym: "JAB1/MPN/MOV34 Pad1 N-terminal domain protease" EXACT []
@@ -7875,6 +7876,7 @@ inverse_is_a: HGNC:MGAT5B
 [Term]
 id: FPLX:MINDY
 name: MINDY
+def: "The MINDY (Motif Interacting with Ubiquitin-containing novel DUB family protease) family is a family of deubiquitinating enzymes characterized by the presence of a MINDY domain, which is a conserved catalytic domain. MINDY enzymes also contain a motif interacting with Ubiquitin motif that interacts with ubiquitin. MINDY enzymes are cysteine proteases." []
 synonym: "motif interacting with Ub-containing novel DUB family" EXACT []
 synonym: "motif interacting with ubiquitin-containing novel DUB family" EXACT []
 synonym: "motif interacting with ubiquitin-containing novel deubiquinating enzyme family" EXACT []
@@ -7950,6 +7952,7 @@ has_part: FPLX:MRPL
 [Term]
 id: FPLX:MJD
 name: MJD
+def: "The MJD (Machado-Josephin Domain protease) family is a family of deubiquitinating enzymes characterized by the presence of a Josephin domain, which is a conserved catalytic domain. MJD enzymes are cysteine proteases." []
 synonym: "josephin domain containing" EXACT []
 synonym: "josephin deubiquinatases" EXACT []
 synonym: "josephin deubiquinatase" EXACT []
@@ -9502,6 +9505,7 @@ inverse_is_a: HGNC:OR9Q2
 [Term]
 id: FPLX:OTU
 name: OTU
+def: "The OTU (ovarian tumor protease) family is a family of deubiquitinating enzymes characterized by the presence of a OTU domain, which is a conserved catalytic domain. OTU enzymes are cysteine proteases." []
 xref: HGNC_GROUP:669
 is_a: FPLX:Deubiquitinase
 inverse_is_a: HGNC:ALG13
@@ -13333,6 +13337,7 @@ inverse_is_a: HGNC:UGT8
 [Term]
 id: FPLX:USP
 name: USP
+def: "The USP (ubiquitin-specific protease) family is a family of deubiquitinating enzymes characterized by the presence of a USP domain, which is a conserved catalytic domain. USP enzymes are cysteine proteases." []
 xref: HGNC_GROUP:366
 is_a: FPLX:Deubiquitinase
 inverse_is_a: FPLX:USP9
