@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 01:05:2023 08:54
+date: 01:05:2023 09:02
 
 [Term]
 id: FPLX:5_hydroxytryptamine_receptors_G_protein_coupled
@@ -6577,7 +6577,6 @@ inverse_is_a: HGNC:HLA-DOB
 inverse_is_a: HGNC:HLA-DPB1
 inverse_is_a: HGNC:HLA-DQB1
 inverse_is_a: HGNC:HLA-DQB2
-inverse_is_a: HGNC:HLA-DRB1
 inverse_is_a: HGNC:HLA-DRB1
 inverse_is_a: HGNC:HLA-DRB3
 inverse_is_a: HGNC:HLA-DRB4
