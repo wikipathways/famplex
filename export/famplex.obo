@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 01:05:2023 11:39
+date: 01:05:2023 13:27
 
 [Term]
 id: FPLX:5_hydroxytryptamine_receptors_G_protein_coupled
@@ -2700,6 +2700,48 @@ has_part: HGNC:RAD21
 has_part: HGNC:SMC3
 
 [Term]
+id: FPLX:Collagen
+name: Collagen
+synonym: "Collagen" EXACT []
+synonym: "collagen" EXACT []
+xref: SIGNOR:SIGNOR-PF103
+is_a: FPLX:root
+inverse_is_a: FPLX:COL1
+inverse_is_a: FPLX:COL4
+inverse_is_a: FPLX:COL5
+inverse_is_a: HGNC:COL6A1
+inverse_is_a: HGNC:COL6A2
+inverse_is_a: HGNC:COL6A3
+inverse_is_a: HGNC:COL6A5
+inverse_is_a: HGNC:COL6A6
+inverse_is_a: HGNC:COL7A1
+inverse_is_a: HGNC:COL8A1
+inverse_is_a: HGNC:COL8A2
+inverse_is_a: HGNC:COL9A1
+inverse_is_a: HGNC:COL9A2
+inverse_is_a: HGNC:COL9A3
+inverse_is_a: HGNC:COL10A1
+inverse_is_a: HGNC:COL11A1
+inverse_is_a: HGNC:COL11A2
+inverse_is_a: HGNC:COL12A1
+inverse_is_a: HGNC:COL13A1
+inverse_is_a: HGNC:COL14A1
+inverse_is_a: HGNC:COL15A1
+inverse_is_a: HGNC:COL16A1
+inverse_is_a: HGNC:COL17A1
+inverse_is_a: HGNC:COL18A1
+inverse_is_a: HGNC:COL19A1
+inverse_is_a: HGNC:COL20A1
+inverse_is_a: HGNC:COL21A1
+inverse_is_a: HGNC:COL22A1
+inverse_is_a: HGNC:COL23A1
+inverse_is_a: HGNC:COL24A1
+inverse_is_a: HGNC:COL25A1
+inverse_is_a: HGNC:COL26A1
+inverse_is_a: HGNC:COL27A1
+inverse_is_a: HGNC:COL28A1
+
+[Term]
 id: FPLX:COL1
 name: COL1
 def: "The most common form of fibrillar collagen. It is a major constituent of bone (BONE AND BONES) and SKIN and consists of a heterotrimer of two alpha1(I) and one alpha2(I) chains." [mesh:D024042]
@@ -2724,7 +2766,7 @@ xref: RE:R-HSA-2396478
 xref: RE:R-HSA-2399520
 xref: RE:R-HSA-2428941
 xref: SFAM:F0045
-is_a: FPLX:root
+is_a: FPLX:Collagen
 inverse_is_a: HGNC:COL1A1
 inverse_is_a: HGNC:COL1A2
 
@@ -2744,7 +2786,7 @@ xref: MESH:D024141
 xref: NCIT:C16448
 xref: RE:R-HSA-2127389
 xref: SFAM:F0046
-is_a: FPLX:root
+is_a: FPLX:Collagen
 inverse_is_a: HGNC:COL4A1
 inverse_is_a: HGNC:COL4A2
 inverse_is_a: HGNC:COL4A3
@@ -2765,7 +2807,7 @@ xref: MESH:D024062
 xref: RE:R-HSA-2127310
 xref: RE:R-HSA-2127422
 xref: SFAM:F0047
-is_a: FPLX:root
+is_a: FPLX:Collagen
 inverse_is_a: HGNC:COL5A1
 inverse_is_a: HGNC:COL5A2
 inverse_is_a: HGNC:COL5A3
@@ -13909,6 +13951,7 @@ def: "A class of enzymes that form a thioester bond to UBIQUITIN with the assist
 synonym: "E2 enzyme" EXACT []
 synonym: "E2 ubiquitin-conjugating enzyme" EXACT []
 synonym: "E2" EXACT []
+synonym: "E2 conjugating enzyme" EXACT []
 synonym: "UBE2" EXACT []
 synonym: "ubiquitin conjugating enzyme" EXACT []
 synonym: "ubiquitin-conjugating enzymes" EXACT []
@@ -13917,6 +13960,7 @@ xref: ECCODE:2.3.2.23
 xref: GO:0019787
 xref: MESH:D044763
 xref: NEXTPROT-FAMILY:04282
+xref: SIGNOR:SIGNOR-PF105
 xref: SFAM:F0243
 is_a: FPLX:root
 inverse_is_a: HGNC:CDC34

@@ -584,6 +584,7 @@ Cofilin	Cofilin	fplx	Family
 Cohesin	Cohesin	fplx	Family
 Col4	COL4	fplx	Family
 ColIV	COL4	fplx	Family
+Collagen	Collagen	fplx	Family
 Collagen Type IV	COL4	fplx	Family
 Collagen beta(1-O)galactosyltransferase	COLGALT	fplx	Family
 Collagen beta(1-O)galactosyltransferases	COLGALT	fplx	Family
@@ -699,6 +700,7 @@ Dvl	DVL	fplx	Family
 Dynein	Dynein	fplx	Family
 Dyneins	Dynein	fplx	Family
 E-cadherin	P12830	uniprot	Gene_or_gene_product
+E2 conjugating enzyme	UBE2	fplx	Family
 E2 enzyme	UBE2	fplx	Family
 E2 ubiquitin-conjugating enzyme	UBE2	fplx	Family
 E2F	E2F	fplx	Family
@@ -2889,7 +2891,6 @@ cocaine	CHEBI:27958	chebi	Simple_chemical
 cofilin	Cofilin	fplx	Family
 cohesin	Cohesin	fplx	Family
 cohesin complex	Cohesin	fplx	Family
-collagen	CHEBI:3815	chebi	Simple_chemical
 collagen IV	COL4	fplx	Family
 collagen beta(1-O)galactosyltransferase	COLGALT	fplx	Family
 collagen beta(1-O)galactosyltransferases	COLGALT	fplx	Family
