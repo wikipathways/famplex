@@ -2,8 +2,8 @@
 Keyword=FPLX
 NameString=FamPlex
 DomainString=Gene and Gene Products
-VersionString=20211030
-CreatedDateTime=2021-10-30T16:56:41
+VersionString=20230430
+CreatedDateTime=2023-04-30T21:03:39
 DescriptionString=FamPlex is a collection of resources for grounding biological entities from text and describing their hierarchical relationships.
 QueryValueURL=http://identifiers.org/fplx/
 
@@ -219,6 +219,7 @@ DDR|CGPR
 DESI|CGPR
 DGC|CGPR
 DGK|CGPR
+DIO|CGPR
 DNA_polymerase_alpha|CGPR
 DNA_polymerase_delta|CGPR
 DNM|CGPR
@@ -253,6 +254,7 @@ EIF4E|CGPR
 EIF4EBP|CGPR
 EIF4G|CGPR
 ELA|CGPR
+ELOVL|CGPR
 ENO|CGPR
 EPHA|CGPR
 EPHB|CGPR
@@ -306,6 +308,7 @@ FZD|CGPR
 F_actin|CGPR
 Fibrin|CGPR
 Fibrinogen|CGPR
+G6Pase|CGPR
 GABBR|CGPR
 GABR|CGPR
 GAD|CGPR
@@ -361,20 +364,27 @@ G_s|CGPR
 G_s_alpha|CGPR
 Gamma_secretase|CGPR
 Glycosyltransferase|CGPR
+Growth_factor|CGPR
+HACD|CGPR
 HDAC|CGPR
 HDAC_I|CGPR
 HDAC_II|CGPR
 HDAC_III|CGPR
 HDAC_IV|CGPR
 HDL|CGPR
+HECT_E3_ligase|CGPR
 HES|CGPR
 HEX|CGPR
 HIF|CGPR
 HIF1|CGPR
 HIF_alpha|CGPR
 HIF_beta|CGPR
+HLA1|CGPR
+HLA2_alpha|CGPR
+HLA2_beta|CGPR
 HLA_DR|CGPR
 HMOX|CGPR
+HOMER|CGPR
 HRH|CGPR
 HSP90|CGPR
 HSP90A|CGPR
@@ -387,6 +397,7 @@ HTR2|CGPR
 HVCN|CGPR
 Hedgehog|CGPR
 Hemoglobin|CGPR
+Hexokinase|CGPR
 Histone|CGPR
 Histone_H1|CGPR
 Histone_H2A|CGPR
@@ -445,6 +456,7 @@ LXR|CGPR
 Laminin_111|CGPR
 Laminin_332|CGPR
 Ligand_gated_ion_channels|CGPR
+Liprin_alpha|CGPR
 MAC|CGPR
 MAC_1|CGPR
 MAF|CGPR
@@ -517,6 +529,7 @@ NRG_3_4|CGPR
 NTRK|CGPR
 Na_K_ATPase|CGPR
 Natriuretic_peptide|CGPR
+Netrin|CGPR
 Neurexins|CGPR
 Neuropeptide_receptor|CGPR
 Neuropeptides|CGPR
@@ -577,7 +590,9 @@ PDGF_CC|CGPR
 PDGF_DD|CGPR
 PDH|CGPR
 PDK|CGPR
+PFK|CGPR
 PFN|CGPR
+PGAM|CGPR
 PI3K|CGPR
 PI3K_p110|CGPR
 PI3K_p85|CGPR
@@ -587,6 +602,7 @@ PIM|CGPR
 PKA|CGPR
 PKC|CGPR
 PKI|CGPR
+PKM2|CGPR
 PKN|CGPR
 PLA2|CGPR
 PLA2G2|CGPR
@@ -630,6 +646,8 @@ Potassium_voltage_gated_channels|CGPR
 Propionyl_CoA_carboxylase|CGPR
 Protease|CGPR
 Proteasome|CGPR
+Protocadherin_alpha|CGPR
+Protocadherin_beta|CGPR
 Purinergic_receptors|CGPR
 RAB|CGPR
 RAC|CGPR
@@ -644,10 +662,12 @@ RASAL|CGPR
 RASGRF|CGPR
 RASGRP|CGPR
 RASSF|CGPR
+RBR_E3_ligase|CGPR
 RFC|CGPR
 RFX|CGPR
 RGL|CGPR
 RHO|CGPR
+RING_E3_ligase|CGPR
 RIPK|CGPR
 RLR|CGPR
 RNApo_I|CGPR
@@ -698,10 +718,13 @@ SP|CGPR
 SPHK|CGPR
 SPRED|CGPR
 SPRY|CGPR
+SPTB|CGPR
 SRC|CGPR
 SREBF|CGPR
+STAG|CGPR
 STAT|CGPR
 STAT5|CGPR
+STK3_4|CGPR
 STT3|CGPR
 SWI_SNF|CGPR
 Sarcoglycan_complex|CGPR
@@ -755,6 +778,7 @@ UBE2|CGPR
 UCHL|CGPR
 UGGT|CGPR
 UGT|CGPR
+UNC5|CGPR
 USP|CGPR
 USP17L|CGPR
 USP9|CGPR
