@@ -1059,7 +1059,7 @@ Gi protein	G_i	fplx	Family
 Gi α	G_i_alpha	fplx	Family
 Gi α subunit	G_i_alpha	fplx	Family
 Glucose	CHEBI:17234	chebi	Simple_chemical
-Glucose-6-phosphatase	G6P	fplx	Family
+Glucose-6-phosphatase	G6Pase	fplx	Family
 Glutamate receptors, ionotropic, kainate	Kainate_family	fplx	Family
 Glycogen phosphorylase	PYG	fplx	Family
 Glycogen phosphorylases	PYG	fplx	Family

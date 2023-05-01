@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 30:04:2023 22:56
+date: 01:05:2023 08:54
 
 [Term]
 id: FPLX:5_hydroxytryptamine_receptors_G_protein_coupled
@@ -5030,6 +5030,7 @@ inverse_is_a: HGNC:FZD9
 [Term]
 id: FPLX:G6Pase
 name: G6Pase
+synonym: "Glucose-6-phosphatase" EXACT []
 synonym: "G6Pase" EXACT []
 synonym: "g6pase" EXACT []
 xref: SIGNOR:SIGNOR-PF81
