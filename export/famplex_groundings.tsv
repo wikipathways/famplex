@@ -635,7 +635,6 @@ DGC	DGC	fplx	Family
 DGK	DGK	fplx	Family
 DHA	CHEBI:207229	chebi	Simple_chemical
 DHT	CHEBI:2150	chebi	Simple_chemical
-DIO	DIO	fplx	Family
 DNA polymerase alpha	DNA_polymerase_alpha	fplx	Family
 DNA polymerase alpha-primase	DNA_polymerase_alpha	fplx	Family
 DNA polymerase delta	DNA_polymerase_delta	fplx	Family
@@ -664,6 +663,7 @@ DYNC2	DYNC2	fplx	Family
 DYRK	DYRK	fplx	Family
 Danusertib	CHEBI:94490	chebi	Simple_chemical
 Death-receptor	Death_receptor	fplx	Family
+Deiodinase	Deiodinase	fplx	Family
 Deoxyribonucleoside-kinases	Deoxyribonucleoside_kinases	fplx	Family
 Desmoglein	Desmoglein	fplx	Family
 Desumolating isopeptidase	DESI	fplx	Family
@@ -2958,7 +2958,7 @@ dasatinib	CHEBI:49375	chebi	Simple_chemical
 death	GO:0008219	go	BioProcess
 death receptor	Death_receptor	fplx	Family
 death receptors	Death_receptor	fplx	Family
-deiodinase	DIO	fplx	Family
+deiodinase	Deiodinase	fplx	Family
 delta-tubulin	Q9UJT1	uniprot	Gene_or_gene_product
 deoxycytidine	CHEBI:15698	chebi	Simple_chemical
 derived growth factor	PDGFR	fplx	Family
