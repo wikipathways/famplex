@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 08:12:2021 18:09
+date: 01:05:2023 13:27
 
 [Term]
 id: FPLX:5_hydroxytryptamine_receptors_G_protein_coupled
@@ -394,6 +394,7 @@ xref: MESH:D000262
 xref: NCIT:C16264
 xref: RE:R-HSA-5610577
 xref: RE:R-HSA-5610578
+xref: SIGNOR:SIGNOR-PF92
 xref: SFAM:F0008
 is_a: FPLX:root
 inverse_is_a: HGNC:ADCY1
@@ -621,6 +622,7 @@ xref: IP:IPR000741
 xref: IP:IPR029768
 xref: MESH:D005634
 xref: RE:R-HSA-179508
+xref: SIGNOR:SIGNOR-PF75
 xref: SFAM:F0016
 is_a: FPLX:root
 inverse_is_a: HGNC:ALDOA
@@ -1313,6 +1315,7 @@ def: "Dyneins that are responsible for ciliary and flagellar beating." [mesh:D05
 synonym: "axonemal dynein" EXACT []
 xref: HGNC_GROUP:536
 xref: MESH:D056444
+xref: SIGNOR:SIGNOR-PF66
 is_a: FPLX:Dynein
 inverse_is_a: FPLX:Axonemal_dynein_IDA
 inverse_is_a: FPLX:Axonemal_dynein_ODA
@@ -1719,6 +1722,7 @@ xref: MEDSCAN:urn:agi-protfc:cadherin
 xref: MESH:D015820
 xref: NCIT:C16373
 xref: XFAM:PF00028
+xref: SIGNOR:SIGNOR-PF71
 xref: SFAM:F0040
 is_a: FPLX:root
 inverse_is_a: HGNC:CDH1
@@ -2167,7 +2171,7 @@ xref: RE:R-HSA-1236905
 xref: SFAM:F0038
 is_a: FPLX:root
 inverse_is_a: HGNC:FCGR1A
-inverse_is_a: HGNC:FCGR1B
+inverse_is_a: HGNC:FCGR1BP
 
 [Term]
 id: FPLX:CD8
@@ -2696,6 +2700,48 @@ has_part: HGNC:RAD21
 has_part: HGNC:SMC3
 
 [Term]
+id: FPLX:Collagen
+name: Collagen
+synonym: "Collagen" EXACT []
+synonym: "collagen" EXACT []
+xref: SIGNOR:SIGNOR-PF103
+is_a: FPLX:root
+inverse_is_a: FPLX:COL1
+inverse_is_a: FPLX:COL4
+inverse_is_a: FPLX:COL5
+inverse_is_a: HGNC:COL6A1
+inverse_is_a: HGNC:COL6A2
+inverse_is_a: HGNC:COL6A3
+inverse_is_a: HGNC:COL6A5
+inverse_is_a: HGNC:COL6A6
+inverse_is_a: HGNC:COL7A1
+inverse_is_a: HGNC:COL8A1
+inverse_is_a: HGNC:COL8A2
+inverse_is_a: HGNC:COL9A1
+inverse_is_a: HGNC:COL9A2
+inverse_is_a: HGNC:COL9A3
+inverse_is_a: HGNC:COL10A1
+inverse_is_a: HGNC:COL11A1
+inverse_is_a: HGNC:COL11A2
+inverse_is_a: HGNC:COL12A1
+inverse_is_a: HGNC:COL13A1
+inverse_is_a: HGNC:COL14A1
+inverse_is_a: HGNC:COL15A1
+inverse_is_a: HGNC:COL16A1
+inverse_is_a: HGNC:COL17A1
+inverse_is_a: HGNC:COL18A1
+inverse_is_a: HGNC:COL19A1
+inverse_is_a: HGNC:COL20A1
+inverse_is_a: HGNC:COL21A1
+inverse_is_a: HGNC:COL22A1
+inverse_is_a: HGNC:COL23A1
+inverse_is_a: HGNC:COL24A1
+inverse_is_a: HGNC:COL25A1
+inverse_is_a: HGNC:COL26A1
+inverse_is_a: HGNC:COL27A1
+inverse_is_a: HGNC:COL28A1
+
+[Term]
 id: FPLX:COL1
 name: COL1
 def: "The most common form of fibrillar collagen. It is a major constituent of bone (BONE AND BONES) and SKIN and consists of a heterotrimer of two alpha1(I) and one alpha2(I) chains." [mesh:D024042]
@@ -2720,7 +2766,7 @@ xref: RE:R-HSA-2396478
 xref: RE:R-HSA-2399520
 xref: RE:R-HSA-2428941
 xref: SFAM:F0045
-is_a: FPLX:root
+is_a: FPLX:Collagen
 inverse_is_a: HGNC:COL1A1
 inverse_is_a: HGNC:COL1A2
 
@@ -2740,7 +2786,7 @@ xref: MESH:D024141
 xref: NCIT:C16448
 xref: RE:R-HSA-2127389
 xref: SFAM:F0046
-is_a: FPLX:root
+is_a: FPLX:Collagen
 inverse_is_a: HGNC:COL4A1
 inverse_is_a: HGNC:COL4A2
 inverse_is_a: HGNC:COL4A3
@@ -2761,7 +2807,7 @@ xref: MESH:D024062
 xref: RE:R-HSA-2127310
 xref: RE:R-HSA-2127422
 xref: SFAM:F0047
-is_a: FPLX:root
+is_a: FPLX:Collagen
 inverse_is_a: HGNC:COL5A1
 inverse_is_a: HGNC:COL5A2
 inverse_is_a: HGNC:COL5A3
@@ -3039,6 +3085,7 @@ synonym: "α catenin" EXACT []
 synonym: "α-catenin" EXACT []
 xref: BEL:"CTNNA Family"
 xref: MESH:D051178
+xref: SIGNOR:SIGNOR-PF72
 xref: SFAM:F0058
 is_a: FPLX:root
 inverse_is_a: HGNC:CTNNA1
@@ -3459,6 +3506,7 @@ xref: BEL:"Cytoplasmic Dynein Complex"
 xref: GO:0005868
 xref: HGNC_GROUP:538
 xref: MESH:D056445
+xref: SIGNOR:SIGNOR-PF67
 xref: SCOMP:C0037
 is_a: FPLX:Dynein
 inverse_is_a: FPLX:DYNC1
@@ -3667,6 +3715,16 @@ inverse_is_a: HGNC:DGKZ
 inverse_is_a: HGNC:DGKE
 inverse_is_a: HGNC:DGKI
 inverse_is_a: HGNC:DGKK
+
+[Term]
+id: FPLX:Deiodinase
+name: Deiodinase
+synonym: "deiodinase" EXACT []
+xref: SIGNOR:SIGNOR-PF83
+is_a: FPLX:root
+inverse_is_a: HGNC:DIO1
+inverse_is_a: HGNC:DIO2
+inverse_is_a: HGNC:DIO3
 
 [Term]
 id: FPLX:DNA_polymerase_alpha
@@ -4113,6 +4171,20 @@ inverse_is_a: HGNC:ELANE
 inverse_is_a: HGNC:PRTN3
 
 [Term]
+id: FPLX:ELOVL
+name: ELOVL
+synonym: "ELOVL" EXACT []
+xref: SIGNOR:SIGNOR-PF93
+is_a: FPLX:root
+inverse_is_a: HGNC:ELOVL1
+inverse_is_a: HGNC:ELOVL2
+inverse_is_a: HGNC:ELOVL3
+inverse_is_a: HGNC:ELOVL4
+inverse_is_a: HGNC:ELOVL5
+inverse_is_a: HGNC:ELOVL6
+inverse_is_a: HGNC:ELOVL7
+
+[Term]
 id: FPLX:ENO
 name: ENO
 def: "A hydro-lyase that catalyzes the dehydration of 2-phosphoglycerate to form PHOSPHOENOLPYRUVATE. Several different isoforms of this enzyme exist, each with its own tissue specificity." [mesh:D010751]
@@ -4123,6 +4195,7 @@ xref: IP:IPR020810
 xref: IP:IPR020811
 xref: MESH:D010751
 xref: NEXTPROT-FAMILY:01112
+xref: SIGNOR:SIGNOR-PF74
 xref: SFAM:F0078
 is_a: FPLX:root
 inverse_is_a: HGNC:ENO1
@@ -4997,6 +5070,18 @@ inverse_is_a: HGNC:FZD8
 inverse_is_a: HGNC:FZD9
 
 [Term]
+id: FPLX:G6Pase
+name: G6Pase
+synonym: "Glucose-6-phosphatase" EXACT []
+synonym: "G6Pase" EXACT []
+synonym: "g6pase" EXACT []
+xref: SIGNOR:SIGNOR-PF81
+is_a: FPLX:root
+inverse_is_a: HGNC:G6PC1
+inverse_is_a: HGNC:G6PC2
+inverse_is_a: HGNC:G6PC3
+
+[Term]
 id: FPLX:G_12
 name: G-12
 synonym: "G(12)" EXACT []
@@ -5052,6 +5137,7 @@ xref: BEL:"GABR Family"
 xref: GO:0004890
 xref: HGNC_GROUP:563
 xref: MESH:D018079
+xref: SIGNOR:SIGNOR-PF61
 xref: SFAM:F0089
 is_a: FPLX:Ligand_gated_ion_channels
 inverse_is_a: HGNC:GABRA1
@@ -5381,6 +5467,7 @@ name: GLRA-GLRB
 def: "Cell surface receptors that bind GLYCINE with high affinity and trigger intracellular changes which influence the behavior of cells. Glycine receptors in the CENTRAL NERVOUS SYSTEM have an intrinsic chloride channel and are usually inhibitory." [mesh:D018009]
 xref: HGNC_GROUP:868
 xref: MESH:D018009
+xref: SIGNOR:SIGNOR-PF62
 is_a: FPLX:Ligand_gated_ion_channels
 inverse_is_a: HGNC:GLRA1
 inverse_is_a: HGNC:GLRA2
@@ -5619,6 +5706,63 @@ inverse_is_a: HGNC:GNA14
 inverse_is_a: HGNC:GNA15
 
 [Term]
+id: FPLX:Growth_factor
+name: Growth-factor
+synonym: "Growth factor" EXACT []
+xref: SIGNOR:SIGNOR-PF39
+is_a: FPLX:root
+inverse_is_a: HGNC:ANGPT1
+inverse_is_a: HGNC:ANGPT2
+inverse_is_a: HGNC:ANGPT4
+inverse_is_a: HGNC:AREG
+inverse_is_a: HGNC:BDNF
+inverse_is_a: HGNC:CSF1
+inverse_is_a: HGNC:EFNA1
+inverse_is_a: HGNC:EFNA2
+inverse_is_a: HGNC:EFNA3
+inverse_is_a: HGNC:EFNA4
+inverse_is_a: HGNC:EFNA5
+inverse_is_a: HGNC:EGF
+inverse_is_a: HGNC:EREG
+inverse_is_a: HGNC:FGF1
+inverse_is_a: HGNC:FGF10
+inverse_is_a: HGNC:FGF16
+inverse_is_a: HGNC:FGF17
+inverse_is_a: HGNC:FGF18
+inverse_is_a: HGNC:FGF19
+inverse_is_a: HGNC:FGF2
+inverse_is_a: HGNC:FGF20
+inverse_is_a: HGNC:FGF21
+inverse_is_a: HGNC:FGF22
+inverse_is_a: HGNC:FGF23
+inverse_is_a: HGNC:FGF3
+inverse_is_a: HGNC:FGF4
+inverse_is_a: HGNC:FGF5
+inverse_is_a: HGNC:FGF6
+inverse_is_a: HGNC:FGF7
+inverse_is_a: HGNC:FGF8
+inverse_is_a: HGNC:FGF9
+inverse_is_a: HGNC:FLT3LG
+inverse_is_a: HGNC:HGF
+inverse_is_a: HGNC:IGF1
+inverse_is_a: HGNC:IGF2
+inverse_is_a: HGNC:INS
+inverse_is_a: HGNC:KITLG
+inverse_is_a: HGNC:NGF
+inverse_is_a: HGNC:NTF3
+inverse_is_a: HGNC:NTF4
+inverse_is_a: HGNC:PDGFA
+inverse_is_a: HGNC:PDGFB
+inverse_is_a: HGNC:PDGFC
+inverse_is_a: HGNC:PDGFD
+inverse_is_a: HGNC:PGF
+inverse_is_a: HGNC:TGFA
+inverse_is_a: HGNC:VEGFA
+inverse_is_a: HGNC:VEGFB
+inverse_is_a: HGNC:VEGFC
+inverse_is_a: HGNC:VEGFD
+
+[Term]
 id: FPLX:GRI
 name: GRI
 def: "A class of ligand-gated ion channel receptors that have specificity for GLUTAMATE. They are distinct from METABOTROPIC GLUTAMATE RECEPTORS which act through a G-protein-coupled mechanism." [mesh:D058468]
@@ -5648,6 +5792,7 @@ xref: RE:R-HSA-399713
 xref: RE:R-HSA-416323
 xref: RE:R-HSA-420974
 xref: RE:R-HSA-421001
+xref: SIGNOR:SIGNOR-PF58
 xref: SFAM:F0098
 is_a: FPLX:GRI
 inverse_is_a: HGNC:GRIA1
@@ -5674,6 +5819,7 @@ synonym: "NMDA Receptor" EXACT []
 xref: GO:0017146
 xref: HGNC_GROUP:1201
 xref: MESH:D016194
+xref: SIGNOR:SIGNOR-PF56
 is_a: FPLX:GRI
 has_part: HGNC:GRIN1
 has_part: HGNC:GRIN2A
@@ -5713,12 +5859,14 @@ synonym: "glutamate metabotropic receptors" EXACT []
 synonym: "metabotrophic glutamate receptor" EXACT []
 synonym: "metabotropic glutamate receptor" EXACT []
 synonym: "mGluRs" EXACT []
+synonym: "MGluR" EXACT []
 xref: BEL:"GRM Family"
 xref: IP:IPR000162
 xref: MEDSCAN:urn:agi-protfc:mglur
 xref: MESH:D018094
 xref: RE:R-HSA-420516
 xref: RE:R-HSA-420519
+xref: SIGNOR:SIGNOR-PF55
 xref: SFAM:F0100
 is_a: FPLX:GPCR_C
 inverse_is_a: HGNC:GRM1
@@ -5912,6 +6060,8 @@ id: FPLX:GTF_family_8
 name: GTF-family-8
 synonym: "Glycosyltransferase family 8" EXACT []
 synonym: "glycosyltransferase family 8" EXACT []
+synonym: "glycogenin" EXACT []
+xref: SIGNOR:SIGNOR-PF95
 is_a: FPLX:Glycosyltransferase
 inverse_is_a: HGNC:GLT8D1
 inverse_is_a: HGNC:GLT8D2
@@ -5989,6 +6139,17 @@ xref: SFAM:F0104
 is_a: FPLX:root
 inverse_is_a: HGNC:GYS1
 inverse_is_a: HGNC:GYS2
+
+[Term]
+id: FPLX:HACD
+name: HACD
+synonym: "HACD1-4" EXACT []
+xref: SIGNOR:SIGNOR-PF86
+is_a: FPLX:root
+inverse_is_a: HGNC:HACD1
+inverse_is_a: HGNC:HACD2
+inverse_is_a: HGNC:HACD3
+inverse_is_a: HGNC:HACD4
 
 [Term]
 id: FPLX:hCG
@@ -6097,6 +6258,52 @@ has_part: HGNC:APOA1
 has_part: HGNC:APOA2
 has_part: HGNC:APOE
 has_part: HGNC:CLU
+
+[Term]
+id: FPLX:HECT_E3_ligase
+name: HECT-E3-ligase
+synonym: "HECT E3 ligase" EXACT []
+xref: SIGNOR:SIGNOR-PF104
+is_a: FPLX:root
+inverse_is_a: HGNC:AREL1
+inverse_is_a: HGNC:G2E3
+inverse_is_a: HGNC:HACE1
+inverse_is_a: HGNC:HECTD1
+inverse_is_a: HGNC:HECTD2
+inverse_is_a: HGNC:HECTD3
+inverse_is_a: HGNC:HECTD4
+inverse_is_a: HGNC:HECW1
+inverse_is_a: HGNC:HECW2
+inverse_is_a: HGNC:HERC1
+inverse_is_a: HGNC:HERC2
+inverse_is_a: HGNC:HERC3
+inverse_is_a: HGNC:HERC4
+inverse_is_a: HGNC:HERC5
+inverse_is_a: HGNC:HERC6
+inverse_is_a: HGNC:HUWE1
+inverse_is_a: HGNC:ITCH
+inverse_is_a: HGNC:NEDD4
+inverse_is_a: HGNC:NEDD4L
+inverse_is_a: HGNC:SMURF1
+inverse_is_a: HGNC:SMURF2
+inverse_is_a: HGNC:TRIP12
+inverse_is_a: HGNC:UBE3A
+inverse_is_a: HGNC:UBE3B
+inverse_is_a: HGNC:UBE3C
+inverse_is_a: HGNC:UBR5
+inverse_is_a: HGNC:WWP1
+inverse_is_a: HGNC:WWP2
+
+[Term]
+id: FPLX:Hexokinase
+name: Hexokinase
+synonym: "Hexokinase" EXACT []
+xref: SIGNOR:SIGNOR-PF76
+is_a: FPLX:root
+inverse_is_a: HGNC:GCK
+inverse_is_a: HGNC:HK1
+inverse_is_a: HGNC:HK2
+inverse_is_a: HGNC:HK3
 
 [Term]
 id: FPLX:Hedgehog
@@ -6287,6 +6494,7 @@ xref: BEL:"Histone H2A Family"
 xref: MEDSCAN:urn:agi-protfc:histone%20H2A
 xref: NCIT:C16684
 xref: NEXTPROT-FAMILY:01762
+xref: SIGNOR:SIGNOR-PF70
 xref: SFAM:F0112
 is_a: FPLX:Histone
 inverse_is_a: UP:P0C0S8
@@ -6316,6 +6524,7 @@ synonym: "H2B" EXACT []
 synonym: "histone H2B" EXACT []
 xref: BEL:"Histone H2B Family"
 xref: MEDSCAN:urn:agi-protfc:histone%20H2B
+xref: SIGNOR:SIGNOR-PF68
 xref: SFAM:F0113
 is_a: FPLX:Histone
 inverse_is_a: UP:P62807
@@ -6334,7 +6543,7 @@ inverse_is_a: HGNC:H2BC19P
 inverse_is_a: HGNC:H2BC20P
 inverse_is_a: HGNC:H2BC21
 inverse_is_a: HGNC:H2BU1
-inverse_is_a: HGNC:H2BS1
+inverse_is_a: HGNC:H2BC12L
 inverse_is_a: HGNC:H2BW2
 inverse_is_a: HGNC:H2BW1
 
@@ -6349,6 +6558,7 @@ xref: IP:IPR000164
 xref: MEDSCAN:urn:agi-protfc:histone%20H3
 xref: NCIT:C16685
 xref: NEXTPROT-FAMILY:01764
+xref: SIGNOR:SIGNOR-PF69
 xref: SFAM:F0114
 is_a: FPLX:Histone
 inverse_is_a: UP:P68431
@@ -6371,6 +6581,48 @@ xref: SFAM:F0115
 is_a: FPLX:Histone
 inverse_is_a: UP:P62805
 inverse_is_a: HGNC:H4C7
+
+[Term]
+id: FPLX:HLA1
+name: HLA1
+synonym: "HLA1" EXACT []
+xref: SIGNOR:SIGNOR-PF87
+is_a: FPLX:root
+inverse_is_a: HGNC:HLA-A
+inverse_is_a: HGNC:HLA-B
+inverse_is_a: HGNC:HLA-C
+inverse_is_a: HGNC:HLA-E
+inverse_is_a: HGNC:HLA-F
+inverse_is_a: HGNC:HLA-G
+
+[Term]
+id: FPLX:HLA2_alpha
+name: HLA2-alpha
+synonym: "HLA2 alpha chain" EXACT []
+xref: SIGNOR:SIGNOR-PF91
+is_a: FPLX:root
+inverse_is_a: HGNC:HLA-DMA
+inverse_is_a: HGNC:HLA-DOA
+inverse_is_a: HGNC:HLA-DPA1
+inverse_is_a: HGNC:HLA-DQA1
+inverse_is_a: HGNC:HLA-DQA2
+inverse_is_a: HGNC:HLA-DRA
+
+[Term]
+id: FPLX:HLA2_beta
+name: HLA2-beta
+synonym: "HLA2 beta chain" EXACT []
+xref: SIGNOR:SIGNOR-PF90
+is_a: FPLX:root
+inverse_is_a: HGNC:HLA-DMB
+inverse_is_a: HGNC:HLA-DOB
+inverse_is_a: HGNC:HLA-DPB1
+inverse_is_a: HGNC:HLA-DQB1
+inverse_is_a: HGNC:HLA-DQB2
+inverse_is_a: HGNC:HLA-DRB1
+inverse_is_a: HGNC:HLA-DRB3
+inverse_is_a: HGNC:HLA-DRB4
+inverse_is_a: HGNC:HLA-DRB5
 
 [Term]
 id: FPLX:HLA_DR
@@ -6406,6 +6658,16 @@ xref: SFAM:F0117
 is_a: FPLX:root
 inverse_is_a: HGNC:HMOX1
 inverse_is_a: HGNC:HMOX2
+
+[Term]
+id: FPLX:HOMER
+name: HOMER
+synonym: "Homer" EXACT []
+xref: SIGNOR:SIGNOR-PF59
+is_a: FPLX:root
+inverse_is_a: HGNC:HOMER1
+inverse_is_a: HGNC:HOMER2
+inverse_is_a: HGNC:HOMER3
 
 [Term]
 id: FPLX:HRH
@@ -7091,6 +7353,7 @@ synonym: "Kainate receptors" EXACT []
 synonym: "KARs" EXACT []
 xref: HGNC_GROUP:1199
 xref: MESH:D018092
+xref: SIGNOR:SIGNOR-PF57
 is_a: FPLX:GRI
 inverse_is_a: HGNC:GRIK1
 inverse_is_a: HGNC:GRIK2
@@ -7467,6 +7730,17 @@ inverse_is_a: FPLX:ITPR
 inverse_is_a: FPLX:P2RX
 inverse_is_a: FPLX:RYR
 inverse_is_a: HGNC:ZACN
+
+[Term]
+id: FPLX:Liprin_alpha
+name: Liprin-alpha
+synonym: "Liprin-α" EXACT []
+synonym: "Liprin-alpha" EXACT []
+xref: SIGNOR:SIGNOR-PF82
+is_a: FPLX:root
+inverse_is_a: HGNC:PPFIA1
+inverse_is_a: HGNC:PPFIA2
+inverse_is_a: HGNC:PPFIA3
 
 [Term]
 id: FPLX:LPAR
@@ -8535,6 +8809,16 @@ inverse_is_a: HGNC:NDRG3
 inverse_is_a: HGNC:NDRG4
 
 [Term]
+id: FPLX:Netrin
+name: Netrin
+synonym: "netrin" EXACT []
+xref: SIGNOR:SIGNOR-PF97
+is_a: FPLX:root
+inverse_is_a: HGNC:NTN1
+inverse_is_a: HGNC:NTN3
+inverse_is_a: HGNC:NTN4
+
+[Term]
 id: FPLX:Neurexins
 name: Neurexins
 def: "Neurexin (NRXN) is a presynaptic protein that helps to connect neurons at the synapse. They are located mostly on the presynaptic membrane and contain a single transmembrane domain. The extracellular domain interacts with proteins in the synaptic cleft, most notably neuroligin, while the intracellular cytoplasmic portion interacts with proteins associated with exocytosis. Neurexin and neuroligin 'shake hands,' resulting in the connection between the two neurons and the production of a synapse. Neurexins mediate signaling across the synapse, and influence the properties of neural networks by synapse specificity. Neurexins were discovered as receptors for α-latrotoxin, a vertebrate-specific toxin in black widow spider venom that binds to presynaptic receptors and induces massive neurotransmitter release. In humans, alterations in genes encoding neurexins are implicated in autism and other cognitive diseases, such as Tourette syndrome and schizophrenia." [hgnc.genefamily:1582]
@@ -9008,7 +9292,7 @@ inverse_is_a: HGNC:OR1E1
 inverse_is_a: HGNC:OR1E2
 inverse_is_a: HGNC:OR1E3
 inverse_is_a: HGNC:OR1F1
-inverse_is_a: HGNC:OR1F12
+inverse_is_a: HGNC:OR1F12P
 inverse_is_a: HGNC:OR1G1
 inverse_is_a: HGNC:OR1I1
 inverse_is_a: HGNC:OR1J1
@@ -9388,7 +9672,7 @@ inverse_is_a: HGNC:OR52N4
 inverse_is_a: HGNC:OR52N5
 inverse_is_a: HGNC:OR52R1
 inverse_is_a: HGNC:OR52W1
-inverse_is_a: HGNC:OR52Z1
+inverse_is_a: HGNC:OR52Z1P
 
 [Term]
 id: FPLX:OR56
@@ -10198,6 +10482,27 @@ xref: NCIT:C736
 is_a: FPLX:root
 
 [Term]
+id: FPLX:PGAM
+name: PGAM
+synonym: "Phosphoglycerate mutase" EXACT []
+synonym: "PGAM" EXACT []
+xref: SIGNOR:SIGNOR-PF78
+is_a: FPLX:root
+inverse_is_a: HGNC:PGAM1
+inverse_is_a: HGNC:PGAM2
+
+[Term]
+id: FPLX:PFK
+name: PFK
+synonym: "Phosphofructokinase" EXACT []
+synonym: "PFK" EXACT []
+xref: SIGNOR:SIGNOR-PF79
+is_a: FPLX:root
+inverse_is_a: HGNC:PFKL
+inverse_is_a: HGNC:PFKM
+inverse_is_a: HGNC:PFKP
+
+[Term]
 id: FPLX:PFN
 name: PFN
 def: "A family of low molecular weight proteins that bind ACTIN and control actin polymerization. They are found in eukaryotes and are ubiquitously expressed." [mesh:D051304]
@@ -10367,6 +10672,7 @@ xref: IP:IPR012233
 xref: MESH:D011493
 xref: NCIT:C17017
 xref: NEXTPROT-FAMILY:03065
+xref: SIGNOR:SIGNOR-PF53
 xref: SFAM:F0198
 is_a: FPLX:root
 inverse_is_a: HGNC:PRKCA
@@ -10393,6 +10699,15 @@ is_a: FPLX:root
 inverse_is_a: HGNC:PKIA
 inverse_is_a: HGNC:PKIB
 inverse_is_a: HGNC:PKIG
+
+[Term]
+id: FPLX:PKM2
+name: PKM2
+synonym: "PKM2" EXACT []
+xref: SIGNOR:SIGNOR-PF80
+is_a: FPLX:root
+inverse_is_a: HGNC:PKLR
+inverse_is_a: HGNC:PKM
 
 [Term]
 id: FPLX:PKN
@@ -10701,6 +11016,7 @@ xref: MEDSCAN:urn:agi-complex:prophash-d39afef40daf23ad8376b53904c7092c
 xref: MEDSCAN:urn:agi-complex:protein%20phosphatase%20type%201%20complex
 xref: MESH:D054645
 xref: NEXTPROT-FAMILY:03001
+xref: SIGNOR:SIGNOR-PF54
 is_a: FPLX:root
 has_part: FPLX:PPP1C
 has_part: FPLX:PPP1R
@@ -11011,6 +11327,7 @@ xref: MESH:D017869
 xref: RE:R-HSA-418379
 xref: RE:R-HSA-4551456
 xref: RE:R-HSA-4551462
+xref: SIGNOR:SIGNOR-PF77
 xref: SFAM:F0199
 is_a: FPLX:root
 inverse_is_a: HGNC:PRKG1
@@ -11124,6 +11441,53 @@ has_part: HGNC:SEM1
 has_part: HGNC:USP5
 
 [Term]
+id: FPLX:Protocadherin_alpha
+name: Protocadherin-alpha
+synonym: "Pcdhalpha" EXACT []
+synonym: "Protocadherin alpha" EXACT []
+xref: SIGNOR:SIGNOR-PF100
+is_a: FPLX:root
+inverse_is_a: HGNC:PCDHA1
+inverse_is_a: HGNC:PCDHA10
+inverse_is_a: HGNC:PCDHA11
+inverse_is_a: HGNC:PCDHA12
+inverse_is_a: HGNC:PCDHA13
+inverse_is_a: HGNC:PCDHA2
+inverse_is_a: HGNC:PCDHA3
+inverse_is_a: HGNC:PCDHA4
+inverse_is_a: HGNC:PCDHA5
+inverse_is_a: HGNC:PCDHA6
+inverse_is_a: HGNC:PCDHA7
+inverse_is_a: HGNC:PCDHA8
+inverse_is_a: HGNC:PCDHA9
+inverse_is_a: HGNC:PCDHAC1
+inverse_is_a: HGNC:PCDHAC2
+
+[Term]
+id: FPLX:Protocadherin_beta
+name: Protocadherin-beta
+synonym: "Protocadherin beta" EXACT []
+xref: SIGNOR:SIGNOR-PF102
+is_a: FPLX:root
+inverse_is_a: HGNC:PCDHB1
+inverse_is_a: HGNC:PCDHB10
+inverse_is_a: HGNC:PCDHB11
+inverse_is_a: HGNC:PCDHB12
+inverse_is_a: HGNC:PCDHB13
+inverse_is_a: HGNC:PCDHB14
+inverse_is_a: HGNC:PCDHB15
+inverse_is_a: HGNC:PCDHB16
+inverse_is_a: HGNC:PCDHB18P
+inverse_is_a: HGNC:PCDHB2
+inverse_is_a: HGNC:PCDHB3
+inverse_is_a: HGNC:PCDHB4
+inverse_is_a: HGNC:PCDHB5
+inverse_is_a: HGNC:PCDHB6
+inverse_is_a: HGNC:PCDHB7
+inverse_is_a: HGNC:PCDHB8
+inverse_is_a: HGNC:PCDHB9
+
+[Term]
 id: FPLX:PTGER
 name: PTGER
 def: "Cell surface receptors which bind prostaglandins with a high affinity and trigger intracellular changes which influence the behavior of cells. Prostaglandin E receptors prefer prostaglandin E2 to other endogenous prostaglandins. They are subdivided into EP1, EP2, and EP3 types based on their effects and their pharmacology." [mesh:D018078]
@@ -11159,6 +11523,7 @@ synonym: "glycogen phosphorylase" EXACT []
 synonym: "glycogen phosphorylases" EXACT []
 synonym: "PYG" EXACT []
 xref: MESH:D024981
+xref: SIGNOR:SIGNOR-PF96
 is_a: FPLX:Glycosyltransferase
 inverse_is_a: HGNC:PYGB
 inverse_is_a: HGNC:PYGL
@@ -11439,6 +11804,25 @@ inverse_is_a: HGNC:RASSF9
 inverse_is_a: HGNC:RASSF10
 
 [Term]
+id: FPLX:RBR_E3_ligase
+name: RBR-E3-ligase
+synonym: "RBR E3 ligase" EXACT []
+xref: SIGNOR:SIGNOR-PF107
+is_a: FPLX:root
+inverse_is_a: HGNC:ANKIB1
+inverse_is_a: HGNC:ARIH1
+inverse_is_a: HGNC:ARIH2
+inverse_is_a: HGNC:CUL9
+inverse_is_a: HGNC:PRKN
+inverse_is_a: HGNC:RBCK1
+inverse_is_a: HGNC:RNF14
+inverse_is_a: HGNC:RNF144A
+inverse_is_a: HGNC:RNF144B
+inverse_is_a: HGNC:RNF19A
+inverse_is_a: HGNC:RNF216
+inverse_is_a: HGNC:RNF31
+
+[Term]
 id: FPLX:RFC
 name: RFC
 def: "A DNA-binding protein and AAA ATPase that consists of 5 polypeptides and plays an essential role in DNA REPLICATION in eukaryotes. It binds DNA PRIMER-template junctions and recruits PROLIFERATING CELL NUCLEAR ANTIGEN and DNA POLYMERASES to the site of DNA synthesis." [mesh:D051818]
@@ -11531,6 +11915,340 @@ is_a: FPLX:root
 inverse_is_a: HGNC:ARHGDIA
 inverse_is_a: HGNC:ARHGDIB
 inverse_is_a: HGNC:ARHGDIG
+
+[Term]
+id: FPLX:RING_E3_ligase
+name: RING-E3-ligase
+synonym: "RING E3 ligase" EXACT []
+xref: SIGNOR:SIGNOR-PF106
+is_a: FPLX:root
+inverse_is_a: HGNC:AMFR
+inverse_is_a: HGNC:ANAPC11
+inverse_is_a: HGNC:ANKIB1
+inverse_is_a: HGNC:ARIH1
+inverse_is_a: HGNC:ARIH2
+inverse_is_a: HGNC:BARD1
+inverse_is_a: HGNC:BFAR
+inverse_is_a: HGNC:BIRC2
+inverse_is_a: HGNC:BIRC3
+inverse_is_a: HGNC:BIRC7
+inverse_is_a: HGNC:BIRC8
+inverse_is_a: HGNC:BMI1
+inverse_is_a: HGNC:BRAP
+inverse_is_a: HGNC:BRCA1
+inverse_is_a: HGNC:CBL
+inverse_is_a: HGNC:CBLB
+inverse_is_a: HGNC:CBLC
+inverse_is_a: HGNC:CBLL1
+inverse_is_a: HGNC:CBLL2
+inverse_is_a: HGNC:CCNB1IP1
+inverse_is_a: HGNC:CGRRF1
+inverse_is_a: HGNC:CHFR
+inverse_is_a: HGNC:CNOT4
+inverse_is_a: HGNC:COP1
+inverse_is_a: HGNC:CUL9
+inverse_is_a: HGNC:CYHR1
+inverse_is_a: HGNC:DCST1
+inverse_is_a: HGNC:DTX1
+inverse_is_a: HGNC:DTX2
+inverse_is_a: HGNC:DTX3
+inverse_is_a: HGNC:DTX3L
+inverse_is_a: HGNC:DTX4
+inverse_is_a: HGNC:DZIP3
+inverse_is_a: HGNC:FANCL
+inverse_is_a: HGNC:HLTF
+inverse_is_a: HGNC:IHO1
+inverse_is_a: HGNC:IRF2BP1
+inverse_is_a: HGNC:IRF2BP2
+inverse_is_a: HGNC:IRF2BPL
+inverse_is_a: HGNC:KCMF1
+inverse_is_a: HGNC:KMT2C
+inverse_is_a: HGNC:KMT2D
+inverse_is_a: HGNC:LNX1
+inverse_is_a: HGNC:LNX2
+inverse_is_a: HGNC:LONRF1
+inverse_is_a: HGNC:LONRF2
+inverse_is_a: HGNC:LONRF3
+inverse_is_a: HGNC:LRSAM1
+inverse_is_a: HGNC:LTN1
+inverse_is_a: HGNC:MAEA
+inverse_is_a: HGNC:MAP3K1
+inverse_is_a: HGNC:MARCHF1
+inverse_is_a: HGNC:MARCHF10
+inverse_is_a: HGNC:MARCHF11
+inverse_is_a: HGNC:MARCHF2
+inverse_is_a: HGNC:MARCHF3
+inverse_is_a: HGNC:MARCHF4
+inverse_is_a: HGNC:MARCHF5
+inverse_is_a: HGNC:MARCHF6
+inverse_is_a: HGNC:MARCHF7
+inverse_is_a: HGNC:MARCHF8
+inverse_is_a: HGNC:MARCHF9
+inverse_is_a: HGNC:MDM2
+inverse_is_a: HGNC:MDM4
+inverse_is_a: HGNC:MECOM
+inverse_is_a: HGNC:MEX3A
+inverse_is_a: HGNC:MEX3B
+inverse_is_a: HGNC:MEX3C
+inverse_is_a: HGNC:MEX3D
+inverse_is_a: HGNC:MGRN1
+inverse_is_a: HGNC:MIB1
+inverse_is_a: HGNC:MIB2
+inverse_is_a: HGNC:MID1
+inverse_is_a: HGNC:MID2
+inverse_is_a: HGNC:MKRN1
+inverse_is_a: HGNC:MKRN2
+inverse_is_a: HGNC:MKRN3
+inverse_is_a: HGNC:MKRN4P
+inverse_is_a: HGNC:MNAT1
+inverse_is_a: HGNC:MUL1
+inverse_is_a: HGNC:MYCBP2
+inverse_is_a: HGNC:MYLIP
+inverse_is_a: HGNC:NEURL1
+inverse_is_a: HGNC:NEURL1B
+inverse_is_a: HGNC:NEURL3
+inverse_is_a: HGNC:NFX1
+inverse_is_a: HGNC:NFXL1
+inverse_is_a: HGNC:NHLRC1
+inverse_is_a: HGNC:NSMCE1
+inverse_is_a: HGNC:OBI1
+inverse_is_a: HGNC:PCGF1
+inverse_is_a: HGNC:PCGF2
+inverse_is_a: HGNC:PCGF3
+inverse_is_a: HGNC:PCGF5
+inverse_is_a: HGNC:PCGF6
+inverse_is_a: HGNC:PDZRN3
+inverse_is_a: HGNC:PDZRN4
+inverse_is_a: HGNC:PEX10
+inverse_is_a: HGNC:PEX12
+inverse_is_a: HGNC:PEX2
+inverse_is_a: HGNC:PHF7
+inverse_is_a: HGNC:PHRF1
+inverse_is_a: HGNC:PJA1
+inverse_is_a: HGNC:PJA2
+inverse_is_a: HGNC:PLAG1
+inverse_is_a: HGNC:PLAGL1
+inverse_is_a: HGNC:PML
+inverse_is_a: HGNC:PPCDC
+inverse_is_a: HGNC:PRKN
+inverse_is_a: HGNC:RAD18
+inverse_is_a: HGNC:RAG1
+inverse_is_a: HGNC:RAPSN
+inverse_is_a: HGNC:RBBP6
+inverse_is_a: HGNC:RBCK1
+inverse_is_a: HGNC:RBX1
+inverse_is_a: HGNC:RC3H1
+inverse_is_a: HGNC:RC3H2
+inverse_is_a: HGNC:RCHY1
+inverse_is_a: HGNC:RFFL
+inverse_is_a: HGNC:RFPL1
+inverse_is_a: HGNC:RFPL2
+inverse_is_a: HGNC:RFPL3
+inverse_is_a: HGNC:RFPL4A
+inverse_is_a: HGNC:RFPL4AL1
+inverse_is_a: HGNC:RFPL4B
+inverse_is_a: HGNC:RFWD3
+inverse_is_a: HGNC:RING1
+inverse_is_a: HGNC:RLF
+inverse_is_a: HGNC:RLIM
+inverse_is_a: HGNC:RMND5A
+inverse_is_a: HGNC:RMND5B
+inverse_is_a: HGNC:RNF10
+inverse_is_a: HGNC:RNF103
+inverse_is_a: HGNC:RNF11
+inverse_is_a: HGNC:RNF111
+inverse_is_a: HGNC:RNF112
+inverse_is_a: HGNC:RNF113A
+inverse_is_a: HGNC:RNF113B
+inverse_is_a: HGNC:RNF114
+inverse_is_a: HGNC:RNF115
+inverse_is_a: HGNC:RNF121
+inverse_is_a: HGNC:RNF122
+inverse_is_a: HGNC:RNF123
+inverse_is_a: HGNC:RNF125
+inverse_is_a: HGNC:RNF126
+inverse_is_a: HGNC:RNF128
+inverse_is_a: HGNC:RNF130
+inverse_is_a: HGNC:RNF133
+inverse_is_a: HGNC:RNF135
+inverse_is_a: HGNC:RNF138
+inverse_is_a: HGNC:RNF139
+inverse_is_a: HGNC:RNF14
+inverse_is_a: HGNC:RNF141
+inverse_is_a: HGNC:RNF144A
+inverse_is_a: HGNC:RNF144B
+inverse_is_a: HGNC:RNF145
+inverse_is_a: HGNC:RNF146
+inverse_is_a: HGNC:RNF148
+inverse_is_a: HGNC:RNF149
+inverse_is_a: HGNC:RNF150
+inverse_is_a: HGNC:RNF151
+inverse_is_a: HGNC:RNF152
+inverse_is_a: HGNC:RNF157
+inverse_is_a: HGNC:RNF165
+inverse_is_a: HGNC:RNF166
+inverse_is_a: HGNC:RNF167
+inverse_is_a: HGNC:RNF168
+inverse_is_a: HGNC:RNF169
+inverse_is_a: HGNC:RNF17
+inverse_is_a: HGNC:RNF170
+inverse_is_a: HGNC:RNF175
+inverse_is_a: HGNC:RNF180
+inverse_is_a: HGNC:RNF181
+inverse_is_a: HGNC:RNF182
+inverse_is_a: HGNC:RNF183
+inverse_is_a: HGNC:RNF185
+inverse_is_a: HGNC:RNF186
+inverse_is_a: HGNC:RNF187
+inverse_is_a: HGNC:RNF19B
+inverse_is_a: HGNC:RNF2
+inverse_is_a: HGNC:RNF20
+inverse_is_a: HGNC:RNF207
+inverse_is_a: HGNC:RNF208
+inverse_is_a: HGNC:RNF212
+inverse_is_a: HGNC:RNF212B
+inverse_is_a: HGNC:RNF213
+inverse_is_a: HGNC:RNF214
+inverse_is_a: HGNC:RNF215
+inverse_is_a: HGNC:RNF216
+inverse_is_a: HGNC:RNF217
+inverse_is_a: HGNC:RNF220
+inverse_is_a: HGNC:RNF222
+inverse_is_a: HGNC:RNF223
+inverse_is_a: HGNC:RNF224
+inverse_is_a: HGNC:RNF225
+inverse_is_a: HGNC:RNF24
+inverse_is_a: HGNC:RNF25
+inverse_is_a: HGNC:RNF26
+inverse_is_a: HGNC:RNF31
+inverse_is_a: HGNC:RNF32
+inverse_is_a: HGNC:RNF34
+inverse_is_a: HGNC:RNF38
+inverse_is_a: HGNC:RNF39
+inverse_is_a: HGNC:RNF4
+inverse_is_a: HGNC:RNF40
+inverse_is_a: HGNC:RNF41
+inverse_is_a: HGNC:RNF43
+inverse_is_a: HGNC:RNF44
+inverse_is_a: HGNC:RNF5
+inverse_is_a: HGNC:RNF6
+inverse_is_a: HGNC:RNF7
+inverse_is_a: HGNC:RNF8
+inverse_is_a: HGNC:RNFT1
+inverse_is_a: HGNC:RNFT2
+inverse_is_a: HGNC:RSPRY1
+inverse_is_a: HGNC:SCAF11
+inverse_is_a: HGNC:SH3RF1
+inverse_is_a: HGNC:SH3RF2
+inverse_is_a: HGNC:SH3RF3
+inverse_is_a: HGNC:SHPRH
+inverse_is_a: HGNC:SIAH1
+inverse_is_a: HGNC:SIAH2
+inverse_is_a: HGNC:SIAH3
+inverse_is_a: HGNC:SYVN1
+inverse_is_a: HGNC:TMEM129
+inverse_is_a: HGNC:TOPORS
+inverse_is_a: HGNC:TRAF2
+inverse_is_a: HGNC:TRAF3
+inverse_is_a: HGNC:TRAF4
+inverse_is_a: HGNC:TRAF5
+inverse_is_a: HGNC:TRAF6
+inverse_is_a: HGNC:TRAF7
+inverse_is_a: HGNC:TRAIP
+inverse_is_a: HGNC:TRIM10
+inverse_is_a: HGNC:TRIM11
+inverse_is_a: HGNC:TRIM13
+inverse_is_a: HGNC:TRIM15
+inverse_is_a: HGNC:TRIM17
+inverse_is_a: HGNC:TRIM2
+inverse_is_a: HGNC:TRIM21
+inverse_is_a: HGNC:TRIM22
+inverse_is_a: HGNC:TRIM23
+inverse_is_a: HGNC:TRIM24
+inverse_is_a: HGNC:TRIM25
+inverse_is_a: HGNC:TRIM26
+inverse_is_a: HGNC:TRIM27
+inverse_is_a: HGNC:TRIM3
+inverse_is_a: HGNC:TRIM31
+inverse_is_a: HGNC:TRIM32
+inverse_is_a: HGNC:TRIM33
+inverse_is_a: HGNC:TRIM34
+inverse_is_a: HGNC:TRIM35
+inverse_is_a: HGNC:TRIM36
+inverse_is_a: HGNC:TRIM37
+inverse_is_a: HGNC:TRIM38
+inverse_is_a: HGNC:TRIM39
+inverse_is_a: HGNC:TRIM4
+inverse_is_a: HGNC:TRIM40
+inverse_is_a: HGNC:TRIM41
+inverse_is_a: HGNC:TRIM42
+inverse_is_a: HGNC:TRIM43
+inverse_is_a: HGNC:TRIM43B
+inverse_is_a: HGNC:TRIM45
+inverse_is_a: HGNC:TRIM46
+inverse_is_a: HGNC:TRIM47
+inverse_is_a: HGNC:TRIM48
+inverse_is_a: HGNC:TRIM49
+inverse_is_a: HGNC:TRIM49B
+inverse_is_a: HGNC:TRIM49C
+inverse_is_a: HGNC:TRIM49D1
+inverse_is_a: HGNC:TRIM5
+inverse_is_a: HGNC:TRIM50
+inverse_is_a: HGNC:TRIM51
+inverse_is_a: HGNC:TRIM52
+inverse_is_a: HGNC:TRIM54
+inverse_is_a: HGNC:TRIM55
+inverse_is_a: HGNC:TRIM56
+inverse_is_a: HGNC:TRIM58
+inverse_is_a: HGNC:TRIM59
+inverse_is_a: HGNC:TRIM6
+inverse_is_a: HGNC:TRIM60
+inverse_is_a: HGNC:TRIM61
+inverse_is_a: HGNC:TRIM62
+inverse_is_a: HGNC:TRIM63
+inverse_is_a: HGNC:TRIM64
+inverse_is_a: HGNC:TRIM64B
+inverse_is_a: HGNC:TRIM64C
+inverse_is_a: HGNC:TRIM65
+inverse_is_a: HGNC:TRIM67
+inverse_is_a: HGNC:TRIM68
+inverse_is_a: HGNC:TRIM69
+inverse_is_a: HGNC:TRIM7
+inverse_is_a: HGNC:TRIM71
+inverse_is_a: HGNC:TRIM72
+inverse_is_a: HGNC:TRIM73
+inverse_is_a: HGNC:TRIM74
+inverse_is_a: HGNC:TRIM77
+inverse_is_a: HGNC:TRIM8
+inverse_is_a: HGNC:TRIM9
+inverse_is_a: HGNC:TRIML1
+inverse_is_a: HGNC:TTC3
+inverse_is_a: HGNC:UBE4A
+inverse_is_a: HGNC:UBE4B
+inverse_is_a: HGNC:UBOX5
+inverse_is_a: HGNC:UHRF1
+inverse_is_a: HGNC:UHRF2
+inverse_is_a: HGNC:UNK
+inverse_is_a: HGNC:UNKL
+inverse_is_a: HGNC:VPS11
+inverse_is_a: HGNC:VPS18
+inverse_is_a: HGNC:VPS41
+inverse_is_a: HGNC:VPS8
+inverse_is_a: HGNC:WDR59
+inverse_is_a: HGNC:WDSUB1
+inverse_is_a: HGNC:XIAP
+inverse_is_a: HGNC:ZBTB12
+inverse_is_a: HGNC:ZFPL1
+inverse_is_a: HGNC:ZNF341
+inverse_is_a: HGNC:ZNF511
+inverse_is_a: HGNC:ZNF521
+inverse_is_a: HGNC:ZNF598
+inverse_is_a: HGNC:ZNRF1
+inverse_is_a: HGNC:ZNRF2
+inverse_is_a: HGNC:ZNRF3
+inverse_is_a: HGNC:ZNRF4
+inverse_is_a: HGNC:ZSWIM2
+inverse_is_a: HGNC:ZXDC
 
 [Term]
 id: FPLX:RIPK
@@ -11700,6 +12418,7 @@ id: FPLX:RTK
 name: RTK
 synonym: "RTKs" EXACT []
 xref: NCIT:C17660
+xref: SIGNOR:SIGNOR-PF38
 is_a: FPLX:root
 
 [Term]
@@ -12309,6 +13028,17 @@ inverse_is_a: HGNC:SPRY3
 inverse_is_a: HGNC:SPRY4
 
 [Term]
+id: FPLX:SPTB
+name: SPTB
+synonym: "Spectrin beta" EXACT []
+xref: SIGNOR:SIGNOR-PF73
+is_a: FPLX:root
+inverse_is_a: HGNC:SPTBN1
+inverse_is_a: HGNC:SPTBN2
+inverse_is_a: HGNC:SPTBN4
+inverse_is_a: HGNC:SPTBN5
+
+[Term]
 id: FPLX:SRC
 name: SRC
 def: "A PROTEIN-TYROSINE KINASE family that was originally identified by homology to the Rous sarcoma virus ONCOGENE PROTEIN PP60(V-SRC). They interact with a variety of cell-surface receptors and participate in intracellular signal transduction pathways. Oncogenic forms of src-family kinases can occur through altered regulation or expression of the endogenous protein and by virally encoded src (v-src) genes." [mesh:D019061]
@@ -12352,6 +13082,16 @@ xref: SFAM:F0224
 is_a: FPLX:root
 inverse_is_a: HGNC:SREBF1
 inverse_is_a: HGNC:SREBF2
+
+[Term]
+id: FPLX:STAG
+name: STAG
+synonym: "STAG" EXACT []
+xref: SIGNOR:SIGNOR-PF52
+is_a: FPLX:root
+inverse_is_a: HGNC:STAG1
+inverse_is_a: HGNC:STAG2
+inverse_is_a: HGNC:STAG3
 
 [Term]
 id: FPLX:STAT
@@ -12398,6 +13138,15 @@ xref: SFAM:F0226
 is_a: FPLX:STAT
 inverse_is_a: HGNC:STAT5A
 inverse_is_a: HGNC:STAT5B
+
+[Term]
+id: FPLX:STK3_4
+name: STK3-4
+synonym: "STK3/4" EXACT []
+xref: SIGNOR:SIGNOR-PF41
+is_a: FPLX:root
+inverse_is_a: HGNC:STK3
+inverse_is_a: HGNC:STK4
 
 [Term]
 id: FPLX:STT3
@@ -12700,6 +13449,7 @@ synonym: "thyroid hormone receptor" EXACT []
 xref: BEL:"THR Family"
 xref: MESH:D011988
 xref: NCIT:C17078
+xref: SIGNOR:SIGNOR-PF84
 xref: SFAM:F0234
 is_a: FPLX:root
 inverse_is_a: HGNC:THRA
@@ -13201,6 +13951,7 @@ def: "A class of enzymes that form a thioester bond to UBIQUITIN with the assist
 synonym: "E2 enzyme" EXACT []
 synonym: "E2 ubiquitin-conjugating enzyme" EXACT []
 synonym: "E2" EXACT []
+synonym: "E2 conjugating enzyme" EXACT []
 synonym: "UBE2" EXACT []
 synonym: "ubiquitin conjugating enzyme" EXACT []
 synonym: "ubiquitin-conjugating enzymes" EXACT []
@@ -13209,6 +13960,7 @@ xref: ECCODE:2.3.2.23
 xref: GO:0019787
 xref: MESH:D044763
 xref: NEXTPROT-FAMILY:04282
+xref: SIGNOR:SIGNOR-PF105
 xref: SFAM:F0243
 is_a: FPLX:root
 inverse_is_a: HGNC:CDC34
@@ -13254,6 +14006,7 @@ xref: MEDSCAN:urn:agi-protfc:ubiquitin
 xref: MESH:D025801
 xref: NCIT:C17227
 xref: NEXTPROT-FAMILY:04276
+xref: SIGNOR:SIGNOR-PF89
 is_a: FPLX:root
 
 [Term]
@@ -13333,6 +14086,17 @@ inverse_is_a: HGNC:UGT2B29P
 inverse_is_a: HGNC:UGT3A1
 inverse_is_a: HGNC:UGT3A2
 inverse_is_a: HGNC:UGT8
+
+[Term]
+id: FPLX:UNC5
+name: UNC5
+synonym: "UNC5" EXACT []
+xref: SIGNOR:SIGNOR-PF98
+is_a: FPLX:root
+inverse_is_a: HGNC:UNC5A
+inverse_is_a: HGNC:UNC5B
+inverse_is_a: HGNC:UNC5C
+inverse_is_a: HGNC:UNC5D
 
 [Term]
 id: FPLX:USP
