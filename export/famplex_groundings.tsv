@@ -1978,6 +1978,7 @@ PRL-3	O75365	uniprot	Gene_or_gene_product
 PRMT	PRMT	fplx	Family
 PSK2	Q08217	uniprot	Gene_or_gene_product
 PTC	P18502	uniprot	Gene_or_gene_product
+PTEFb	PTEFb	fplx	Family
 PTEN	P60484	uniprot	Gene_or_gene_product
 PTGER	PTGER	fplx	Family
 PTP1B	P18031	uniprot	Gene_or_gene_product
@@ -2327,6 +2328,7 @@ Sarcoglycans	Sarcoglycan_complex	fplx	Family
 Scavenger receptor	SCAR	fplx	Family
 Scavenger receptors	SCAR	fplx	Family
 Se	CHEBI:27568	chebi	Simple_chemical
+Selectin	Selectin	fplx	Family
 Shc	SHC	fplx	Family
 Shc family	SHC	fplx	Family
 Shp2	Q06124	uniprot	Gene_or_gene_product
