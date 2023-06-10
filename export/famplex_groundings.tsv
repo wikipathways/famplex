@@ -1213,6 +1213,7 @@ Hsp90	HSP90	fplx	Family
 HuR	Q15717	uniprot	Gene_or_gene_product
 I-R	D015427	mesh	BioProcess
 I/R	D015427	mesh	BioProcess
+ICAM	ICAM	fplx	Family
 ICAM-1	P05362	uniprot	Gene_or_gene_product
 IER3	P46695	uniprot	Gene_or_gene_product
 IFI16	Q16666	uniprot	Gene_or_gene_product
@@ -2446,6 +2447,8 @@ TIF-IB	TIF_IB	fplx	Family
 TIM22 complex	TIM22_complex	fplx	Family
 TIM22-complex	TIM22_complex	fplx	Family
 TK	TK	fplx	Family
+TLE	TLE	fplx	Family
+TLE family	TLE	fplx	Family
 TLR	TLR	fplx	Family
 TLR2	O60603	uniprot	Gene_or_gene_product
 TLR4	O00206	uniprot	Gene_or_gene_product

@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 01:05:2023 13:27
+date: 10:06:2023 15:49
 
 [Term]
 id: FPLX:5_hydroxytryptamine_receptors_G_protein_coupled
@@ -653,7 +653,7 @@ id: FPLX:ALG1_family
 name: ALG1-family
 is_a: FPLX:Glycosyltransferase
 inverse_is_a: HGNC:ALG1
-inverse_is_a: HGNC:ALG1L
+inverse_is_a: HGNC:ALG1L1P
 inverse_is_a: HGNC:ALG1L2
 inverse_is_a: HGNC:ALG2
 inverse_is_a: HGNC:ALG11
@@ -6442,7 +6442,7 @@ xref: RE:R-HSA-8936837
 part_of: FPLX:HIF
 inverse_is_a: HGNC:ARNT
 inverse_is_a: HGNC:ARNT2
-inverse_is_a: HGNC:ARNTL
+inverse_is_a: HGNC:BMAL1
 
 [Term]
 id: FPLX:Histone
@@ -6513,7 +6513,7 @@ inverse_is_a: HGNC:H2AC12
 inverse_is_a: HGNC:H2AC14
 inverse_is_a: HGNC:H2AC21
 inverse_is_a: HGNC:H2AC20
-inverse_is_a: HGNC:H2AW
+inverse_is_a: HGNC:H2AC25
 inverse_is_a: UP:P04908
 inverse_is_a: UP:Q6FI13
 
@@ -6542,7 +6542,7 @@ inverse_is_a: HGNC:H2BC18
 inverse_is_a: HGNC:H2BC19P
 inverse_is_a: HGNC:H2BC20P
 inverse_is_a: HGNC:H2BC21
-inverse_is_a: HGNC:H2BU1
+inverse_is_a: HGNC:H2BC26
 inverse_is_a: HGNC:H2BC12L
 inverse_is_a: HGNC:H2BW2
 inverse_is_a: HGNC:H2BW1
@@ -6802,6 +6802,17 @@ name: HVCN
 xref: HGNC_GROUP:254
 is_a: FPLX:Voltage_gated_ion_channels
 inverse_is_a: HGNC:HVCN1
+
+[Term]
+id: FPLX:ICAM
+name: ICAM
+synonym: "ICAM" EXACT []
+is_a: FPLX:root
+inverse_is_a: HGNC:ICAM1
+inverse_is_a: HGNC:ICAM2
+inverse_is_a: HGNC:ICAM3
+inverse_is_a: HGNC:ICAM4
+inverse_is_a: HGNC:ICAM5
 
 [Term]
 id: FPLX:IFITM
@@ -8563,7 +8574,7 @@ inverse_is_a: HGNC:MYL2
 inverse_is_a: HGNC:MYL5
 inverse_is_a: HGNC:MYL7
 inverse_is_a: HGNC:MYL9
-inverse_is_a: HGNC:MYLPF
+inverse_is_a: HGNC:MYL11
 
 [Term]
 id: FPLX:MYL_slow
@@ -10025,7 +10036,7 @@ has_part: HGNC:CTR9
 has_part: HGNC:LEO1
 has_part: HGNC:PAF1
 has_part: HGNC:RTF1
-has_part: HGNC:WDR61
+has_part: HGNC:SKIC8
 
 [Term]
 id: FPLX:PAK
@@ -11947,7 +11958,7 @@ inverse_is_a: HGNC:CHFR
 inverse_is_a: HGNC:CNOT4
 inverse_is_a: HGNC:COP1
 inverse_is_a: HGNC:CUL9
-inverse_is_a: HGNC:CYHR1
+inverse_is_a: HGNC:ZFTRAF1
 inverse_is_a: HGNC:DCST1
 inverse_is_a: HGNC:DTX1
 inverse_is_a: HGNC:DTX2
@@ -12085,7 +12096,7 @@ inverse_is_a: HGNC:RNF150
 inverse_is_a: HGNC:RNF151
 inverse_is_a: HGNC:RNF152
 inverse_is_a: HGNC:RNF157
-inverse_is_a: HGNC:RNF165
+inverse_is_a: HGNC:ARK2C
 inverse_is_a: HGNC:RNF166
 inverse_is_a: HGNC:RNF167
 inverse_is_a: HGNC:RNF168
@@ -12267,7 +12278,7 @@ synonym: "RLRs" EXACT []
 synonym: "RLR" EXACT []
 synonym: "RIG-I like receptors" EXACT []
 is_a: FPLX:root
-inverse_is_a: HGNC:DDX58
+inverse_is_a: HGNC:RIGI
 inverse_is_a: HGNC:DHX58
 inverse_is_a: HGNC:IFIH1
 
@@ -13517,6 +13528,19 @@ inverse_is_a: HGNC:TK1
 inverse_is_a: HGNC:TK2
 
 [Term]
+id: FPLX:TLE
+name: TLE
+synonym: "TLE family" EXACT []
+is_a: FPLX:root
+inverse_is_a: HGNC:TLE1
+inverse_is_a: HGNC:TLE2
+inverse_is_a: HGNC:TLE3
+inverse_is_a: HGNC:TLE4
+inverse_is_a: HGNC:TLE5
+inverse_is_a: HGNC:TLE6
+inverse_is_a: HGNC:TLE7
+
+[Term]
 id: FPLX:TLR
 name: TLR
 def: "A family of pattern recognition receptors characterized by an extracellular leucine-rich domain and a cytoplasmic domain that share homology with the INTERLEUKIN 1 RECEPTOR and the DROSOPHILA toll protein. Following pathogen recognition, toll-like receptors recruit and activate a variety of SIGNAL TRANSDUCING ADAPTOR PROTEINS." [mesh:D051193]
@@ -14142,7 +14166,7 @@ inverse_is_a: HGNC:USP37
 inverse_is_a: HGNC:USP38
 inverse_is_a: HGNC:USP39
 inverse_is_a: HGNC:USP40
-inverse_is_a: HGNC:USP41
+inverse_is_a: HGNC:USP41P
 inverse_is_a: HGNC:USP42
 inverse_is_a: HGNC:USP43
 inverse_is_a: HGNC:USP44
