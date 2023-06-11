@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 10:06:2023 15:49
+date: 11:06:2023 12:59
 
 [Term]
 id: FPLX:5_hydroxytryptamine_receptors_G_protein_coupled
@@ -2609,9 +2609,7 @@ inverse_is_a: HGNC:REG1B
 inverse_is_a: HGNC:REG3A
 inverse_is_a: HGNC:REG3G
 inverse_is_a: HGNC:REG4
-inverse_is_a: HGNC:SELE
-inverse_is_a: HGNC:SELL
-inverse_is_a: HGNC:SELP
+inverse_is_a: FPLX:Selectin
 inverse_is_a: HGNC:SFTPA1
 inverse_is_a: HGNC:SFTPA2
 inverse_is_a: HGNC:SFTPD
@@ -11360,6 +11358,18 @@ inverse_is_a: HGNC:PRMT8
 inverse_is_a: HGNC:PRMT9
 
 [Term]
+id: FPLX:PTEFb
+name: PTEFb
+xref: HGNC_GROUP:1281
+is_a: FPLX:root
+has_part: HGNC:CCNK
+has_part: HGNC:CDK9
+has_part: HGNC:CCNT1
+has_part: HGNC:CCNT2
+has_part: HGNC:HEXIM1
+has_part: HGNC:HEXIM2
+
+[Term]
 id: FPLX:Propionyl_CoA_carboxylase
 name: Propionyl-CoA-carboxylase
 synonym: "Propionyl-CoA carboxylase" EXACT []
@@ -12932,6 +12942,14 @@ is_a: FPLX:root
 inverse_is_a: HGNC:SOD1
 inverse_is_a: HGNC:SOD2
 inverse_is_a: HGNC:SOD3
+
+[Term]
+id: FPLX:Selectin
+name: Selectin
+is_a: FPLX:CLEC
+inverse_is_a: HGNC:SELE
+inverse_is_a: HGNC:SELL
+inverse_is_a: HGNC:SELP
 
 [Term]
 id: FPLX:Sodium_channels
