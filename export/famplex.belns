@@ -2,8 +2,8 @@
 Keyword=FPLX
 NameString=FamPlex
 DomainString=Gene and Gene Products
-VersionString=20230501
-CreatedDateTime=2023-05-01T13:27:38
+VersionString=20230610
+CreatedDateTime=2023-06-10T15:49:48
 DescriptionString=FamPlex is a collection of resources for grounding biological entities from text and describing their hierarchical relationships.
 QueryValueURL=http://identifiers.org/fplx/
 
@@ -405,6 +405,7 @@ Histone_H2A|CGPR
 Histone_H2B|CGPR
 Histone_H3|CGPR
 Histone_H4|CGPR
+ICAM|CGPR
 IFITM|CGPR
 IFNA|CGPR
 IFNAR|CGPR
@@ -752,6 +753,7 @@ TIAM|CGPR
 TIF_IB|CGPR
 TIM22_complex|CGPR
 TK|CGPR
+TLE|CGPR
 TLR|CGPR
 TN|CGPR
 TNF|CGPR

@@ -9,6 +9,8 @@ groundings_file = os.path.join(path_this, os.pardir, 'grounding_map.csv')
 entities_file = os.path.join(path_this, os.pardir, 'entities.csv')
 
 
+name_exclude = {'TLE'}
+
 def get_groundings():
     groundings = []
     text_appearances = []
@@ -70,10 +72,13 @@ def get_groundings():
             entity_txt = entity.replace('_', '-')
             # If it isn't already a synonym
             if entity_txt not in cnt:
+                if entity in name_exclude:
+                    continue
                 # If the name of the family happens to be a gene symbol
                 # we don't add it
-                if not hgnc_client.get_hgnc_id(entity):
-                    groundings.append((entity_txt, entity, 'fplx', 'Family'))
+                if hgnc_client.get_hgnc_id(entity):
+                    continue
+                groundings.append((entity_txt, entity, 'fplx', 'Family'))
 
     ambiguous_txts = {t for t, c in cnt.items() if c >= 2}
     groundings = [g for g in sorted(groundings) if g[0] not in ambiguous_txts]
